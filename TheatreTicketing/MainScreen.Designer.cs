@@ -1,4 +1,5 @@
-﻿namespace TheatreTicketing
+﻿//Main Screen Designer
+namespace TheatreTicketing
 {
     partial class MainScreen
     {
