@@ -12,6 +12,8 @@ namespace TheatreTicketing
 {
     public partial class MainScreen : Form
     {
+        int seatSelected = 0;
+
         public MainScreen()
             : this(new DockContentFormFactory())
         {
@@ -467,6 +469,51 @@ namespace TheatreTicketing
             MessageBox.Show("Clicked!");
         }
         #endregion
->>>>>>> .r4
+
+       
+        private void dockPanel1_ActiveContentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Help");
+        }
+
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
+
+        private void buttonMore_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("More Info");
+        }
+
+        //Function to update the number of seats slected
+        private void updateNumberSeatSelected_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox checkbox = (CheckBox)sender;
+            if (checkbox.Checked)
+            {
+                this.seatSelected = this.seatSelected + 1;
+            }
+            else
+            {
+                this.seatSelected = this.seatSelected - 1;
+            }
+            labelNumberSeat.Text = seatSelected.ToString();
+            updateMaxNumericUpDown_ValueChanged(null, null);
+        }
+
+        //Function to update the number of maximum seat we can take per type
+        private void updateMaxNumericUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            numericUpDownTypeAdult.Maximum = Math.Max(0, this.seatSelected - numericUpDownTypeStudent.Value - numericUpDownTypeUofC.Value);
+            numericUpDownTypeStudent.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeUofC.Value);
+            numericUpDownTypeUofC.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeStudent.Value);
+        }
+
     }
 }
