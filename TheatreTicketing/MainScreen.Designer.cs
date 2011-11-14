@@ -601,9 +601,9 @@ namespace TheatreTicketing
             this.dockPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dockPanel1.DockBackColor = System.Drawing.SystemColors.Window;
             this.dockPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dockPanel1.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel1.Location = new System.Drawing.Point(0, 24);
             this.dockPanel1.Name = "dockPanel1";
-            this.dockPanel1.Size = new System.Drawing.Size(1240, 707);
+            this.dockPanel1.Size = new System.Drawing.Size(1240, 683);
             dockPanelGradient1.EndColor = System.Drawing.SystemColors.ControlLight;
             dockPanelGradient1.StartColor = System.Drawing.SystemColors.ControlLight;
             autoHideStripSkin1.DockStripGradient = dockPanelGradient1;
@@ -6599,12 +6599,12 @@ namespace TheatreTicketing
             this.Controls.Add(this.panelSeatType);
             this.Controls.Add(this.panelTicketSold);
             this.Controls.Add(this.labelNumberSeat);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panelConcertInfo);
             this.Controls.Add(this.labelSeatSelected);
             this.Controls.Add(this.panelSeats);
             this.Controls.Add(this.pictureBoxConcert);
             this.Controls.Add(this.dockPanel1);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainScreen";
