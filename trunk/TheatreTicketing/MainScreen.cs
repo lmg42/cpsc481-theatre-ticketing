@@ -23,9 +23,9 @@ namespace TheatreTicketing
         {
             InitializeComponent();
 
-            DockContent dockedConcertList = dockContentFactory.Create("Concerts", DockState.DockRight, Color.DarkSeaGreen);
+            DockContent dockedConcertList = dockContentFactory.Create("Concerts", DockState.Float, Color.DarkSeaGreen);
             dockedConcertList.Show(dockPanel1);
-            //dockedConcertList.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
+            dockedConcertList.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
             dockedConcertList.AutoScroll = true;
 
             //Current concert is shown at the top of the list
@@ -36,14 +36,14 @@ namespace TheatreTicketing
 
             Label currentConcertLabel1 = new Label();
             currentConcertLabel1.Text = "The Hyphenated Liszt - October 22, 2011";
-            currentConcertLabel1.Size = new Size(225, 15);
+            currentConcertLabel1.Size = new Size(245, 15);
             currentConcertLabel1.Location = new Point(20, 20);
             currentConcertLabel1.Click += new EventHandler(this.celebrationLabel2_Click);
             dockedConcertList.Controls.Add(currentConcertLabel1);
             Button moreInfo_currentConcert = new Button();
             moreInfo_currentConcert.Text = "More Info";
-            moreInfo_currentConcert.Size = new Size(60, 20);
-            moreInfo_currentConcert.Location = new Point(245, 15);
+            moreInfo_currentConcert.Size = new Size(80, 20);
+            moreInfo_currentConcert.Location = new Point(265, 15);
             moreInfo_currentConcert.BackColor = Color.WhiteSmoke;
             dockedConcertList.Controls.Add(moreInfo_currentConcert);
 
@@ -51,75 +51,73 @@ namespace TheatreTicketing
             //title
             Label celebrationLabel = new Label();
             celebrationLabel.Text = "Celebration";
-            celebrationLabel.Size = new Size(70, 15);
+            celebrationLabel.Size = new Size(75, 15);
             celebrationLabel.Location = new Point(0, 40);
             dockedConcertList.Controls.Add(celebrationLabel);
             //concerts
             Label celebrationLabel1 = new Label();
             celebrationLabel1.Text = "The Blackbird Sings: Music for Flute and Piano - September 17, 2011";
-            celebrationLabel1.Size = new Size(350, 15);
-            //celebrationLabel1.BorderStyle = BorderStyle.FixedSingle;
+            celebrationLabel1.Size = new Size(400, 15);
             celebrationLabel1.Location = new Point(20, 60);
             celebrationLabel1.Click += new EventHandler(this.celebrationLabel1_Click);
             dockedConcertList.Controls.Add(celebrationLabel1);
             Button moreInfo_celebration1 = new Button();
             moreInfo_celebration1.Text = "More Info";
-            moreInfo_celebration1.Size = new Size(60, 20);
+            moreInfo_celebration1.Size = new Size(80, 20);
             moreInfo_celebration1.BackColor = Color.WhiteSmoke;
-            moreInfo_celebration1.Location = new Point(370, 55);
+            moreInfo_celebration1.Location = new Point(420, 55);
             dockedConcertList.Controls.Add(moreInfo_celebration1);
 
             Label celebrationLabel2 = new Label();
             celebrationLabel2.Text = "The Hyphenated Liszt - October 22, 2011";
-            celebrationLabel2.Size = new Size(225, 15);
-            //celebrationLabel2.BorderStyle = BorderStyle.FixedSingle;
+            celebrationLabel2.Size = new Size(255, 15);
             celebrationLabel2.Location = new Point(20, 80);
             celebrationLabel2.Click += new EventHandler(this.celebrationLabel2_Click);
             dockedConcertList.Controls.Add(celebrationLabel2);
             Button moreInfo_celebration2 = new Button();
             moreInfo_celebration2.Text = "More Info";
-            moreInfo_celebration2.Size = new Size(60, 20);
+            moreInfo_celebration2.Size = new Size(80, 20);
             moreInfo_celebration2.BackColor = Color.WhiteSmoke;
-            moreInfo_celebration2.Location = new Point(245, 75);
+            moreInfo_celebration2.Location = new Point(280, 75);
             dockedConcertList.Controls.Add(moreInfo_celebration2);
 
             Label celebrationLabel3 = new Label();
             celebrationLabel3.Text = "Schubert's Winterreise - November 19, 2011";
-            celebrationLabel3.Size = new Size(225, 15);
+            celebrationLabel3.Size = new Size(260, 15);
             celebrationLabel3.Location = new Point(20, 100);
             celebrationLabel3.Click += new EventHandler(this.celebrationLabel3_Click);
             dockedConcertList.Controls.Add(celebrationLabel3);
             Button moreInfo_celebration3 = new Button();
             moreInfo_celebration3.Text = "More Info";
-            moreInfo_celebration3.Size = new Size(60, 20);
+            moreInfo_celebration3.Size = new Size(80, 20);
             moreInfo_celebration3.BackColor = Color.WhiteSmoke;
-            moreInfo_celebration3.Location = new Point(245, 95);
+            moreInfo_celebration3.Location = new Point(280, 95);
             dockedConcertList.Controls.Add(moreInfo_celebration3);
 
             Label celebrationLabel4 = new Label();
             celebrationLabel4.Text = "The Literary Liszt - January 14, 2012";
-            celebrationLabel4.Size = new Size(200, 15);
+            celebrationLabel4.Size = new Size(240, 15);
             celebrationLabel4.Location = new Point(20, 120);
             celebrationLabel4.Click += new EventHandler(this.celebrationLabel4_Click);
             dockedConcertList.Controls.Add(celebrationLabel4);
             Button moreInfo_celebration4 = new Button();
             moreInfo_celebration4.Text = "More Info";
-            moreInfo_celebration4.Size = new Size(60, 20);
+            moreInfo_celebration4.Size = new Size(80, 20);
             moreInfo_celebration4.BackColor = Color.WhiteSmoke;
-            moreInfo_celebration4.Location = new Point(245, 115);
+            moreInfo_celebration4.Location = new Point(280, 115);
             dockedConcertList.Controls.Add(moreInfo_celebration4);
 
             Label celebrationLabel5 = new Label();
             celebrationLabel5.Text = "Old vs New - March 24, 2012";
-            celebrationLabel5.Size = new Size(175, 15);
+            celebrationLabel5.Size = new Size(200, 15);
             celebrationLabel5.Location = new Point(20, 140);
             celebrationLabel5.Click += new EventHandler(this.celebrationLabel5_Click);
             dockedConcertList.Controls.Add(celebrationLabel5);
             Button moreInfo_celebration5 = new Button();
             moreInfo_celebration5.Text = "More Info";
-            moreInfo_celebration5.Size = new Size(60, 20);
+            moreInfo_celebration5.Size = new Size(80, 20);
             moreInfo_celebration5.BackColor = Color.WhiteSmoke;
-            moreInfo_celebration5.Location = new Point(245, 135);
+            moreInfo_celebration5.Location = new Point(280, 135);
             dockedConcertList.Controls.Add(moreInfo_celebration5);
             #endregion
 
@@ -354,16 +352,16 @@ namespace TheatreTicketing
             dockedConcertList.Controls.Add(moreInfo_quartet3);
             #endregion
 
-            //DockContent dockedPurchaseTickets = dockContentFactory.Create("Buy", DockState.DockRightAutoHide, Color.PaleGoldenrod);
-            //dockedPurchaseTickets.Show(dockPanel1);
-            //dockedPurchaseTickets.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
-            //dockedPurchaseTickets.AutoScroll = true;
+            DockContent dockedPurchaseTickets = dockContentFactory.Create("Buy", DockState.Float, Color.PaleGoldenrod);
+            dockedPurchaseTickets.Show(dockPanel1);
+            dockedPurchaseTickets.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
+            dockedPurchaseTickets.AutoScroll = true;
         }
             
         #region click events for celebration labels
         private void celebrationLabel1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clicked!");
+            MessageBox.Show("Are you sure?", "Buy Tickets", MessageBoxButtons.YesNo);
         }
 
         private void celebrationLabel2_Click(object sender, EventArgs e)
@@ -470,12 +468,6 @@ namespace TheatreTicketing
         }
         #endregion
 
-       
-        private void dockPanel1_ActiveContentChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Help");
@@ -488,7 +480,8 @@ namespace TheatreTicketing
 
         private void buttonMore_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("More Info");
+            MoreInformation moreInfo = new MoreInformation();
+            moreInfo.ShowDialog();
         }
 
         //Function to update the number of seats slected
