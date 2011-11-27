@@ -29,21 +29,21 @@ namespace TheatreTicketing
         /// </summary>
         private void InitializeComponent()
         {
-            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
-            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin1 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient1 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient2 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient3 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient4 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient5 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient3 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient6 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient7 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin6 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
+            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin6 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient16 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient36 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin6 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient6 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient37 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient17 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient38 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient6 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient39 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient40 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient18 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient41 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient42 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.dockPanel1 = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -603,52 +603,52 @@ namespace TheatreTicketing
             this.dockPanel1.Location = new System.Drawing.Point(0, 27);
             this.dockPanel1.Name = "dockPanel1";
             this.dockPanel1.Size = new System.Drawing.Size(1252, 680);
-            dockPanelGradient1.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient1.StartColor = System.Drawing.SystemColors.ControlLight;
-            autoHideStripSkin1.DockStripGradient = dockPanelGradient1;
-            tabGradient1.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient1.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient1.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            autoHideStripSkin1.TabGradient = tabGradient1;
-            autoHideStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            dockPanelSkin1.AutoHideStripSkin = autoHideStripSkin1;
-            tabGradient2.EndColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient2.StartColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient2.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient1.ActiveTabGradient = tabGradient2;
-            dockPanelGradient2.EndColor = System.Drawing.SystemColors.Control;
-            dockPanelGradient2.StartColor = System.Drawing.SystemColors.Control;
-            dockPaneStripGradient1.DockStripGradient = dockPanelGradient2;
-            tabGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient3.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient1.InactiveTabGradient = tabGradient3;
-            dockPaneStripSkin1.DocumentGradient = dockPaneStripGradient1;
-            dockPaneStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            tabGradient4.EndColor = System.Drawing.SystemColors.ActiveCaption;
-            tabGradient4.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient4.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
-            tabGradient4.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dockPaneStripToolWindowGradient1.ActiveCaptionGradient = tabGradient4;
-            tabGradient5.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient5.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient5.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripToolWindowGradient1.ActiveTabGradient = tabGradient5;
-            dockPanelGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
-            dockPaneStripToolWindowGradient1.DockStripGradient = dockPanelGradient3;
-            tabGradient6.EndColor = System.Drawing.SystemColors.InactiveCaption;
-            tabGradient6.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient6.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            tabGradient6.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
-            dockPaneStripToolWindowGradient1.InactiveCaptionGradient = tabGradient6;
-            tabGradient7.EndColor = System.Drawing.Color.Transparent;
-            tabGradient7.StartColor = System.Drawing.Color.Transparent;
-            tabGradient7.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            dockPaneStripToolWindowGradient1.InactiveTabGradient = tabGradient7;
-            dockPaneStripSkin1.ToolWindowGradient = dockPaneStripToolWindowGradient1;
-            dockPanelSkin1.DockPaneStripSkin = dockPaneStripSkin1;
-            this.dockPanel1.Skin = dockPanelSkin1;
+            dockPanelGradient16.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient16.StartColor = System.Drawing.SystemColors.ControlLight;
+            autoHideStripSkin6.DockStripGradient = dockPanelGradient16;
+            tabGradient36.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient36.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient36.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            autoHideStripSkin6.TabGradient = tabGradient36;
+            autoHideStripSkin6.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            dockPanelSkin6.AutoHideStripSkin = autoHideStripSkin6;
+            tabGradient37.EndColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient37.StartColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient37.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient6.ActiveTabGradient = tabGradient37;
+            dockPanelGradient17.EndColor = System.Drawing.SystemColors.Control;
+            dockPanelGradient17.StartColor = System.Drawing.SystemColors.Control;
+            dockPaneStripGradient6.DockStripGradient = dockPanelGradient17;
+            tabGradient38.EndColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient38.StartColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient38.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient6.InactiveTabGradient = tabGradient38;
+            dockPaneStripSkin6.DocumentGradient = dockPaneStripGradient6;
+            dockPaneStripSkin6.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            tabGradient39.EndColor = System.Drawing.SystemColors.ActiveCaption;
+            tabGradient39.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient39.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
+            tabGradient39.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dockPaneStripToolWindowGradient6.ActiveCaptionGradient = tabGradient39;
+            tabGradient40.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient40.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient40.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripToolWindowGradient6.ActiveTabGradient = tabGradient40;
+            dockPanelGradient18.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient18.StartColor = System.Drawing.SystemColors.ControlLight;
+            dockPaneStripToolWindowGradient6.DockStripGradient = dockPanelGradient18;
+            tabGradient41.EndColor = System.Drawing.SystemColors.InactiveCaption;
+            tabGradient41.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient41.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            tabGradient41.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
+            dockPaneStripToolWindowGradient6.InactiveCaptionGradient = tabGradient41;
+            tabGradient42.EndColor = System.Drawing.Color.Transparent;
+            tabGradient42.StartColor = System.Drawing.Color.Transparent;
+            tabGradient42.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            dockPaneStripToolWindowGradient6.InactiveTabGradient = tabGradient42;
+            dockPaneStripSkin6.ToolWindowGradient = dockPaneStripToolWindowGradient6;
+            dockPanelSkin6.DockPaneStripSkin = dockPaneStripSkin6;
+            this.dockPanel1.Skin = dockPanelSkin6;
             this.dockPanel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -4480,9 +4480,11 @@ namespace TheatreTicketing
             this.checkBox179.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBox179.Checked = true;
             this.checkBox179.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox179.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox179.ForeColor = System.Drawing.Color.Blue;
             this.checkBox179.Location = new System.Drawing.Point(665, 164);
             this.checkBox179.Name = "checkBox179";
-            this.checkBox179.Size = new System.Drawing.Size(15, 14);
+            this.checkBox179.Size = new System.Drawing.Size(12, 11);
             this.checkBox179.TabIndex = 183;
             this.checkBox179.UseVisualStyleBackColor = false;
             this.checkBox179.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -4494,9 +4496,11 @@ namespace TheatreTicketing
             this.checkBox180.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBox180.Checked = true;
             this.checkBox180.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox180.ForeColor = System.Drawing.Color.Blue;
             this.checkBox180.Location = new System.Drawing.Point(644, 164);
             this.checkBox180.Name = "checkBox180";
-            this.checkBox180.Size = new System.Drawing.Size(15, 14);
+            this.checkBox180.Size = new System.Drawing.Size(12, 11);
             this.checkBox180.TabIndex = 182;
             this.checkBox180.UseVisualStyleBackColor = false;
             this.checkBox180.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -4614,11 +4618,15 @@ namespace TheatreTicketing
             // checkBox166
             // 
             this.checkBox166.AutoSize = true;
+            this.checkBox166.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox166.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.checkBox166.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.checkBox166.ForeColor = System.Drawing.Color.Transparent;
             this.checkBox166.Location = new System.Drawing.Point(228, 124);
             this.checkBox166.Name = "checkBox166";
             this.checkBox166.Size = new System.Drawing.Size(15, 14);
             this.checkBox166.TabIndex = 168;
-            this.checkBox166.UseVisualStyleBackColor = true;
+            this.checkBox166.UseVisualStyleBackColor = false;
             this.checkBox166.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
             // 
             // checkBox161
@@ -4808,9 +4816,11 @@ namespace TheatreTicketing
             this.checkBox144.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBox144.Checked = true;
             this.checkBox144.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox144.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox144.ForeColor = System.Drawing.Color.Blue;
             this.checkBox144.Location = new System.Drawing.Point(623, 164);
             this.checkBox144.Name = "checkBox144";
-            this.checkBox144.Size = new System.Drawing.Size(15, 14);
+            this.checkBox144.Size = new System.Drawing.Size(12, 11);
             this.checkBox144.TabIndex = 147;
             this.checkBox144.UseVisualStyleBackColor = false;
             this.checkBox144.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -4822,9 +4832,11 @@ namespace TheatreTicketing
             this.checkBox145.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBox145.Checked = true;
             this.checkBox145.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox145.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox145.ForeColor = System.Drawing.Color.Blue;
             this.checkBox145.Location = new System.Drawing.Point(602, 164);
             this.checkBox145.Name = "checkBox145";
-            this.checkBox145.Size = new System.Drawing.Size(15, 14);
+            this.checkBox145.Size = new System.Drawing.Size(12, 11);
             this.checkBox145.TabIndex = 146;
             this.checkBox145.UseVisualStyleBackColor = false;
             this.checkBox145.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -4836,9 +4848,11 @@ namespace TheatreTicketing
             this.checkBox146.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBox146.Checked = true;
             this.checkBox146.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox146.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox146.ForeColor = System.Drawing.Color.Blue;
             this.checkBox146.Location = new System.Drawing.Point(581, 164);
             this.checkBox146.Name = "checkBox146";
-            this.checkBox146.Size = new System.Drawing.Size(15, 14);
+            this.checkBox146.Size = new System.Drawing.Size(12, 11);
             this.checkBox146.TabIndex = 145;
             this.checkBox146.UseVisualStyleBackColor = false;
             this.checkBox146.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -6240,9 +6254,11 @@ namespace TheatreTicketing
             this.checkBox4.BackColor = System.Drawing.Color.LightCoral;
             this.checkBox4.Checked = true;
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox4.ForeColor = System.Drawing.Color.Red;
             this.checkBox4.Location = new System.Drawing.Point(391, 124);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.Size = new System.Drawing.Size(12, 11);
             this.checkBox4.TabIndex = 5;
             this.checkBox4.UseVisualStyleBackColor = false;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -6254,9 +6270,11 @@ namespace TheatreTicketing
             this.checkBox3.BackColor = System.Drawing.Color.LightGreen;
             this.checkBox3.Checked = true;
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.ForeColor = System.Drawing.Color.Green;
             this.checkBox3.Location = new System.Drawing.Point(370, 124);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.Size = new System.Drawing.Size(12, 11);
             this.checkBox3.TabIndex = 4;
             this.checkBox3.UseVisualStyleBackColor = false;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -6268,9 +6286,11 @@ namespace TheatreTicketing
             this.checkBox2.BackColor = System.Drawing.Color.LightCoral;
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox2.ForeColor = System.Drawing.Color.Red;
             this.checkBox2.Location = new System.Drawing.Point(349, 124);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.Size = new System.Drawing.Size(12, 11);
             this.checkBox2.TabIndex = 3;
             this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -6282,10 +6302,11 @@ namespace TheatreTicketing
             this.checkBox1.BackColor = System.Drawing.Color.LightCoral;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.ForeColor = System.Drawing.Color.LightCoral;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.ForeColor = System.Drawing.Color.Red;
             this.checkBox1.Location = new System.Drawing.Point(328, 124);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.Size = new System.Drawing.Size(12, 11);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
@@ -6486,13 +6507,13 @@ namespace TheatreTicketing
             // panelTicketSold
             // 
             this.panelTicketSold.BackColor = System.Drawing.Color.White;
-            this.panelTicketSold.Controls.Add(this.label4);
-            this.panelTicketSold.Controls.Add(this.label3);
-            this.panelTicketSold.Controls.Add(this.label2);
             this.panelTicketSold.Controls.Add(this.checkBoxUofCSold);
             this.panelTicketSold.Controls.Add(this.checkBoxStudentSold);
             this.panelTicketSold.Controls.Add(this.checkBoxAdultSold);
             this.panelTicketSold.Controls.Add(this.labelTicketSold);
+            this.panelTicketSold.Controls.Add(this.label2);
+            this.panelTicketSold.Controls.Add(this.label3);
+            this.panelTicketSold.Controls.Add(this.label4);
             this.panelTicketSold.Location = new System.Drawing.Point(687, 42);
             this.panelTicketSold.Name = "panelTicketSold";
             this.panelTicketSold.Size = new System.Drawing.Size(220, 136);
@@ -6503,36 +6524,37 @@ namespace TheatreTicketing
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(161, 102);
+            this.label4.Location = new System.Drawing.Point(48, 98);
             this.label4.MinimumSize = new System.Drawing.Size(0, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 22);
+            this.label4.Size = new System.Drawing.Size(147, 22);
             this.label4.TabIndex = 6;
-            this.label4.Text = "( 5 )";
+            this.label4.Text = "     UofC Student ( 5 )";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.LightGreen;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(172, 74);
+            this.label3.Location = new System.Drawing.Point(48, 74);
             this.label3.MinimumSize = new System.Drawing.Size(0, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 22);
+            this.label3.Size = new System.Drawing.Size(155, 22);
             this.label3.TabIndex = 5;
-            this.label3.Text = "( 1 )";
+            this.label3.Text = "     Student/Senior ( 1 )";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(109, 46);
+            this.label2.Location = new System.Drawing.Point(48, 46);
             this.label2.MinimumSize = new System.Drawing.Size(0, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 22);
+            this.label2.Size = new System.Drawing.Size(90, 22);
             this.label2.TabIndex = 4;
-            this.label2.Text = "( 3 )";
+            this.label2.Text = "     Adult ( 3 )";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkBoxUofCSold
             // 
@@ -6541,12 +6563,13 @@ namespace TheatreTicketing
             this.checkBoxUofCSold.BackColor = System.Drawing.Color.LightSkyBlue;
             this.checkBoxUofCSold.Checked = true;
             this.checkBoxUofCSold.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxUofCSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxUofCSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxUofCSold.ForeColor = System.Drawing.Color.Blue;
             this.checkBoxUofCSold.Location = new System.Drawing.Point(53, 102);
             this.checkBoxUofCSold.Name = "checkBoxUofCSold";
-            this.checkBoxUofCSold.Size = new System.Drawing.Size(116, 22);
+            this.checkBoxUofCSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxUofCSold.TabIndex = 3;
-            this.checkBoxUofCSold.Text = "UofC Student";
             this.checkBoxUofCSold.UseVisualStyleBackColor = false;
             // 
             // checkBoxStudentSold
@@ -6556,12 +6579,13 @@ namespace TheatreTicketing
             this.checkBoxStudentSold.BackColor = System.Drawing.Color.LightGreen;
             this.checkBoxStudentSold.Checked = true;
             this.checkBoxStudentSold.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxStudentSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxStudentSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxStudentSold.Location = new System.Drawing.Point(53, 74);
+            this.checkBoxStudentSold.ForeColor = System.Drawing.Color.Green;
+            this.checkBoxStudentSold.Location = new System.Drawing.Point(53, 79);
             this.checkBoxStudentSold.Name = "checkBoxStudentSold";
-            this.checkBoxStudentSold.Size = new System.Drawing.Size(124, 22);
+            this.checkBoxStudentSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxStudentSold.TabIndex = 2;
-            this.checkBoxStudentSold.Text = "Student/Senior";
             this.checkBoxStudentSold.UseVisualStyleBackColor = false;
             // 
             // checkBoxAdultSold
@@ -6571,12 +6595,14 @@ namespace TheatreTicketing
             this.checkBoxAdultSold.BackColor = System.Drawing.Color.LightCoral;
             this.checkBoxAdultSold.Checked = true;
             this.checkBoxAdultSold.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxAdultSold.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.checkBoxAdultSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxAdultSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxAdultSold.Location = new System.Drawing.Point(53, 46);
+            this.checkBoxAdultSold.ForeColor = System.Drawing.Color.Red;
+            this.checkBoxAdultSold.Location = new System.Drawing.Point(53, 50);
             this.checkBoxAdultSold.Name = "checkBoxAdultSold";
-            this.checkBoxAdultSold.Size = new System.Drawing.Size(59, 22);
+            this.checkBoxAdultSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxAdultSold.TabIndex = 1;
-            this.checkBoxAdultSold.Text = "Adult";
             this.checkBoxAdultSold.UseVisualStyleBackColor = false;
             // 
             // labelTicketSold
@@ -6585,9 +6611,9 @@ namespace TheatreTicketing
             this.labelTicketSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTicketSold.Location = new System.Drawing.Point(8, 12);
             this.labelTicketSold.Name = "labelTicketSold";
-            this.labelTicketSold.Size = new System.Drawing.Size(107, 20);
+            this.labelTicketSold.Size = new System.Drawing.Size(117, 20);
             this.labelTicketSold.TabIndex = 0;
-            this.labelTicketSold.Text = "Tickets Sold";
+            this.labelTicketSold.Text = "Tickets Sold :";
             // 
             // MainScreen
             // 

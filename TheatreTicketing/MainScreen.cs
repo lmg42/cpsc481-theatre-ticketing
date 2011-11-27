@@ -156,5 +156,10 @@ namespace TheatreTicketing
             MessageBox.Show("Updating tickets");
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
