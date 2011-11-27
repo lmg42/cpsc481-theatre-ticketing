@@ -85,10 +85,12 @@ namespace TheatreTicketing
             treeView.NodeMouseClick += new TreeNodeMouseClickEventHandler(treeView_NodeMouseClick);
             dockedConcertList.Controls.Add(treeView);
 
+
             DockContent dockedPurchaseTickets = dockContentFactory.Create("Buy", DockState.Float, Color.PaleGoldenrod);
             dockedPurchaseTickets.Show(dockPanel1);
             dockedPurchaseTickets.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
             dockedPurchaseTickets.AutoScroll = true;
+
         }
 
         void treeView_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
