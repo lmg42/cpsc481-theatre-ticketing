@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcertDetails.cs" />
     <Compile Include="DockContentFormFactory.cs" />
     <Compile Include="IDockContentFormFactory.cs" />
     <Compile Include="MainScreen.cs">
