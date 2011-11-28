@@ -9,16 +9,25 @@ using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace TheatreTicketing
-{
-    
+{    
 
     public partial class MainScreen : Form
     {
+        ConcertDetails[] concerts;
+        Label ticketsToPurchase;
+        Button cancelPurchase;
+        Button confirmPurchase;
         int seatSelected = 0;
 
         public MainScreen()
             : this(new DockContentFormFactory())
         {
+            concerts = new ConcertDetails[6];
+            for(int i = 0; i < 6; i++)
+            {
+                concerts[i] = new ConcertDetails();
+                concerts[i].Populate(i);
+            }
         }
 
         public MainScreen(IDockContentFormFactory dockContentFactory)
@@ -33,7 +42,7 @@ namespace TheatreTicketing
             TreeView treeView = new TreeView();
             treeView.Scale(new System.Drawing.SizeF((float)4.5, 3));
             //now showing
-            TreeNode nowShowingConcert = new TreeNode("test concert");
+            TreeNode nowShowingConcert = new TreeNode("The Hyphenated Liszt - October 22, 2011");
             TreeNode[] nowShowingConcertList = new TreeNode[] { nowShowingConcert };
             TreeNode nowShowingMasterNode = new TreeNode("Now Showing", nowShowingConcertList);
             treeView.Nodes.Add(nowShowingMasterNode);
@@ -91,11 +100,27 @@ namespace TheatreTicketing
             dockedPurchaseTickets.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
             dockedPurchaseTickets.AutoScroll = true;
 
+            ticketsToPurchase = new Label();
+            ticketsToPurchase.BackColor = Color.Azure;
+            ticketsToPurchase.Size = new System.Drawing.Size(300, 120);
+            dockedPurchaseTickets.Controls.Add(ticketsToPurchase);
+            cancelPurchase = new Button();
+            cancelPurchase.Text = "Cancel";
+            cancelPurchase.Location = new Point(75, 120);
+            cancelPurchase.Click += new EventHandler(cancelPurchase_Click);
+            cancelPurchase.Hide();
+            dockedPurchaseTickets.Controls.Add(cancelPurchase);
+            confirmPurchase = new Button();
+            confirmPurchase.Text = "Buy";
+            confirmPurchase.Location = new Point(0, 120);
+            confirmPurchase.Click += new EventHandler(confirmPurchase_Click);
+            confirmPurchase.Hide();
+            dockedPurchaseTickets.Controls.Add(confirmPurchase);
         }
 
         void treeView_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            //find the \
+            //find the \ (nothing should be changed if a base node is clicked)
             int slashCount = 0;
             foreach (char c in e.Node.FullPath.ToString())
             {
@@ -106,7 +131,23 @@ namespace TheatreTicketing
             }
             if (slashCount > 0)
             {
-                MessageBox.Show(e.Node.Text.ToString());
+                //find the \
+                int backslashLocation = e.Node.FullPath.ToString().IndexOf('\\');
+                //change the series
+                if (!e.Node.FullPath.Substring(0, backslashLocation).ToString().Equals("Now Showing"))
+                {
+                    labelSeries.Text = e.Node.FullPath.Substring(0, backslashLocation).ToString();
+                }
+                else
+                {
+                    labelSeries.Text = "Celebration";
+                }
+                //find index of the '-' character
+                int dashLocation = e.Node.Text.ToString().IndexOf('-');
+                //remove characters after the '-' character and change the concert
+                labelConcert.Text = e.Node.Text.ToString().Remove(dashLocation);
+                //change the date label to the other concert
+                labelDate.Text = e.Node.Text.ToString().Substring(dashLocation + 2);
             }
         }
 
@@ -148,12 +189,55 @@ namespace TheatreTicketing
             numericUpDownTypeAdult.Maximum = Math.Max(0, this.seatSelected - numericUpDownTypeStudent.Value - numericUpDownTypeUofC.Value);
             numericUpDownTypeStudent.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeUofC.Value);
             numericUpDownTypeUofC.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeStudent.Value);
-            updateBuyTicketsPanel();
+            if (sender != null && e != null)
+            {
+                updateBuyTicketsPanel();
+            }
         }
 
         private void updateBuyTicketsPanel()
         {
-            MessageBox.Show("Updating tickets");
+            ticketsToPurchase.Text = "";
+            ticketsToPurchase.Text += labelSeries.Text;
+            ticketsToPurchase.Text += Environment.NewLine;
+            ticketsToPurchase.Text += labelConcert.Text;
+            ticketsToPurchase.Text += Environment.NewLine;
+            ticketsToPurchase.Text += labelDate.Text;
+            ticketsToPurchase.Text += Environment.NewLine;
+            ticketsToPurchase.Text += labelTime.Text;
+            ticketsToPurchase.Text += Environment.NewLine;
+            ticketsToPurchase.Text += Environment.NewLine;
+            decimal adultValue = 0;
+            decimal studentValue = 0;
+            if (numericUpDownTypeAdult.Value > 0)
+            {
+                adultValue = 35 * numericUpDownTypeAdult.Value;
+                ticketsToPurchase.Text += numericUpDownTypeAdult.Value.ToString() + " Adult               = $" + adultValue.ToString() + ".00";
+                ticketsToPurchase.Text += Environment.NewLine;
+            }
+            if (numericUpDownTypeStudent.Value > 0)
+            {
+                studentValue = 25 * numericUpDownTypeStudent.Value;
+                ticketsToPurchase.Text += numericUpDownTypeStudent.Value.ToString() + " Student/Senior = $" + studentValue.ToString() + ".00";
+                ticketsToPurchase.Text += Environment.NewLine;
+            }
+            if (numericUpDownTypeUofC.Value > 0)
+            {
+                ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
+                ticketsToPurchase.Text += Environment.NewLine;
+            }
+            ticketsToPurchase.Text += "TOTAL               = $" + (adultValue + studentValue) + ".00";
+            ticketsToPurchase.Text += Environment.NewLine;
+
+            cancelPurchase.Show();
+            confirmPurchase.Show();
+
+            if ((numericUpDownTypeAdult.Value + numericUpDownTypeStudent.Value + numericUpDownTypeUofC.Value) == 0)
+            {
+                ticketsToPurchase.Text = "";
+                cancelPurchase.Hide();
+                confirmPurchase.Hide();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -161,5 +245,14 @@ namespace TheatreTicketing
 
         }
 
+        void cancelPurchase_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("cancel button clicked");
+        }
+
+        void confirmPurchase_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("buy clicked");
+        }
     }
 }

@@ -29,21 +29,21 @@ namespace TheatreTicketing
         /// </summary>
         private void InitializeComponent()
         {
-            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin8 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
-            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin8 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient22 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient50 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin8 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient8 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient51 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient23 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient52 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient8 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient53 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient54 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient24 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient55 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient56 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin2 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
+            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin2 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient4 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient8 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient9 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient5 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient10 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient11 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient12 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient6 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient13 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient14 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.dockPanel1 = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -575,13 +575,13 @@ namespace TheatreTicketing
             this.labelUofCType = new System.Windows.Forms.Label();
             this.labelTypeAdult = new System.Windows.Forms.Label();
             this.panelTicketSold = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.checkBoxUofCSold = new System.Windows.Forms.CheckBox();
             this.checkBoxStudentSold = new System.Windows.Forms.CheckBox();
             this.checkBoxAdultSold = new System.Windows.Forms.CheckBox();
             this.labelTicketSold = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panelConcertInfo.SuspendLayout();
             this.panelSeats.SuspendLayout();
@@ -603,52 +603,52 @@ namespace TheatreTicketing
             this.dockPanel1.Location = new System.Drawing.Point(0, 27);
             this.dockPanel1.Name = "dockPanel1";
             this.dockPanel1.Size = new System.Drawing.Size(1252, 680);
-            dockPanelGradient22.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient22.StartColor = System.Drawing.SystemColors.ControlLight;
-            autoHideStripSkin8.DockStripGradient = dockPanelGradient22;
-            tabGradient50.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient50.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient50.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            autoHideStripSkin8.TabGradient = tabGradient50;
-            autoHideStripSkin8.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            dockPanelSkin8.AutoHideStripSkin = autoHideStripSkin8;
-            tabGradient51.EndColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient51.StartColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient51.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient8.ActiveTabGradient = tabGradient51;
-            dockPanelGradient23.EndColor = System.Drawing.SystemColors.Control;
-            dockPanelGradient23.StartColor = System.Drawing.SystemColors.Control;
-            dockPaneStripGradient8.DockStripGradient = dockPanelGradient23;
-            tabGradient52.EndColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient52.StartColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient52.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient8.InactiveTabGradient = tabGradient52;
-            dockPaneStripSkin8.DocumentGradient = dockPaneStripGradient8;
-            dockPaneStripSkin8.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            tabGradient53.EndColor = System.Drawing.SystemColors.ActiveCaption;
-            tabGradient53.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient53.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
-            tabGradient53.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dockPaneStripToolWindowGradient8.ActiveCaptionGradient = tabGradient53;
-            tabGradient54.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient54.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient54.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripToolWindowGradient8.ActiveTabGradient = tabGradient54;
-            dockPanelGradient24.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient24.StartColor = System.Drawing.SystemColors.ControlLight;
-            dockPaneStripToolWindowGradient8.DockStripGradient = dockPanelGradient24;
-            tabGradient55.EndColor = System.Drawing.SystemColors.InactiveCaption;
-            tabGradient55.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient55.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            tabGradient55.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
-            dockPaneStripToolWindowGradient8.InactiveCaptionGradient = tabGradient55;
-            tabGradient56.EndColor = System.Drawing.Color.Transparent;
-            tabGradient56.StartColor = System.Drawing.Color.Transparent;
-            tabGradient56.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            dockPaneStripToolWindowGradient8.InactiveTabGradient = tabGradient56;
-            dockPaneStripSkin8.ToolWindowGradient = dockPaneStripToolWindowGradient8;
-            dockPanelSkin8.DockPaneStripSkin = dockPaneStripSkin8;
-            this.dockPanel1.Skin = dockPanelSkin8;
+            dockPanelGradient4.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient4.StartColor = System.Drawing.SystemColors.ControlLight;
+            autoHideStripSkin2.DockStripGradient = dockPanelGradient4;
+            tabGradient8.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient8.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient8.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            autoHideStripSkin2.TabGradient = tabGradient8;
+            autoHideStripSkin2.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            dockPanelSkin2.AutoHideStripSkin = autoHideStripSkin2;
+            tabGradient9.EndColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient9.StartColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient9.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient2.ActiveTabGradient = tabGradient9;
+            dockPanelGradient5.EndColor = System.Drawing.SystemColors.Control;
+            dockPanelGradient5.StartColor = System.Drawing.SystemColors.Control;
+            dockPaneStripGradient2.DockStripGradient = dockPanelGradient5;
+            tabGradient10.EndColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient10.StartColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient10.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient2.InactiveTabGradient = tabGradient10;
+            dockPaneStripSkin2.DocumentGradient = dockPaneStripGradient2;
+            dockPaneStripSkin2.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            tabGradient11.EndColor = System.Drawing.SystemColors.ActiveCaption;
+            tabGradient11.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient11.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
+            tabGradient11.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dockPaneStripToolWindowGradient2.ActiveCaptionGradient = tabGradient11;
+            tabGradient12.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient12.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient12.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripToolWindowGradient2.ActiveTabGradient = tabGradient12;
+            dockPanelGradient6.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient6.StartColor = System.Drawing.SystemColors.ControlLight;
+            dockPaneStripToolWindowGradient2.DockStripGradient = dockPanelGradient6;
+            tabGradient13.EndColor = System.Drawing.SystemColors.InactiveCaption;
+            tabGradient13.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient13.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            tabGradient13.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
+            dockPaneStripToolWindowGradient2.InactiveCaptionGradient = tabGradient13;
+            tabGradient14.EndColor = System.Drawing.Color.Transparent;
+            tabGradient14.StartColor = System.Drawing.Color.Transparent;
+            tabGradient14.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            dockPaneStripToolWindowGradient2.InactiveTabGradient = tabGradient14;
+            dockPaneStripSkin2.ToolWindowGradient = dockPaneStripToolWindowGradient2;
+            dockPanelSkin2.DockPaneStripSkin = dockPaneStripSkin2;
+            this.dockPanel1.Skin = dockPanelSkin2;
             this.dockPanel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -658,7 +658,7 @@ namespace TheatreTicketing
             this.testToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1258, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1254, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -700,7 +700,7 @@ namespace TheatreTicketing
             this.panelConcertInfo.Controls.Add(this.labelTitleConcert);
             this.panelConcertInfo.Location = new System.Drawing.Point(157, 42);
             this.panelConcertInfo.Name = "panelConcertInfo";
-            this.panelConcertInfo.Size = new System.Drawing.Size(460, 126);
+            this.panelConcertInfo.Size = new System.Drawing.Size(586, 126);
             this.panelConcertInfo.TabIndex = 9;
             // 
             // labelPrice
@@ -757,7 +757,7 @@ namespace TheatreTicketing
             // buttonMore
             // 
             this.buttonMore.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMore.Location = new System.Drawing.Point(351, 11);
+            this.buttonMore.Location = new System.Drawing.Point(506, 9);
             this.buttonMore.Name = "buttonMore";
             this.buttonMore.Size = new System.Drawing.Size(75, 23);
             this.buttonMore.TabIndex = 8;
@@ -6514,47 +6514,10 @@ namespace TheatreTicketing
             this.panelTicketSold.Controls.Add(this.label2);
             this.panelTicketSold.Controls.Add(this.label3);
             this.panelTicketSold.Controls.Add(this.label4);
-            this.panelTicketSold.Location = new System.Drawing.Point(687, 42);
+            this.panelTicketSold.Location = new System.Drawing.Point(745, 42);
             this.panelTicketSold.Name = "panelTicketSold";
-            this.panelTicketSold.Size = new System.Drawing.Size(220, 136);
+            this.panelTicketSold.Size = new System.Drawing.Size(178, 126);
             this.panelTicketSold.TabIndex = 21;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(48, 104);
-            this.label4.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 22);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "     UofC Student ( 5 )";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightGreen;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 75);
-            this.label3.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 22);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "     Student/Senior ( 1 )";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightCoral;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(48, 46);
-            this.label2.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "     Adult ( 3 )";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkBoxUofCSold
             // 
@@ -6566,7 +6529,7 @@ namespace TheatreTicketing
             this.checkBoxUofCSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxUofCSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxUofCSold.ForeColor = System.Drawing.Color.Blue;
-            this.checkBoxUofCSold.Location = new System.Drawing.Point(53, 108);
+            this.checkBoxUofCSold.Location = new System.Drawing.Point(13, 94);
             this.checkBoxUofCSold.Name = "checkBoxUofCSold";
             this.checkBoxUofCSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxUofCSold.TabIndex = 3;
@@ -6582,7 +6545,7 @@ namespace TheatreTicketing
             this.checkBoxStudentSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxStudentSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxStudentSold.ForeColor = System.Drawing.Color.Green;
-            this.checkBoxStudentSold.Location = new System.Drawing.Point(53, 79);
+            this.checkBoxStudentSold.Location = new System.Drawing.Point(12, 70);
             this.checkBoxStudentSold.Name = "checkBoxStudentSold";
             this.checkBoxStudentSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxStudentSold.TabIndex = 2;
@@ -6599,7 +6562,7 @@ namespace TheatreTicketing
             this.checkBoxAdultSold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxAdultSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxAdultSold.ForeColor = System.Drawing.Color.Red;
-            this.checkBoxAdultSold.Location = new System.Drawing.Point(53, 50);
+            this.checkBoxAdultSold.Location = new System.Drawing.Point(12, 46);
             this.checkBoxAdultSold.Name = "checkBoxAdultSold";
             this.checkBoxAdultSold.Size = new System.Drawing.Size(12, 11);
             this.checkBoxAdultSold.TabIndex = 1;
@@ -6608,22 +6571,59 @@ namespace TheatreTicketing
             // labelTicketSold
             // 
             this.labelTicketSold.AutoSize = true;
-            this.labelTicketSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTicketSold.Location = new System.Drawing.Point(8, 12);
+            this.labelTicketSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTicketSold.Location = new System.Drawing.Point(3, 12);
             this.labelTicketSold.Name = "labelTicketSold";
-            this.labelTicketSold.Size = new System.Drawing.Size(117, 20);
+            this.labelTicketSold.Size = new System.Drawing.Size(112, 18);
             this.labelTicketSold.TabIndex = 0;
             this.labelTicketSold.Text = "Tickets Sold :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.LightCoral;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 42);
+            this.label2.MinimumSize = new System.Drawing.Size(0, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 22);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "     Adult ( 3 )";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.LightGreen;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(7, 66);
+            this.label3.MinimumSize = new System.Drawing.Size(0, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(155, 22);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "     Student/Senior ( 1 )";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(8, 90);
+            this.label4.MinimumSize = new System.Drawing.Size(0, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(147, 22);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "     UofC Student ( 5 )";
             // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1258, 707);
+            this.ClientSize = new System.Drawing.Size(1254, 707);
             this.Controls.Add(this.panelSeatType);
-            this.Controls.Add(this.panelTicketSold);
             this.Controls.Add(this.labelNumberSeat);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panelTicketSold);
             this.Controls.Add(this.panelConcertInfo);
             this.Controls.Add(this.labelSeatSelected);
             this.Controls.Add(this.panelSeats);
