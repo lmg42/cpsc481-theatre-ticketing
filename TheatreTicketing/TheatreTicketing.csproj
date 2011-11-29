@@ -54,7 +54,6 @@
   <ItemGroup>
     <Compile Include="Concert.cs" />
     <Compile Include="Seat.cs" />
-    <Compile Include="ConcertDetails.cs" />
     <Compile Include="DockContentFormFactory.cs" />
     <Compile Include="IDockContentFormFactory.cs" />
     <Compile Include="MainScreen.cs">
@@ -71,6 +70,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serie.cs" />
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>

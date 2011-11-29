@@ -13,11 +13,14 @@ namespace TheatreTicketing
 
     public partial class MainScreen : Form
     {
-        Serie[] series;
-        Label ticketsToPurchase;
-        Button cancelPurchase;
-        Button confirmPurchase;
-        int seatSelected = 0;
+        public Serie[] series;
+        public Label ticketsToPurchase;
+        public Button cancelPurchase;
+        public Button confirmPurchase;
+        public int numberSeatSelected = 0;
+        public List<System.Windows.Forms.CheckBox> seatSelected = new List<System.Windows.Forms.CheckBox>();
+
+        public Concert currentConcert;
     
 
         public MainScreen()
@@ -30,15 +33,20 @@ namespace TheatreTicketing
                 series[i].Populate(i);
             }
 
-            //Add a pre purchased seat
-            series[0].concerts[0].addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
-            series[0].concerts[0].addAPurchasedSeat(SeatType.Adult, checkBox111);
-            series[0].concerts[0].addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
-            constructSeatChart(series[0].concerts[0]);
+            //Add a pre purchased seat to the next concert
+            Concert nextConcert = findAConcert(Serie.NextConcert());
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox111);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
+            currentConcert = nextConcert;
 
+            //We construct the screen of next concert
+            clearConcertScreen();
+            constructConcertScreen(nextConcert);
 
-
-            
+            //add a pre purchased seat to the second concert
+            Concert secondConcert = findAConcert("The Blackbird Sings: Music for Flute and Piano ");
+            secondConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox193);
         }
 
         public MainScreen(IDockContentFormFactory dockContentFactory)
@@ -156,8 +164,17 @@ namespace TheatreTicketing
                 }
                 //find index of the '-' character
                 int dashLocation = e.Node.Text.ToString().IndexOf('-');
+
                 //remove characters after the '-' character and change the concert
-                labelConcert.Text = e.Node.Text.ToString().Remove(dashLocation);
+                string newConcertName = e.Node.Text.ToString().Remove(dashLocation);
+
+                //We construct the sreen of the new selected concert
+                labelConcert.Text = newConcertName;
+                Concert newConcert = findAConcert(newConcertName);
+                clearConcertScreen();
+                currentConcert = newConcert;
+                constructConcertScreen(newConcert);
+
                 //change the date label to the other concert
                 labelDate.Text = e.Node.Text.ToString().Substring(dashLocation + 2);
             }
@@ -180,27 +197,28 @@ namespace TheatreTicketing
         }
 
         //Function to update the number of seats slected
-        private void updateNumberSeatSelected_CheckedChanged(object sender, EventArgs e)
+        private void updateNumberSelected_CheckedChanged(object sender, EventArgs e)
         {
             CheckBox checkbox = (CheckBox)sender;
             if (checkbox.Checked)
             {
-                this.seatSelected = this.seatSelected + 1;
+                this.numberSeatSelected = this.numberSeatSelected + 1;
+                seatSelected.Add(checkbox);
             }
             else
             {
-                this.seatSelected = this.seatSelected - 1;
+                this.numberSeatSelected = this.numberSeatSelected - 1;
             }
-            labelNumberSeat.Text = seatSelected.ToString();
+            labelNumberSeat.Text = numberSeatSelected.ToString();
             updateMaxNumericUpDown_ValueChanged(null, null);
         }
 
         //Function to update the number of maximum seat we can take per type
         private void updateMaxNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
-            numericUpDownTypeAdult.Maximum = Math.Max(0, this.seatSelected - numericUpDownTypeStudent.Value - numericUpDownTypeUofC.Value);
-            numericUpDownTypeStudent.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeUofC.Value);
-            numericUpDownTypeUofC.Maximum =  Math.Max(0, this.seatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeStudent.Value);
+            numericUpDownTypeAdult.Maximum = Math.Max(0, this.numberSeatSelected - numericUpDownTypeStudent.Value - numericUpDownTypeUofC.Value);
+            numericUpDownTypeStudent.Maximum =  Math.Max(0, this.numberSeatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeUofC.Value);
+            numericUpDownTypeUofC.Maximum =  Math.Max(0, this.numberSeatSelected - numericUpDownTypeAdult.Value - numericUpDownTypeStudent.Value);
             if (sender != null && e != null)
             {
                 updateBuyTicketsPanel();
@@ -267,7 +285,7 @@ namespace TheatreTicketing
             MessageBox.Show("buy clicked");
         }
 
-        void constructSeatChart(Concert concert)
+        void constructConcertScreen(Concert concert)
         {
             foreach(Seat seat in concert.seatPurchased)
             {
@@ -290,8 +308,59 @@ namespace TheatreTicketing
                     seat.checkBox.BackColor = Color.LightSkyBlue;
                     seat.checkBox.ForeColor = Color.Blue;
                 }
-
             }
+
+            //Number of seat purchased
+            labelAdultSeat.Text = "     Adult ( " + concert.numberAdultSeat + " )";
+            labelStudentSeat.Text = "     Student/Senior ( " + concert.numberStudentSeat + " )";
+            labelUofCSeat.Text = "     UofC Student ( " + concert.numberUofCSeat + " )";
+
+            //Number of seat selected
+            numberSeatSelected = 0;
+            labelNumberSeat.Text = numberSeatSelected.ToString();
+            updateMaxNumericUpDown_ValueChanged(null, null);
+
         }
+
+        public void clearConcertScreen()
+        {
+            foreach (Seat seat in currentConcert.seatPurchased)
+            {
+                seat.checkBox.Checked = false;
+                seat.checkBox.AutoCheck = true;
+                seat.checkBox.CheckState = CheckState.Unchecked;
+                seat.checkBox.FlatStyle = FlatStyle.Standard;
+                seat.checkBox.BackColor = Color.White;
+                seat.checkBox.ForeColor = Color.White;
+            }
+
+            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            {
+                checkbox.Checked = false;
+            }
+            
+            //Number of seat selected
+            numberSeatSelected = 0;
+            labelNumberSeat.Text = numberSeatSelected.ToString();
+            updateMaxNumericUpDown_ValueChanged(null, null);
+
+            seatSelected = new List<System.Windows.Forms.CheckBox>();
+        }
+
+        public Concert findAConcert(string name)
+        {
+            Concert temp = null;
+            for (int i=0; i < series.Length; i++ ) 
+            {
+                temp = series[i].findAConcert(name);
+                if ( temp != null ) 
+                {
+                    return temp;
+                }
+            }
+            return temp;
+
+        }
+
     }
 }
