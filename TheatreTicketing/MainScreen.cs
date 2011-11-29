@@ -382,23 +382,26 @@ namespace TheatreTicketing
                     temp = new Seat(SeatType.Adult,checkbox);
                     numberAdultSeats -= 1;
                     currentConcert.seatPurchased.Add(temp);
+                    currentConcert.numberAdultSeat += 1;
                 }
                 else if (numberStudentSeats > 0)
                 {
                     temp = new Seat(SeatType.StudentSenior, checkbox);
                     numberStudentSeats -= 1;
                     currentConcert.seatPurchased.Add(temp);
+                    currentConcert.numberStudentSeat += 1;
                 }
                 else if (numberUofCSeats > 0)
                 {
                     temp = new Seat(SeatType.UofCStudent, checkbox);
                     numberUofCSeats -= 1;
                     currentConcert.seatPurchased.Add(temp);
+                    currentConcert.numberUofCSeat += 1;
                 }
             }
 
-            //clearConcertScreen();
             constructConcertScreen();
+            seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
 
     }
