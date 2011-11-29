@@ -6,9 +6,9 @@ using System.Text;
 namespace TheatreTicketing
 {
 
-    enum SeatType { Empty, Adult, StudentSenior, UofCStudent };
+    public enum SeatType { Empty, Adult, StudentSenior, UofCStudent };
 
-    class Seat
+    public class Seat
     {
         public SeatType seatType;
         public System.Windows.Forms.CheckBox checkBox;
@@ -18,5 +18,7 @@ namespace TheatreTicketing
             this.seatType = type;
             this.checkBox = checkBox;
         }
+
+
     }
 }

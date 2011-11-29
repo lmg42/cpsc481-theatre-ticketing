@@ -5,23 +5,19 @@ using System.Text;
 
 namespace TheatreTicketing
 {
-    enum ConcertName
-    {
-        BlackbirdSings, HyphenatedLizst, SchubertWinterreise, LiteraryLiszt, OldVsNew,
-        ContemporaryCanada, HistoireDuTango, PersianZeal,
-        TommyBanks, BillEvans, MariaSchneider, ChrisAndrew, Verismo, GoodmanMahQuartet,
-        GermanySeduced, FrenchSymphonic, LivreDOrgue,
-        BrahmsI, BrahmsII, BrahmsIII
-    };
 
-    class Concert
+    public class Concert
     {
-        public ConcertName name;
+        public string name;
         public List<Seat> seatPurchased;
-        public int numberOfSeatPurchased = 0;
+        public int numberSeatPurchased = 0;
+        public int numberAdultSeat = 0;
+        public int numberStudentSeat = 0;
+        public int numberUofCSeat = 0;
+
 
         //Constructor
-        public Concert(ConcertName name)
+        public Concert(string name)
         {
             this.name = name;
             seatPurchased = new List<Seat>();
@@ -29,8 +25,20 @@ namespace TheatreTicketing
 
         public void addAPurchasedSeat(SeatType seatType, System.Windows.Forms.CheckBox checkBox)
         {
-            seatPurchased.Add(new Seat(seatType,checkBox);
-            numberOfSeatPurchased += 1;
+            seatPurchased.Add(new Seat(seatType,checkBox));
+            numberSeatPurchased += 1;
+            if (seatType == SeatType.Adult)
+            {
+                numberAdultSeat += 1;
+            }
+            else if (seatType == SeatType.StudentSenior)
+            {
+                numberStudentSeat += 1;
+            }
+            else
+            {
+                numberUofCSeat += 1;
+            }         
         }
  
     }

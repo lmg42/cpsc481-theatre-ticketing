@@ -29,21 +29,21 @@ namespace TheatreTicketing
         /// </summary>
         private void InitializeComponent()
         {
-            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin4 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
-            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin4 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient10 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient22 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin4 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient4 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient23 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient11 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient24 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient4 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient25 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient26 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient12 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient27 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient28 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
+            WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin1 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient1 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient2 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient3 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient4 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient5 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient3 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient6 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+            WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient7 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.dockPanel1 = new WeifenLuo.WinFormsUI.Docking.DockPanel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -579,9 +579,9 @@ namespace TheatreTicketing
             this.checkBoxStudentSold = new System.Windows.Forms.CheckBox();
             this.checkBoxAdultSold = new System.Windows.Forms.CheckBox();
             this.labelTicketSold = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelAdultSeat = new System.Windows.Forms.Label();
+            this.labelStudentSeat = new System.Windows.Forms.Label();
+            this.labelUofCSeat = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panelConcertInfo.SuspendLayout();
             this.panelSeats.SuspendLayout();
@@ -603,52 +603,52 @@ namespace TheatreTicketing
             this.dockPanel1.Location = new System.Drawing.Point(15, 34);
             this.dockPanel1.Name = "dockPanel1";
             this.dockPanel1.Size = new System.Drawing.Size(1252, 680);
-            dockPanelGradient10.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient10.StartColor = System.Drawing.SystemColors.ControlLight;
-            autoHideStripSkin4.DockStripGradient = dockPanelGradient10;
-            tabGradient22.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient22.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient22.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            autoHideStripSkin4.TabGradient = tabGradient22;
-            autoHideStripSkin4.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            dockPanelSkin4.AutoHideStripSkin = autoHideStripSkin4;
-            tabGradient23.EndColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient23.StartColor = System.Drawing.SystemColors.ControlLightLight;
-            tabGradient23.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient4.ActiveTabGradient = tabGradient23;
-            dockPanelGradient11.EndColor = System.Drawing.SystemColors.Control;
-            dockPanelGradient11.StartColor = System.Drawing.SystemColors.Control;
-            dockPaneStripGradient4.DockStripGradient = dockPanelGradient11;
-            tabGradient24.EndColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient24.StartColor = System.Drawing.SystemColors.ControlLight;
-            tabGradient24.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripGradient4.InactiveTabGradient = tabGradient24;
-            dockPaneStripSkin4.DocumentGradient = dockPaneStripGradient4;
-            dockPaneStripSkin4.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-            tabGradient25.EndColor = System.Drawing.SystemColors.ActiveCaption;
-            tabGradient25.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient25.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
-            tabGradient25.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
-            dockPaneStripToolWindowGradient4.ActiveCaptionGradient = tabGradient25;
-            tabGradient26.EndColor = System.Drawing.SystemColors.Control;
-            tabGradient26.StartColor = System.Drawing.SystemColors.Control;
-            tabGradient26.TextColor = System.Drawing.SystemColors.ControlText;
-            dockPaneStripToolWindowGradient4.ActiveTabGradient = tabGradient26;
-            dockPanelGradient12.EndColor = System.Drawing.SystemColors.ControlLight;
-            dockPanelGradient12.StartColor = System.Drawing.SystemColors.ControlLight;
-            dockPaneStripToolWindowGradient4.DockStripGradient = dockPanelGradient12;
-            tabGradient27.EndColor = System.Drawing.SystemColors.InactiveCaption;
-            tabGradient27.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            tabGradient27.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            tabGradient27.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
-            dockPaneStripToolWindowGradient4.InactiveCaptionGradient = tabGradient27;
-            tabGradient28.EndColor = System.Drawing.Color.Transparent;
-            tabGradient28.StartColor = System.Drawing.Color.Transparent;
-            tabGradient28.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-            dockPaneStripToolWindowGradient4.InactiveTabGradient = tabGradient28;
-            dockPaneStripSkin4.ToolWindowGradient = dockPaneStripToolWindowGradient4;
-            dockPanelSkin4.DockPaneStripSkin = dockPaneStripSkin4;
-            this.dockPanel1.Skin = dockPanelSkin4;
+            dockPanelGradient1.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient1.StartColor = System.Drawing.SystemColors.ControlLight;
+            autoHideStripSkin1.DockStripGradient = dockPanelGradient1;
+            tabGradient1.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient1.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient1.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            autoHideStripSkin1.TabGradient = tabGradient1;
+            autoHideStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            dockPanelSkin1.AutoHideStripSkin = autoHideStripSkin1;
+            tabGradient2.EndColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient2.StartColor = System.Drawing.SystemColors.ControlLightLight;
+            tabGradient2.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient1.ActiveTabGradient = tabGradient2;
+            dockPanelGradient2.EndColor = System.Drawing.SystemColors.Control;
+            dockPanelGradient2.StartColor = System.Drawing.SystemColors.Control;
+            dockPaneStripGradient1.DockStripGradient = dockPanelGradient2;
+            tabGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
+            tabGradient3.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripGradient1.InactiveTabGradient = tabGradient3;
+            dockPaneStripSkin1.DocumentGradient = dockPaneStripGradient1;
+            dockPaneStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+            tabGradient4.EndColor = System.Drawing.SystemColors.ActiveCaption;
+            tabGradient4.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient4.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
+            tabGradient4.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dockPaneStripToolWindowGradient1.ActiveCaptionGradient = tabGradient4;
+            tabGradient5.EndColor = System.Drawing.SystemColors.Control;
+            tabGradient5.StartColor = System.Drawing.SystemColors.Control;
+            tabGradient5.TextColor = System.Drawing.SystemColors.ControlText;
+            dockPaneStripToolWindowGradient1.ActiveTabGradient = tabGradient5;
+            dockPanelGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
+            dockPanelGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
+            dockPaneStripToolWindowGradient1.DockStripGradient = dockPanelGradient3;
+            tabGradient6.EndColor = System.Drawing.SystemColors.InactiveCaption;
+            tabGradient6.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            tabGradient6.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            tabGradient6.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
+            dockPaneStripToolWindowGradient1.InactiveCaptionGradient = tabGradient6;
+            tabGradient7.EndColor = System.Drawing.Color.Transparent;
+            tabGradient7.StartColor = System.Drawing.Color.Transparent;
+            tabGradient7.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+            dockPaneStripToolWindowGradient1.InactiveTabGradient = tabGradient7;
+            dockPaneStripSkin1.ToolWindowGradient = dockPaneStripToolWindowGradient1;
+            dockPanelSkin1.DockPaneStripSkin = dockPaneStripSkin1;
+            this.dockPanel1.Skin = dockPanelSkin1;
             this.dockPanel1.TabIndex = 0;
             // 
             // menuStrip1
@@ -767,7 +767,7 @@ namespace TheatreTicketing
             // 
             // panelSeats
             // 
-            this.panelSeats.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelSeats.BackColor = System.Drawing.Color.White;
             this.panelSeats.Controls.Add(this.checkBox467);
             this.panelSeats.Controls.Add(this.checkBox468);
             this.panelSeats.Controls.Add(this.checkBox469);
@@ -1281,7 +1281,7 @@ namespace TheatreTicketing
             this.checkBox467.Size = new System.Drawing.Size(15, 14);
             this.checkBox467.TabIndex = 505;
             this.checkBox467.UseVisualStyleBackColor = true;
-            this.checkBox467.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox467.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox468
             // 
@@ -1291,7 +1291,7 @@ namespace TheatreTicketing
             this.checkBox468.Size = new System.Drawing.Size(15, 14);
             this.checkBox468.TabIndex = 504;
             this.checkBox468.UseVisualStyleBackColor = true;
-            this.checkBox468.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox468.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox469
             // 
@@ -1301,7 +1301,7 @@ namespace TheatreTicketing
             this.checkBox469.Size = new System.Drawing.Size(15, 14);
             this.checkBox469.TabIndex = 503;
             this.checkBox469.UseVisualStyleBackColor = true;
-            this.checkBox469.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox469.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox470
             // 
@@ -1311,7 +1311,7 @@ namespace TheatreTicketing
             this.checkBox470.Size = new System.Drawing.Size(15, 14);
             this.checkBox470.TabIndex = 502;
             this.checkBox470.UseVisualStyleBackColor = true;
-            this.checkBox470.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox470.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox471
             // 
@@ -1321,7 +1321,7 @@ namespace TheatreTicketing
             this.checkBox471.Size = new System.Drawing.Size(15, 14);
             this.checkBox471.TabIndex = 501;
             this.checkBox471.UseVisualStyleBackColor = true;
-            this.checkBox471.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox471.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox472
             // 
@@ -1331,7 +1331,7 @@ namespace TheatreTicketing
             this.checkBox472.Size = new System.Drawing.Size(15, 14);
             this.checkBox472.TabIndex = 500;
             this.checkBox472.UseVisualStyleBackColor = true;
-            this.checkBox472.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox472.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox473
             // 
@@ -1341,7 +1341,7 @@ namespace TheatreTicketing
             this.checkBox473.Size = new System.Drawing.Size(15, 14);
             this.checkBox473.TabIndex = 499;
             this.checkBox473.UseVisualStyleBackColor = true;
-            this.checkBox473.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox473.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox474
             // 
@@ -1351,7 +1351,7 @@ namespace TheatreTicketing
             this.checkBox474.Size = new System.Drawing.Size(15, 14);
             this.checkBox474.TabIndex = 498;
             this.checkBox474.UseVisualStyleBackColor = true;
-            this.checkBox474.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox474.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox475
             // 
@@ -1361,7 +1361,7 @@ namespace TheatreTicketing
             this.checkBox475.Size = new System.Drawing.Size(15, 14);
             this.checkBox475.TabIndex = 497;
             this.checkBox475.UseVisualStyleBackColor = true;
-            this.checkBox475.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox475.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox476
             // 
@@ -1371,7 +1371,7 @@ namespace TheatreTicketing
             this.checkBox476.Size = new System.Drawing.Size(15, 14);
             this.checkBox476.TabIndex = 496;
             this.checkBox476.UseVisualStyleBackColor = true;
-            this.checkBox476.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox476.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox477
             // 
@@ -1381,7 +1381,7 @@ namespace TheatreTicketing
             this.checkBox477.Size = new System.Drawing.Size(15, 14);
             this.checkBox477.TabIndex = 495;
             this.checkBox477.UseVisualStyleBackColor = true;
-            this.checkBox477.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox477.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox478
             // 
@@ -1391,7 +1391,7 @@ namespace TheatreTicketing
             this.checkBox478.Size = new System.Drawing.Size(15, 14);
             this.checkBox478.TabIndex = 494;
             this.checkBox478.UseVisualStyleBackColor = true;
-            this.checkBox478.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox478.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox479
             // 
@@ -1401,7 +1401,7 @@ namespace TheatreTicketing
             this.checkBox479.Size = new System.Drawing.Size(15, 14);
             this.checkBox479.TabIndex = 493;
             this.checkBox479.UseVisualStyleBackColor = true;
-            this.checkBox479.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox479.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox480
             // 
@@ -1411,7 +1411,7 @@ namespace TheatreTicketing
             this.checkBox480.Size = new System.Drawing.Size(15, 14);
             this.checkBox480.TabIndex = 492;
             this.checkBox480.UseVisualStyleBackColor = true;
-            this.checkBox480.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox480.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox481
             // 
@@ -1421,7 +1421,7 @@ namespace TheatreTicketing
             this.checkBox481.Size = new System.Drawing.Size(15, 14);
             this.checkBox481.TabIndex = 491;
             this.checkBox481.UseVisualStyleBackColor = true;
-            this.checkBox481.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox481.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox482
             // 
@@ -1431,7 +1431,7 @@ namespace TheatreTicketing
             this.checkBox482.Size = new System.Drawing.Size(15, 14);
             this.checkBox482.TabIndex = 490;
             this.checkBox482.UseVisualStyleBackColor = true;
-            this.checkBox482.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox482.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox483
             // 
@@ -1441,7 +1441,7 @@ namespace TheatreTicketing
             this.checkBox483.Size = new System.Drawing.Size(15, 14);
             this.checkBox483.TabIndex = 489;
             this.checkBox483.UseVisualStyleBackColor = true;
-            this.checkBox483.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox483.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox484
             // 
@@ -1451,7 +1451,7 @@ namespace TheatreTicketing
             this.checkBox484.Size = new System.Drawing.Size(15, 14);
             this.checkBox484.TabIndex = 488;
             this.checkBox484.UseVisualStyleBackColor = true;
-            this.checkBox484.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox484.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox485
             // 
@@ -1461,7 +1461,7 @@ namespace TheatreTicketing
             this.checkBox485.Size = new System.Drawing.Size(15, 14);
             this.checkBox485.TabIndex = 487;
             this.checkBox485.UseVisualStyleBackColor = true;
-            this.checkBox485.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox485.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox486
             // 
@@ -1471,7 +1471,7 @@ namespace TheatreTicketing
             this.checkBox486.Size = new System.Drawing.Size(15, 14);
             this.checkBox486.TabIndex = 486;
             this.checkBox486.UseVisualStyleBackColor = true;
-            this.checkBox486.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox486.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox487
             // 
@@ -1481,7 +1481,7 @@ namespace TheatreTicketing
             this.checkBox487.Size = new System.Drawing.Size(15, 14);
             this.checkBox487.TabIndex = 485;
             this.checkBox487.UseVisualStyleBackColor = true;
-            this.checkBox487.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox487.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox488
             // 
@@ -1491,7 +1491,7 @@ namespace TheatreTicketing
             this.checkBox488.Size = new System.Drawing.Size(15, 14);
             this.checkBox488.TabIndex = 484;
             this.checkBox488.UseVisualStyleBackColor = true;
-            this.checkBox488.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox488.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox489
             // 
@@ -1501,7 +1501,7 @@ namespace TheatreTicketing
             this.checkBox489.Size = new System.Drawing.Size(15, 14);
             this.checkBox489.TabIndex = 483;
             this.checkBox489.UseVisualStyleBackColor = true;
-            this.checkBox489.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox489.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox490
             // 
@@ -1511,7 +1511,7 @@ namespace TheatreTicketing
             this.checkBox490.Size = new System.Drawing.Size(15, 14);
             this.checkBox490.TabIndex = 482;
             this.checkBox490.UseVisualStyleBackColor = true;
-            this.checkBox490.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox490.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox491
             // 
@@ -1521,7 +1521,7 @@ namespace TheatreTicketing
             this.checkBox491.Size = new System.Drawing.Size(15, 14);
             this.checkBox491.TabIndex = 481;
             this.checkBox491.UseVisualStyleBackColor = true;
-            this.checkBox491.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox491.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox492
             // 
@@ -1531,7 +1531,7 @@ namespace TheatreTicketing
             this.checkBox492.Size = new System.Drawing.Size(15, 14);
             this.checkBox492.TabIndex = 480;
             this.checkBox492.UseVisualStyleBackColor = true;
-            this.checkBox492.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox492.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox493
             // 
@@ -1541,7 +1541,7 @@ namespace TheatreTicketing
             this.checkBox493.Size = new System.Drawing.Size(15, 14);
             this.checkBox493.TabIndex = 479;
             this.checkBox493.UseVisualStyleBackColor = true;
-            this.checkBox493.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox493.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox494
             // 
@@ -1551,7 +1551,7 @@ namespace TheatreTicketing
             this.checkBox494.Size = new System.Drawing.Size(15, 14);
             this.checkBox494.TabIndex = 478;
             this.checkBox494.UseVisualStyleBackColor = true;
-            this.checkBox494.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox494.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox495
             // 
@@ -1561,7 +1561,7 @@ namespace TheatreTicketing
             this.checkBox495.Size = new System.Drawing.Size(15, 14);
             this.checkBox495.TabIndex = 477;
             this.checkBox495.UseVisualStyleBackColor = true;
-            this.checkBox495.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox495.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox496
             // 
@@ -1571,7 +1571,7 @@ namespace TheatreTicketing
             this.checkBox496.Size = new System.Drawing.Size(15, 14);
             this.checkBox496.TabIndex = 476;
             this.checkBox496.UseVisualStyleBackColor = true;
-            this.checkBox496.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox496.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox497
             // 
@@ -1581,7 +1581,7 @@ namespace TheatreTicketing
             this.checkBox497.Size = new System.Drawing.Size(15, 14);
             this.checkBox497.TabIndex = 475;
             this.checkBox497.UseVisualStyleBackColor = true;
-            this.checkBox497.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox497.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox498
             // 
@@ -1591,7 +1591,7 @@ namespace TheatreTicketing
             this.checkBox498.Size = new System.Drawing.Size(15, 14);
             this.checkBox498.TabIndex = 474;
             this.checkBox498.UseVisualStyleBackColor = true;
-            this.checkBox498.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox498.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox463
             // 
@@ -1601,7 +1601,7 @@ namespace TheatreTicketing
             this.checkBox463.Size = new System.Drawing.Size(15, 14);
             this.checkBox463.TabIndex = 473;
             this.checkBox463.UseVisualStyleBackColor = true;
-            this.checkBox463.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox463.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox464
             // 
@@ -1611,7 +1611,7 @@ namespace TheatreTicketing
             this.checkBox464.Size = new System.Drawing.Size(15, 14);
             this.checkBox464.TabIndex = 472;
             this.checkBox464.UseVisualStyleBackColor = true;
-            this.checkBox464.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox464.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox465
             // 
@@ -1621,7 +1621,7 @@ namespace TheatreTicketing
             this.checkBox465.Size = new System.Drawing.Size(15, 14);
             this.checkBox465.TabIndex = 471;
             this.checkBox465.UseVisualStyleBackColor = true;
-            this.checkBox465.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox465.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox466
             // 
@@ -1631,7 +1631,7 @@ namespace TheatreTicketing
             this.checkBox466.Size = new System.Drawing.Size(15, 14);
             this.checkBox466.TabIndex = 470;
             this.checkBox466.UseVisualStyleBackColor = true;
-            this.checkBox466.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox466.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox435
             // 
@@ -1641,7 +1641,7 @@ namespace TheatreTicketing
             this.checkBox435.Size = new System.Drawing.Size(15, 14);
             this.checkBox435.TabIndex = 469;
             this.checkBox435.UseVisualStyleBackColor = true;
-            this.checkBox435.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox435.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox436
             // 
@@ -1651,7 +1651,7 @@ namespace TheatreTicketing
             this.checkBox436.Size = new System.Drawing.Size(15, 14);
             this.checkBox436.TabIndex = 468;
             this.checkBox436.UseVisualStyleBackColor = true;
-            this.checkBox436.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox436.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox437
             // 
@@ -1661,7 +1661,7 @@ namespace TheatreTicketing
             this.checkBox437.Size = new System.Drawing.Size(15, 14);
             this.checkBox437.TabIndex = 467;
             this.checkBox437.UseVisualStyleBackColor = true;
-            this.checkBox437.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox437.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox438
             // 
@@ -1671,7 +1671,7 @@ namespace TheatreTicketing
             this.checkBox438.Size = new System.Drawing.Size(15, 14);
             this.checkBox438.TabIndex = 466;
             this.checkBox438.UseVisualStyleBackColor = true;
-            this.checkBox438.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox438.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox439
             // 
@@ -1681,7 +1681,7 @@ namespace TheatreTicketing
             this.checkBox439.Size = new System.Drawing.Size(15, 14);
             this.checkBox439.TabIndex = 465;
             this.checkBox439.UseVisualStyleBackColor = true;
-            this.checkBox439.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox439.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox440
             // 
@@ -1691,7 +1691,7 @@ namespace TheatreTicketing
             this.checkBox440.Size = new System.Drawing.Size(15, 14);
             this.checkBox440.TabIndex = 464;
             this.checkBox440.UseVisualStyleBackColor = true;
-            this.checkBox440.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox440.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox441
             // 
@@ -1701,7 +1701,7 @@ namespace TheatreTicketing
             this.checkBox441.Size = new System.Drawing.Size(15, 14);
             this.checkBox441.TabIndex = 463;
             this.checkBox441.UseVisualStyleBackColor = true;
-            this.checkBox441.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox441.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox442
             // 
@@ -1711,7 +1711,7 @@ namespace TheatreTicketing
             this.checkBox442.Size = new System.Drawing.Size(15, 14);
             this.checkBox442.TabIndex = 462;
             this.checkBox442.UseVisualStyleBackColor = true;
-            this.checkBox442.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox442.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox443
             // 
@@ -1721,7 +1721,7 @@ namespace TheatreTicketing
             this.checkBox443.Size = new System.Drawing.Size(15, 14);
             this.checkBox443.TabIndex = 461;
             this.checkBox443.UseVisualStyleBackColor = true;
-            this.checkBox443.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox443.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox444
             // 
@@ -1731,7 +1731,7 @@ namespace TheatreTicketing
             this.checkBox444.Size = new System.Drawing.Size(15, 14);
             this.checkBox444.TabIndex = 460;
             this.checkBox444.UseVisualStyleBackColor = true;
-            this.checkBox444.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox444.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox445
             // 
@@ -1741,7 +1741,7 @@ namespace TheatreTicketing
             this.checkBox445.Size = new System.Drawing.Size(15, 14);
             this.checkBox445.TabIndex = 459;
             this.checkBox445.UseVisualStyleBackColor = true;
-            this.checkBox445.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox445.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox446
             // 
@@ -1751,7 +1751,7 @@ namespace TheatreTicketing
             this.checkBox446.Size = new System.Drawing.Size(15, 14);
             this.checkBox446.TabIndex = 458;
             this.checkBox446.UseVisualStyleBackColor = true;
-            this.checkBox446.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox446.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox447
             // 
@@ -1761,7 +1761,7 @@ namespace TheatreTicketing
             this.checkBox447.Size = new System.Drawing.Size(15, 14);
             this.checkBox447.TabIndex = 457;
             this.checkBox447.UseVisualStyleBackColor = true;
-            this.checkBox447.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox447.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox448
             // 
@@ -1771,7 +1771,7 @@ namespace TheatreTicketing
             this.checkBox448.Size = new System.Drawing.Size(15, 14);
             this.checkBox448.TabIndex = 456;
             this.checkBox448.UseVisualStyleBackColor = true;
-            this.checkBox448.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox448.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox449
             // 
@@ -1781,7 +1781,7 @@ namespace TheatreTicketing
             this.checkBox449.Size = new System.Drawing.Size(15, 14);
             this.checkBox449.TabIndex = 455;
             this.checkBox449.UseVisualStyleBackColor = true;
-            this.checkBox449.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox449.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox450
             // 
@@ -1791,7 +1791,7 @@ namespace TheatreTicketing
             this.checkBox450.Size = new System.Drawing.Size(15, 14);
             this.checkBox450.TabIndex = 454;
             this.checkBox450.UseVisualStyleBackColor = true;
-            this.checkBox450.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox450.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox451
             // 
@@ -1801,7 +1801,7 @@ namespace TheatreTicketing
             this.checkBox451.Size = new System.Drawing.Size(15, 14);
             this.checkBox451.TabIndex = 453;
             this.checkBox451.UseVisualStyleBackColor = true;
-            this.checkBox451.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox451.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox452
             // 
@@ -1811,7 +1811,7 @@ namespace TheatreTicketing
             this.checkBox452.Size = new System.Drawing.Size(15, 14);
             this.checkBox452.TabIndex = 452;
             this.checkBox452.UseVisualStyleBackColor = true;
-            this.checkBox452.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox452.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox453
             // 
@@ -1821,7 +1821,7 @@ namespace TheatreTicketing
             this.checkBox453.Size = new System.Drawing.Size(15, 14);
             this.checkBox453.TabIndex = 451;
             this.checkBox453.UseVisualStyleBackColor = true;
-            this.checkBox453.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox453.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox454
             // 
@@ -1831,7 +1831,7 @@ namespace TheatreTicketing
             this.checkBox454.Size = new System.Drawing.Size(15, 14);
             this.checkBox454.TabIndex = 450;
             this.checkBox454.UseVisualStyleBackColor = true;
-            this.checkBox454.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox454.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox455
             // 
@@ -1841,7 +1841,7 @@ namespace TheatreTicketing
             this.checkBox455.Size = new System.Drawing.Size(15, 14);
             this.checkBox455.TabIndex = 449;
             this.checkBox455.UseVisualStyleBackColor = true;
-            this.checkBox455.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox455.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox456
             // 
@@ -1851,7 +1851,7 @@ namespace TheatreTicketing
             this.checkBox456.Size = new System.Drawing.Size(15, 14);
             this.checkBox456.TabIndex = 448;
             this.checkBox456.UseVisualStyleBackColor = true;
-            this.checkBox456.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox456.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox457
             // 
@@ -1861,7 +1861,7 @@ namespace TheatreTicketing
             this.checkBox457.Size = new System.Drawing.Size(15, 14);
             this.checkBox457.TabIndex = 447;
             this.checkBox457.UseVisualStyleBackColor = true;
-            this.checkBox457.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox457.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox458
             // 
@@ -1871,7 +1871,7 @@ namespace TheatreTicketing
             this.checkBox458.Size = new System.Drawing.Size(15, 14);
             this.checkBox458.TabIndex = 446;
             this.checkBox458.UseVisualStyleBackColor = true;
-            this.checkBox458.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox458.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox459
             // 
@@ -1881,7 +1881,7 @@ namespace TheatreTicketing
             this.checkBox459.Size = new System.Drawing.Size(15, 14);
             this.checkBox459.TabIndex = 445;
             this.checkBox459.UseVisualStyleBackColor = true;
-            this.checkBox459.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox459.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox460
             // 
@@ -1891,7 +1891,7 @@ namespace TheatreTicketing
             this.checkBox460.Size = new System.Drawing.Size(15, 14);
             this.checkBox460.TabIndex = 444;
             this.checkBox460.UseVisualStyleBackColor = true;
-            this.checkBox460.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox460.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox461
             // 
@@ -1901,7 +1901,7 @@ namespace TheatreTicketing
             this.checkBox461.Size = new System.Drawing.Size(15, 14);
             this.checkBox461.TabIndex = 443;
             this.checkBox461.UseVisualStyleBackColor = true;
-            this.checkBox461.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox461.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox462
             // 
@@ -1911,7 +1911,7 @@ namespace TheatreTicketing
             this.checkBox462.Size = new System.Drawing.Size(15, 14);
             this.checkBox462.TabIndex = 442;
             this.checkBox462.UseVisualStyleBackColor = true;
-            this.checkBox462.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox462.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox411
             // 
@@ -1921,7 +1921,7 @@ namespace TheatreTicketing
             this.checkBox411.Size = new System.Drawing.Size(15, 14);
             this.checkBox411.TabIndex = 441;
             this.checkBox411.UseVisualStyleBackColor = true;
-            this.checkBox411.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox411.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox412
             // 
@@ -1931,7 +1931,7 @@ namespace TheatreTicketing
             this.checkBox412.Size = new System.Drawing.Size(15, 14);
             this.checkBox412.TabIndex = 440;
             this.checkBox412.UseVisualStyleBackColor = true;
-            this.checkBox412.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox412.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox413
             // 
@@ -1941,7 +1941,7 @@ namespace TheatreTicketing
             this.checkBox413.Size = new System.Drawing.Size(15, 14);
             this.checkBox413.TabIndex = 439;
             this.checkBox413.UseVisualStyleBackColor = true;
-            this.checkBox413.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox413.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox414
             // 
@@ -1951,7 +1951,7 @@ namespace TheatreTicketing
             this.checkBox414.Size = new System.Drawing.Size(15, 14);
             this.checkBox414.TabIndex = 438;
             this.checkBox414.UseVisualStyleBackColor = true;
-            this.checkBox414.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox414.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox415
             // 
@@ -1961,7 +1961,7 @@ namespace TheatreTicketing
             this.checkBox415.Size = new System.Drawing.Size(15, 14);
             this.checkBox415.TabIndex = 437;
             this.checkBox415.UseVisualStyleBackColor = true;
-            this.checkBox415.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox415.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox416
             // 
@@ -1971,7 +1971,7 @@ namespace TheatreTicketing
             this.checkBox416.Size = new System.Drawing.Size(15, 14);
             this.checkBox416.TabIndex = 436;
             this.checkBox416.UseVisualStyleBackColor = true;
-            this.checkBox416.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox416.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox417
             // 
@@ -1981,7 +1981,7 @@ namespace TheatreTicketing
             this.checkBox417.Size = new System.Drawing.Size(15, 14);
             this.checkBox417.TabIndex = 435;
             this.checkBox417.UseVisualStyleBackColor = true;
-            this.checkBox417.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox417.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox418
             // 
@@ -1991,7 +1991,7 @@ namespace TheatreTicketing
             this.checkBox418.Size = new System.Drawing.Size(15, 14);
             this.checkBox418.TabIndex = 434;
             this.checkBox418.UseVisualStyleBackColor = true;
-            this.checkBox418.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox418.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox419
             // 
@@ -2001,7 +2001,7 @@ namespace TheatreTicketing
             this.checkBox419.Size = new System.Drawing.Size(15, 14);
             this.checkBox419.TabIndex = 433;
             this.checkBox419.UseVisualStyleBackColor = true;
-            this.checkBox419.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox419.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox420
             // 
@@ -2011,7 +2011,7 @@ namespace TheatreTicketing
             this.checkBox420.Size = new System.Drawing.Size(15, 14);
             this.checkBox420.TabIndex = 432;
             this.checkBox420.UseVisualStyleBackColor = true;
-            this.checkBox420.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox420.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox421
             // 
@@ -2021,7 +2021,7 @@ namespace TheatreTicketing
             this.checkBox421.Size = new System.Drawing.Size(15, 14);
             this.checkBox421.TabIndex = 431;
             this.checkBox421.UseVisualStyleBackColor = true;
-            this.checkBox421.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox421.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox422
             // 
@@ -2031,7 +2031,7 @@ namespace TheatreTicketing
             this.checkBox422.Size = new System.Drawing.Size(15, 14);
             this.checkBox422.TabIndex = 430;
             this.checkBox422.UseVisualStyleBackColor = true;
-            this.checkBox422.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox422.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox423
             // 
@@ -2041,7 +2041,7 @@ namespace TheatreTicketing
             this.checkBox423.Size = new System.Drawing.Size(15, 14);
             this.checkBox423.TabIndex = 429;
             this.checkBox423.UseVisualStyleBackColor = true;
-            this.checkBox423.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox423.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox424
             // 
@@ -2051,7 +2051,7 @@ namespace TheatreTicketing
             this.checkBox424.Size = new System.Drawing.Size(15, 14);
             this.checkBox424.TabIndex = 428;
             this.checkBox424.UseVisualStyleBackColor = true;
-            this.checkBox424.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox424.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox425
             // 
@@ -2061,7 +2061,7 @@ namespace TheatreTicketing
             this.checkBox425.Size = new System.Drawing.Size(15, 14);
             this.checkBox425.TabIndex = 427;
             this.checkBox425.UseVisualStyleBackColor = true;
-            this.checkBox425.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox425.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox426
             // 
@@ -2071,7 +2071,7 @@ namespace TheatreTicketing
             this.checkBox426.Size = new System.Drawing.Size(15, 14);
             this.checkBox426.TabIndex = 426;
             this.checkBox426.UseVisualStyleBackColor = true;
-            this.checkBox426.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox426.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox427
             // 
@@ -2081,7 +2081,7 @@ namespace TheatreTicketing
             this.checkBox427.Size = new System.Drawing.Size(15, 14);
             this.checkBox427.TabIndex = 425;
             this.checkBox427.UseVisualStyleBackColor = true;
-            this.checkBox427.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox427.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox428
             // 
@@ -2091,7 +2091,7 @@ namespace TheatreTicketing
             this.checkBox428.Size = new System.Drawing.Size(15, 14);
             this.checkBox428.TabIndex = 424;
             this.checkBox428.UseVisualStyleBackColor = true;
-            this.checkBox428.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox428.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox429
             // 
@@ -2101,7 +2101,7 @@ namespace TheatreTicketing
             this.checkBox429.Size = new System.Drawing.Size(15, 14);
             this.checkBox429.TabIndex = 423;
             this.checkBox429.UseVisualStyleBackColor = true;
-            this.checkBox429.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox429.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox430
             // 
@@ -2111,7 +2111,7 @@ namespace TheatreTicketing
             this.checkBox430.Size = new System.Drawing.Size(15, 14);
             this.checkBox430.TabIndex = 422;
             this.checkBox430.UseVisualStyleBackColor = true;
-            this.checkBox430.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox430.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox431
             // 
@@ -2121,7 +2121,7 @@ namespace TheatreTicketing
             this.checkBox431.Size = new System.Drawing.Size(15, 14);
             this.checkBox431.TabIndex = 421;
             this.checkBox431.UseVisualStyleBackColor = true;
-            this.checkBox431.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox431.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox432
             // 
@@ -2131,7 +2131,7 @@ namespace TheatreTicketing
             this.checkBox432.Size = new System.Drawing.Size(15, 14);
             this.checkBox432.TabIndex = 420;
             this.checkBox432.UseVisualStyleBackColor = true;
-            this.checkBox432.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox432.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox433
             // 
@@ -2141,7 +2141,7 @@ namespace TheatreTicketing
             this.checkBox433.Size = new System.Drawing.Size(15, 14);
             this.checkBox433.TabIndex = 419;
             this.checkBox433.UseVisualStyleBackColor = true;
-            this.checkBox433.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox433.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox434
             // 
@@ -2151,7 +2151,7 @@ namespace TheatreTicketing
             this.checkBox434.Size = new System.Drawing.Size(15, 14);
             this.checkBox434.TabIndex = 418;
             this.checkBox434.UseVisualStyleBackColor = true;
-            this.checkBox434.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox434.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox387
             // 
@@ -2161,7 +2161,7 @@ namespace TheatreTicketing
             this.checkBox387.Size = new System.Drawing.Size(15, 14);
             this.checkBox387.TabIndex = 417;
             this.checkBox387.UseVisualStyleBackColor = true;
-            this.checkBox387.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox387.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox388
             // 
@@ -2171,7 +2171,7 @@ namespace TheatreTicketing
             this.checkBox388.Size = new System.Drawing.Size(15, 14);
             this.checkBox388.TabIndex = 416;
             this.checkBox388.UseVisualStyleBackColor = true;
-            this.checkBox388.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox388.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox389
             // 
@@ -2181,7 +2181,7 @@ namespace TheatreTicketing
             this.checkBox389.Size = new System.Drawing.Size(15, 14);
             this.checkBox389.TabIndex = 415;
             this.checkBox389.UseVisualStyleBackColor = true;
-            this.checkBox389.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox389.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox390
             // 
@@ -2191,7 +2191,7 @@ namespace TheatreTicketing
             this.checkBox390.Size = new System.Drawing.Size(15, 14);
             this.checkBox390.TabIndex = 414;
             this.checkBox390.UseVisualStyleBackColor = true;
-            this.checkBox390.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox390.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox391
             // 
@@ -2201,7 +2201,7 @@ namespace TheatreTicketing
             this.checkBox391.Size = new System.Drawing.Size(15, 14);
             this.checkBox391.TabIndex = 413;
             this.checkBox391.UseVisualStyleBackColor = true;
-            this.checkBox391.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox391.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox392
             // 
@@ -2211,7 +2211,7 @@ namespace TheatreTicketing
             this.checkBox392.Size = new System.Drawing.Size(15, 14);
             this.checkBox392.TabIndex = 412;
             this.checkBox392.UseVisualStyleBackColor = true;
-            this.checkBox392.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox392.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox393
             // 
@@ -2221,7 +2221,7 @@ namespace TheatreTicketing
             this.checkBox393.Size = new System.Drawing.Size(15, 14);
             this.checkBox393.TabIndex = 411;
             this.checkBox393.UseVisualStyleBackColor = true;
-            this.checkBox393.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox393.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox394
             // 
@@ -2231,7 +2231,7 @@ namespace TheatreTicketing
             this.checkBox394.Size = new System.Drawing.Size(15, 14);
             this.checkBox394.TabIndex = 410;
             this.checkBox394.UseVisualStyleBackColor = true;
-            this.checkBox394.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox394.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox395
             // 
@@ -2241,7 +2241,7 @@ namespace TheatreTicketing
             this.checkBox395.Size = new System.Drawing.Size(15, 14);
             this.checkBox395.TabIndex = 409;
             this.checkBox395.UseVisualStyleBackColor = true;
-            this.checkBox395.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox395.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox396
             // 
@@ -2251,7 +2251,7 @@ namespace TheatreTicketing
             this.checkBox396.Size = new System.Drawing.Size(15, 14);
             this.checkBox396.TabIndex = 408;
             this.checkBox396.UseVisualStyleBackColor = true;
-            this.checkBox396.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox396.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox397
             // 
@@ -2261,7 +2261,7 @@ namespace TheatreTicketing
             this.checkBox397.Size = new System.Drawing.Size(15, 14);
             this.checkBox397.TabIndex = 407;
             this.checkBox397.UseVisualStyleBackColor = true;
-            this.checkBox397.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox397.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox398
             // 
@@ -2271,7 +2271,7 @@ namespace TheatreTicketing
             this.checkBox398.Size = new System.Drawing.Size(15, 14);
             this.checkBox398.TabIndex = 406;
             this.checkBox398.UseVisualStyleBackColor = true;
-            this.checkBox398.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox398.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox399
             // 
@@ -2281,7 +2281,7 @@ namespace TheatreTicketing
             this.checkBox399.Size = new System.Drawing.Size(15, 14);
             this.checkBox399.TabIndex = 405;
             this.checkBox399.UseVisualStyleBackColor = true;
-            this.checkBox399.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox399.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox400
             // 
@@ -2291,7 +2291,7 @@ namespace TheatreTicketing
             this.checkBox400.Size = new System.Drawing.Size(15, 14);
             this.checkBox400.TabIndex = 404;
             this.checkBox400.UseVisualStyleBackColor = true;
-            this.checkBox400.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox400.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox401
             // 
@@ -2301,7 +2301,7 @@ namespace TheatreTicketing
             this.checkBox401.Size = new System.Drawing.Size(15, 14);
             this.checkBox401.TabIndex = 403;
             this.checkBox401.UseVisualStyleBackColor = true;
-            this.checkBox401.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox401.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox402
             // 
@@ -2311,7 +2311,7 @@ namespace TheatreTicketing
             this.checkBox402.Size = new System.Drawing.Size(15, 14);
             this.checkBox402.TabIndex = 402;
             this.checkBox402.UseVisualStyleBackColor = true;
-            this.checkBox402.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox402.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox403
             // 
@@ -2321,7 +2321,7 @@ namespace TheatreTicketing
             this.checkBox403.Size = new System.Drawing.Size(15, 14);
             this.checkBox403.TabIndex = 401;
             this.checkBox403.UseVisualStyleBackColor = true;
-            this.checkBox403.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox403.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox404
             // 
@@ -2331,7 +2331,7 @@ namespace TheatreTicketing
             this.checkBox404.Size = new System.Drawing.Size(15, 14);
             this.checkBox404.TabIndex = 400;
             this.checkBox404.UseVisualStyleBackColor = true;
-            this.checkBox404.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox404.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox405
             // 
@@ -2341,7 +2341,7 @@ namespace TheatreTicketing
             this.checkBox405.Size = new System.Drawing.Size(15, 14);
             this.checkBox405.TabIndex = 399;
             this.checkBox405.UseVisualStyleBackColor = true;
-            this.checkBox405.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox405.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox406
             // 
@@ -2351,7 +2351,7 @@ namespace TheatreTicketing
             this.checkBox406.Size = new System.Drawing.Size(15, 14);
             this.checkBox406.TabIndex = 398;
             this.checkBox406.UseVisualStyleBackColor = true;
-            this.checkBox406.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox406.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox407
             // 
@@ -2361,7 +2361,7 @@ namespace TheatreTicketing
             this.checkBox407.Size = new System.Drawing.Size(15, 14);
             this.checkBox407.TabIndex = 397;
             this.checkBox407.UseVisualStyleBackColor = true;
-            this.checkBox407.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox407.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox408
             // 
@@ -2371,7 +2371,7 @@ namespace TheatreTicketing
             this.checkBox408.Size = new System.Drawing.Size(15, 14);
             this.checkBox408.TabIndex = 396;
             this.checkBox408.UseVisualStyleBackColor = true;
-            this.checkBox408.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox408.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox409
             // 
@@ -2381,7 +2381,7 @@ namespace TheatreTicketing
             this.checkBox409.Size = new System.Drawing.Size(15, 14);
             this.checkBox409.TabIndex = 395;
             this.checkBox409.UseVisualStyleBackColor = true;
-            this.checkBox409.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox409.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox410
             // 
@@ -2391,7 +2391,7 @@ namespace TheatreTicketing
             this.checkBox410.Size = new System.Drawing.Size(15, 14);
             this.checkBox410.TabIndex = 394;
             this.checkBox410.UseVisualStyleBackColor = true;
-            this.checkBox410.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox410.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox371
             // 
@@ -2401,7 +2401,7 @@ namespace TheatreTicketing
             this.checkBox371.Size = new System.Drawing.Size(15, 14);
             this.checkBox371.TabIndex = 393;
             this.checkBox371.UseVisualStyleBackColor = true;
-            this.checkBox371.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox371.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox372
             // 
@@ -2411,7 +2411,7 @@ namespace TheatreTicketing
             this.checkBox372.Size = new System.Drawing.Size(15, 14);
             this.checkBox372.TabIndex = 392;
             this.checkBox372.UseVisualStyleBackColor = true;
-            this.checkBox372.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox372.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox373
             // 
@@ -2421,7 +2421,7 @@ namespace TheatreTicketing
             this.checkBox373.Size = new System.Drawing.Size(15, 14);
             this.checkBox373.TabIndex = 391;
             this.checkBox373.UseVisualStyleBackColor = true;
-            this.checkBox373.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox373.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox374
             // 
@@ -2431,7 +2431,7 @@ namespace TheatreTicketing
             this.checkBox374.Size = new System.Drawing.Size(15, 14);
             this.checkBox374.TabIndex = 390;
             this.checkBox374.UseVisualStyleBackColor = true;
-            this.checkBox374.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox374.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox375
             // 
@@ -2441,7 +2441,7 @@ namespace TheatreTicketing
             this.checkBox375.Size = new System.Drawing.Size(15, 14);
             this.checkBox375.TabIndex = 389;
             this.checkBox375.UseVisualStyleBackColor = true;
-            this.checkBox375.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox375.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox376
             // 
@@ -2451,7 +2451,7 @@ namespace TheatreTicketing
             this.checkBox376.Size = new System.Drawing.Size(15, 14);
             this.checkBox376.TabIndex = 388;
             this.checkBox376.UseVisualStyleBackColor = true;
-            this.checkBox376.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox376.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox377
             // 
@@ -2461,7 +2461,7 @@ namespace TheatreTicketing
             this.checkBox377.Size = new System.Drawing.Size(15, 14);
             this.checkBox377.TabIndex = 387;
             this.checkBox377.UseVisualStyleBackColor = true;
-            this.checkBox377.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox377.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox378
             // 
@@ -2471,7 +2471,7 @@ namespace TheatreTicketing
             this.checkBox378.Size = new System.Drawing.Size(15, 14);
             this.checkBox378.TabIndex = 386;
             this.checkBox378.UseVisualStyleBackColor = true;
-            this.checkBox378.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox378.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox379
             // 
@@ -2481,7 +2481,7 @@ namespace TheatreTicketing
             this.checkBox379.Size = new System.Drawing.Size(15, 14);
             this.checkBox379.TabIndex = 385;
             this.checkBox379.UseVisualStyleBackColor = true;
-            this.checkBox379.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox379.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox380
             // 
@@ -2491,7 +2491,7 @@ namespace TheatreTicketing
             this.checkBox380.Size = new System.Drawing.Size(15, 14);
             this.checkBox380.TabIndex = 384;
             this.checkBox380.UseVisualStyleBackColor = true;
-            this.checkBox380.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox380.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox381
             // 
@@ -2501,7 +2501,7 @@ namespace TheatreTicketing
             this.checkBox381.Size = new System.Drawing.Size(15, 14);
             this.checkBox381.TabIndex = 383;
             this.checkBox381.UseVisualStyleBackColor = true;
-            this.checkBox381.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox381.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox382
             // 
@@ -2511,7 +2511,7 @@ namespace TheatreTicketing
             this.checkBox382.Size = new System.Drawing.Size(15, 14);
             this.checkBox382.TabIndex = 382;
             this.checkBox382.UseVisualStyleBackColor = true;
-            this.checkBox382.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox382.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox383
             // 
@@ -2521,7 +2521,7 @@ namespace TheatreTicketing
             this.checkBox383.Size = new System.Drawing.Size(15, 14);
             this.checkBox383.TabIndex = 381;
             this.checkBox383.UseVisualStyleBackColor = true;
-            this.checkBox383.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox383.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox384
             // 
@@ -2531,7 +2531,7 @@ namespace TheatreTicketing
             this.checkBox384.Size = new System.Drawing.Size(15, 14);
             this.checkBox384.TabIndex = 380;
             this.checkBox384.UseVisualStyleBackColor = true;
-            this.checkBox384.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox384.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox385
             // 
@@ -2541,7 +2541,7 @@ namespace TheatreTicketing
             this.checkBox385.Size = new System.Drawing.Size(15, 14);
             this.checkBox385.TabIndex = 379;
             this.checkBox385.UseVisualStyleBackColor = true;
-            this.checkBox385.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox385.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox386
             // 
@@ -2551,7 +2551,7 @@ namespace TheatreTicketing
             this.checkBox386.Size = new System.Drawing.Size(15, 14);
             this.checkBox386.TabIndex = 378;
             this.checkBox386.UseVisualStyleBackColor = true;
-            this.checkBox386.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox386.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox355
             // 
@@ -2561,7 +2561,7 @@ namespace TheatreTicketing
             this.checkBox355.Size = new System.Drawing.Size(15, 14);
             this.checkBox355.TabIndex = 377;
             this.checkBox355.UseVisualStyleBackColor = true;
-            this.checkBox355.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox355.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox356
             // 
@@ -2571,7 +2571,7 @@ namespace TheatreTicketing
             this.checkBox356.Size = new System.Drawing.Size(15, 14);
             this.checkBox356.TabIndex = 376;
             this.checkBox356.UseVisualStyleBackColor = true;
-            this.checkBox356.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox356.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox357
             // 
@@ -2581,7 +2581,7 @@ namespace TheatreTicketing
             this.checkBox357.Size = new System.Drawing.Size(15, 14);
             this.checkBox357.TabIndex = 375;
             this.checkBox357.UseVisualStyleBackColor = true;
-            this.checkBox357.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox357.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox358
             // 
@@ -2591,7 +2591,7 @@ namespace TheatreTicketing
             this.checkBox358.Size = new System.Drawing.Size(15, 14);
             this.checkBox358.TabIndex = 374;
             this.checkBox358.UseVisualStyleBackColor = true;
-            this.checkBox358.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox358.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox359
             // 
@@ -2601,7 +2601,7 @@ namespace TheatreTicketing
             this.checkBox359.Size = new System.Drawing.Size(15, 14);
             this.checkBox359.TabIndex = 373;
             this.checkBox359.UseVisualStyleBackColor = true;
-            this.checkBox359.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox359.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox360
             // 
@@ -2611,7 +2611,7 @@ namespace TheatreTicketing
             this.checkBox360.Size = new System.Drawing.Size(15, 14);
             this.checkBox360.TabIndex = 372;
             this.checkBox360.UseVisualStyleBackColor = true;
-            this.checkBox360.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox360.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox361
             // 
@@ -2621,7 +2621,7 @@ namespace TheatreTicketing
             this.checkBox361.Size = new System.Drawing.Size(15, 14);
             this.checkBox361.TabIndex = 371;
             this.checkBox361.UseVisualStyleBackColor = true;
-            this.checkBox361.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox361.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox362
             // 
@@ -2631,7 +2631,7 @@ namespace TheatreTicketing
             this.checkBox362.Size = new System.Drawing.Size(15, 14);
             this.checkBox362.TabIndex = 370;
             this.checkBox362.UseVisualStyleBackColor = true;
-            this.checkBox362.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox362.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox363
             // 
@@ -2641,7 +2641,7 @@ namespace TheatreTicketing
             this.checkBox363.Size = new System.Drawing.Size(15, 14);
             this.checkBox363.TabIndex = 369;
             this.checkBox363.UseVisualStyleBackColor = true;
-            this.checkBox363.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox363.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox364
             // 
@@ -2651,7 +2651,7 @@ namespace TheatreTicketing
             this.checkBox364.Size = new System.Drawing.Size(15, 14);
             this.checkBox364.TabIndex = 368;
             this.checkBox364.UseVisualStyleBackColor = true;
-            this.checkBox364.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox364.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox365
             // 
@@ -2661,7 +2661,7 @@ namespace TheatreTicketing
             this.checkBox365.Size = new System.Drawing.Size(15, 14);
             this.checkBox365.TabIndex = 367;
             this.checkBox365.UseVisualStyleBackColor = true;
-            this.checkBox365.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox365.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox366
             // 
@@ -2671,7 +2671,7 @@ namespace TheatreTicketing
             this.checkBox366.Size = new System.Drawing.Size(15, 14);
             this.checkBox366.TabIndex = 366;
             this.checkBox366.UseVisualStyleBackColor = true;
-            this.checkBox366.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox366.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox367
             // 
@@ -2681,7 +2681,7 @@ namespace TheatreTicketing
             this.checkBox367.Size = new System.Drawing.Size(15, 14);
             this.checkBox367.TabIndex = 365;
             this.checkBox367.UseVisualStyleBackColor = true;
-            this.checkBox367.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox367.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox368
             // 
@@ -2691,7 +2691,7 @@ namespace TheatreTicketing
             this.checkBox368.Size = new System.Drawing.Size(15, 14);
             this.checkBox368.TabIndex = 364;
             this.checkBox368.UseVisualStyleBackColor = true;
-            this.checkBox368.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox368.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox369
             // 
@@ -2701,7 +2701,7 @@ namespace TheatreTicketing
             this.checkBox369.Size = new System.Drawing.Size(15, 14);
             this.checkBox369.TabIndex = 363;
             this.checkBox369.UseVisualStyleBackColor = true;
-            this.checkBox369.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox369.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox370
             // 
@@ -2711,7 +2711,7 @@ namespace TheatreTicketing
             this.checkBox370.Size = new System.Drawing.Size(15, 14);
             this.checkBox370.TabIndex = 362;
             this.checkBox370.UseVisualStyleBackColor = true;
-            this.checkBox370.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox370.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox293
             // 
@@ -2721,7 +2721,7 @@ namespace TheatreTicketing
             this.checkBox293.Size = new System.Drawing.Size(15, 14);
             this.checkBox293.TabIndex = 361;
             this.checkBox293.UseVisualStyleBackColor = true;
-            this.checkBox293.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox293.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox294
             // 
@@ -2731,7 +2731,7 @@ namespace TheatreTicketing
             this.checkBox294.Size = new System.Drawing.Size(15, 14);
             this.checkBox294.TabIndex = 360;
             this.checkBox294.UseVisualStyleBackColor = true;
-            this.checkBox294.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox294.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox295
             // 
@@ -2741,7 +2741,7 @@ namespace TheatreTicketing
             this.checkBox295.Size = new System.Drawing.Size(15, 14);
             this.checkBox295.TabIndex = 359;
             this.checkBox295.UseVisualStyleBackColor = true;
-            this.checkBox295.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox295.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox296
             // 
@@ -2751,7 +2751,7 @@ namespace TheatreTicketing
             this.checkBox296.Size = new System.Drawing.Size(15, 14);
             this.checkBox296.TabIndex = 358;
             this.checkBox296.UseVisualStyleBackColor = true;
-            this.checkBox296.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox296.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox297
             // 
@@ -2761,7 +2761,7 @@ namespace TheatreTicketing
             this.checkBox297.Size = new System.Drawing.Size(15, 14);
             this.checkBox297.TabIndex = 357;
             this.checkBox297.UseVisualStyleBackColor = true;
-            this.checkBox297.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox297.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox298
             // 
@@ -2771,7 +2771,7 @@ namespace TheatreTicketing
             this.checkBox298.Size = new System.Drawing.Size(15, 14);
             this.checkBox298.TabIndex = 356;
             this.checkBox298.UseVisualStyleBackColor = true;
-            this.checkBox298.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox298.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox299
             // 
@@ -2781,7 +2781,7 @@ namespace TheatreTicketing
             this.checkBox299.Size = new System.Drawing.Size(15, 14);
             this.checkBox299.TabIndex = 355;
             this.checkBox299.UseVisualStyleBackColor = true;
-            this.checkBox299.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox299.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox300
             // 
@@ -2791,7 +2791,7 @@ namespace TheatreTicketing
             this.checkBox300.Size = new System.Drawing.Size(15, 14);
             this.checkBox300.TabIndex = 354;
             this.checkBox300.UseVisualStyleBackColor = true;
-            this.checkBox300.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox300.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox301
             // 
@@ -2801,7 +2801,7 @@ namespace TheatreTicketing
             this.checkBox301.Size = new System.Drawing.Size(15, 14);
             this.checkBox301.TabIndex = 353;
             this.checkBox301.UseVisualStyleBackColor = true;
-            this.checkBox301.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox301.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox302
             // 
@@ -2811,7 +2811,7 @@ namespace TheatreTicketing
             this.checkBox302.Size = new System.Drawing.Size(15, 14);
             this.checkBox302.TabIndex = 352;
             this.checkBox302.UseVisualStyleBackColor = true;
-            this.checkBox302.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox302.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox303
             // 
@@ -2821,7 +2821,7 @@ namespace TheatreTicketing
             this.checkBox303.Size = new System.Drawing.Size(15, 14);
             this.checkBox303.TabIndex = 351;
             this.checkBox303.UseVisualStyleBackColor = true;
-            this.checkBox303.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox303.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox304
             // 
@@ -2831,7 +2831,7 @@ namespace TheatreTicketing
             this.checkBox304.Size = new System.Drawing.Size(15, 14);
             this.checkBox304.TabIndex = 350;
             this.checkBox304.UseVisualStyleBackColor = true;
-            this.checkBox304.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox304.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox305
             // 
@@ -2841,7 +2841,7 @@ namespace TheatreTicketing
             this.checkBox305.Size = new System.Drawing.Size(15, 14);
             this.checkBox305.TabIndex = 349;
             this.checkBox305.UseVisualStyleBackColor = true;
-            this.checkBox305.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox305.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox306
             // 
@@ -2851,7 +2851,7 @@ namespace TheatreTicketing
             this.checkBox306.Size = new System.Drawing.Size(15, 14);
             this.checkBox306.TabIndex = 348;
             this.checkBox306.UseVisualStyleBackColor = true;
-            this.checkBox306.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox306.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox307
             // 
@@ -2861,7 +2861,7 @@ namespace TheatreTicketing
             this.checkBox307.Size = new System.Drawing.Size(15, 14);
             this.checkBox307.TabIndex = 347;
             this.checkBox307.UseVisualStyleBackColor = true;
-            this.checkBox307.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox307.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox308
             // 
@@ -2871,7 +2871,7 @@ namespace TheatreTicketing
             this.checkBox308.Size = new System.Drawing.Size(15, 14);
             this.checkBox308.TabIndex = 346;
             this.checkBox308.UseVisualStyleBackColor = true;
-            this.checkBox308.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox308.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox309
             // 
@@ -2881,7 +2881,7 @@ namespace TheatreTicketing
             this.checkBox309.Size = new System.Drawing.Size(15, 14);
             this.checkBox309.TabIndex = 345;
             this.checkBox309.UseVisualStyleBackColor = true;
-            this.checkBox309.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox309.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox310
             // 
@@ -2891,7 +2891,7 @@ namespace TheatreTicketing
             this.checkBox310.Size = new System.Drawing.Size(15, 14);
             this.checkBox310.TabIndex = 344;
             this.checkBox310.UseVisualStyleBackColor = true;
-            this.checkBox310.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox310.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox311
             // 
@@ -2901,7 +2901,7 @@ namespace TheatreTicketing
             this.checkBox311.Size = new System.Drawing.Size(15, 14);
             this.checkBox311.TabIndex = 343;
             this.checkBox311.UseVisualStyleBackColor = true;
-            this.checkBox311.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox311.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox312
             // 
@@ -2911,7 +2911,7 @@ namespace TheatreTicketing
             this.checkBox312.Size = new System.Drawing.Size(15, 14);
             this.checkBox312.TabIndex = 342;
             this.checkBox312.UseVisualStyleBackColor = true;
-            this.checkBox312.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox312.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox313
             // 
@@ -2921,7 +2921,7 @@ namespace TheatreTicketing
             this.checkBox313.Size = new System.Drawing.Size(15, 14);
             this.checkBox313.TabIndex = 341;
             this.checkBox313.UseVisualStyleBackColor = true;
-            this.checkBox313.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox313.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox314
             // 
@@ -2931,7 +2931,7 @@ namespace TheatreTicketing
             this.checkBox314.Size = new System.Drawing.Size(15, 14);
             this.checkBox314.TabIndex = 340;
             this.checkBox314.UseVisualStyleBackColor = true;
-            this.checkBox314.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox314.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox315
             // 
@@ -2941,7 +2941,7 @@ namespace TheatreTicketing
             this.checkBox315.Size = new System.Drawing.Size(15, 14);
             this.checkBox315.TabIndex = 339;
             this.checkBox315.UseVisualStyleBackColor = true;
-            this.checkBox315.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox315.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox316
             // 
@@ -2951,7 +2951,7 @@ namespace TheatreTicketing
             this.checkBox316.Size = new System.Drawing.Size(15, 14);
             this.checkBox316.TabIndex = 338;
             this.checkBox316.UseVisualStyleBackColor = true;
-            this.checkBox316.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox316.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox317
             // 
@@ -2961,7 +2961,7 @@ namespace TheatreTicketing
             this.checkBox317.Size = new System.Drawing.Size(15, 14);
             this.checkBox317.TabIndex = 337;
             this.checkBox317.UseVisualStyleBackColor = true;
-            this.checkBox317.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox317.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox318
             // 
@@ -2971,7 +2971,7 @@ namespace TheatreTicketing
             this.checkBox318.Size = new System.Drawing.Size(15, 14);
             this.checkBox318.TabIndex = 336;
             this.checkBox318.UseVisualStyleBackColor = true;
-            this.checkBox318.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox318.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox319
             // 
@@ -2981,7 +2981,7 @@ namespace TheatreTicketing
             this.checkBox319.Size = new System.Drawing.Size(15, 14);
             this.checkBox319.TabIndex = 335;
             this.checkBox319.UseVisualStyleBackColor = true;
-            this.checkBox319.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox319.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox320
             // 
@@ -2991,7 +2991,7 @@ namespace TheatreTicketing
             this.checkBox320.Size = new System.Drawing.Size(15, 14);
             this.checkBox320.TabIndex = 334;
             this.checkBox320.UseVisualStyleBackColor = true;
-            this.checkBox320.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox320.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox321
             // 
@@ -3001,7 +3001,7 @@ namespace TheatreTicketing
             this.checkBox321.Size = new System.Drawing.Size(15, 14);
             this.checkBox321.TabIndex = 333;
             this.checkBox321.UseVisualStyleBackColor = true;
-            this.checkBox321.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox321.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox322
             // 
@@ -3011,7 +3011,7 @@ namespace TheatreTicketing
             this.checkBox322.Size = new System.Drawing.Size(15, 14);
             this.checkBox322.TabIndex = 332;
             this.checkBox322.UseVisualStyleBackColor = true;
-            this.checkBox322.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox322.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox323
             // 
@@ -3021,7 +3021,7 @@ namespace TheatreTicketing
             this.checkBox323.Size = new System.Drawing.Size(15, 14);
             this.checkBox323.TabIndex = 331;
             this.checkBox323.UseVisualStyleBackColor = true;
-            this.checkBox323.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox323.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox324
             // 
@@ -3031,7 +3031,7 @@ namespace TheatreTicketing
             this.checkBox324.Size = new System.Drawing.Size(15, 14);
             this.checkBox324.TabIndex = 330;
             this.checkBox324.UseVisualStyleBackColor = true;
-            this.checkBox324.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox324.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox325
             // 
@@ -3041,7 +3041,7 @@ namespace TheatreTicketing
             this.checkBox325.Size = new System.Drawing.Size(15, 14);
             this.checkBox325.TabIndex = 329;
             this.checkBox325.UseVisualStyleBackColor = true;
-            this.checkBox325.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox325.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox326
             // 
@@ -3051,7 +3051,7 @@ namespace TheatreTicketing
             this.checkBox326.Size = new System.Drawing.Size(15, 14);
             this.checkBox326.TabIndex = 328;
             this.checkBox326.UseVisualStyleBackColor = true;
-            this.checkBox326.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox326.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox327
             // 
@@ -3061,7 +3061,7 @@ namespace TheatreTicketing
             this.checkBox327.Size = new System.Drawing.Size(15, 14);
             this.checkBox327.TabIndex = 327;
             this.checkBox327.UseVisualStyleBackColor = true;
-            this.checkBox327.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox327.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox328
             // 
@@ -3071,7 +3071,7 @@ namespace TheatreTicketing
             this.checkBox328.Size = new System.Drawing.Size(15, 14);
             this.checkBox328.TabIndex = 326;
             this.checkBox328.UseVisualStyleBackColor = true;
-            this.checkBox328.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox328.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox329
             // 
@@ -3081,7 +3081,7 @@ namespace TheatreTicketing
             this.checkBox329.Size = new System.Drawing.Size(15, 14);
             this.checkBox329.TabIndex = 325;
             this.checkBox329.UseVisualStyleBackColor = true;
-            this.checkBox329.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox329.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox330
             // 
@@ -3091,7 +3091,7 @@ namespace TheatreTicketing
             this.checkBox330.Size = new System.Drawing.Size(15, 14);
             this.checkBox330.TabIndex = 324;
             this.checkBox330.UseVisualStyleBackColor = true;
-            this.checkBox330.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox330.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox331
             // 
@@ -3101,7 +3101,7 @@ namespace TheatreTicketing
             this.checkBox331.Size = new System.Drawing.Size(15, 14);
             this.checkBox331.TabIndex = 323;
             this.checkBox331.UseVisualStyleBackColor = true;
-            this.checkBox331.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox331.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox332
             // 
@@ -3111,7 +3111,7 @@ namespace TheatreTicketing
             this.checkBox332.Size = new System.Drawing.Size(15, 14);
             this.checkBox332.TabIndex = 322;
             this.checkBox332.UseVisualStyleBackColor = true;
-            this.checkBox332.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox332.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox333
             // 
@@ -3121,7 +3121,7 @@ namespace TheatreTicketing
             this.checkBox333.Size = new System.Drawing.Size(15, 14);
             this.checkBox333.TabIndex = 321;
             this.checkBox333.UseVisualStyleBackColor = true;
-            this.checkBox333.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox333.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox334
             // 
@@ -3131,7 +3131,7 @@ namespace TheatreTicketing
             this.checkBox334.Size = new System.Drawing.Size(15, 14);
             this.checkBox334.TabIndex = 320;
             this.checkBox334.UseVisualStyleBackColor = true;
-            this.checkBox334.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox334.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox335
             // 
@@ -3141,7 +3141,7 @@ namespace TheatreTicketing
             this.checkBox335.Size = new System.Drawing.Size(15, 14);
             this.checkBox335.TabIndex = 319;
             this.checkBox335.UseVisualStyleBackColor = true;
-            this.checkBox335.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox335.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox336
             // 
@@ -3151,7 +3151,7 @@ namespace TheatreTicketing
             this.checkBox336.Size = new System.Drawing.Size(15, 14);
             this.checkBox336.TabIndex = 318;
             this.checkBox336.UseVisualStyleBackColor = true;
-            this.checkBox336.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox336.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox337
             // 
@@ -3161,7 +3161,7 @@ namespace TheatreTicketing
             this.checkBox337.Size = new System.Drawing.Size(15, 14);
             this.checkBox337.TabIndex = 317;
             this.checkBox337.UseVisualStyleBackColor = true;
-            this.checkBox337.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox337.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox338
             // 
@@ -3171,7 +3171,7 @@ namespace TheatreTicketing
             this.checkBox338.Size = new System.Drawing.Size(15, 14);
             this.checkBox338.TabIndex = 316;
             this.checkBox338.UseVisualStyleBackColor = true;
-            this.checkBox338.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox338.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox339
             // 
@@ -3181,7 +3181,7 @@ namespace TheatreTicketing
             this.checkBox339.Size = new System.Drawing.Size(15, 14);
             this.checkBox339.TabIndex = 315;
             this.checkBox339.UseVisualStyleBackColor = true;
-            this.checkBox339.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox339.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox340
             // 
@@ -3191,7 +3191,7 @@ namespace TheatreTicketing
             this.checkBox340.Size = new System.Drawing.Size(15, 14);
             this.checkBox340.TabIndex = 314;
             this.checkBox340.UseVisualStyleBackColor = true;
-            this.checkBox340.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox340.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox341
             // 
@@ -3201,7 +3201,7 @@ namespace TheatreTicketing
             this.checkBox341.Size = new System.Drawing.Size(15, 14);
             this.checkBox341.TabIndex = 313;
             this.checkBox341.UseVisualStyleBackColor = true;
-            this.checkBox341.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox341.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox342
             // 
@@ -3211,7 +3211,7 @@ namespace TheatreTicketing
             this.checkBox342.Size = new System.Drawing.Size(15, 14);
             this.checkBox342.TabIndex = 312;
             this.checkBox342.UseVisualStyleBackColor = true;
-            this.checkBox342.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox342.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox343
             // 
@@ -3221,7 +3221,7 @@ namespace TheatreTicketing
             this.checkBox343.Size = new System.Drawing.Size(15, 14);
             this.checkBox343.TabIndex = 311;
             this.checkBox343.UseVisualStyleBackColor = true;
-            this.checkBox343.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox343.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox344
             // 
@@ -3231,7 +3231,7 @@ namespace TheatreTicketing
             this.checkBox344.Size = new System.Drawing.Size(15, 14);
             this.checkBox344.TabIndex = 310;
             this.checkBox344.UseVisualStyleBackColor = true;
-            this.checkBox344.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox344.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox345
             // 
@@ -3241,7 +3241,7 @@ namespace TheatreTicketing
             this.checkBox345.Size = new System.Drawing.Size(15, 14);
             this.checkBox345.TabIndex = 309;
             this.checkBox345.UseVisualStyleBackColor = true;
-            this.checkBox345.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox345.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox346
             // 
@@ -3251,7 +3251,7 @@ namespace TheatreTicketing
             this.checkBox346.Size = new System.Drawing.Size(15, 14);
             this.checkBox346.TabIndex = 308;
             this.checkBox346.UseVisualStyleBackColor = true;
-            this.checkBox346.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox346.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox347
             // 
@@ -3261,7 +3261,7 @@ namespace TheatreTicketing
             this.checkBox347.Size = new System.Drawing.Size(15, 14);
             this.checkBox347.TabIndex = 307;
             this.checkBox347.UseVisualStyleBackColor = true;
-            this.checkBox347.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox347.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox348
             // 
@@ -3271,7 +3271,7 @@ namespace TheatreTicketing
             this.checkBox348.Size = new System.Drawing.Size(15, 14);
             this.checkBox348.TabIndex = 306;
             this.checkBox348.UseVisualStyleBackColor = true;
-            this.checkBox348.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox348.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox349
             // 
@@ -3281,7 +3281,7 @@ namespace TheatreTicketing
             this.checkBox349.Size = new System.Drawing.Size(15, 14);
             this.checkBox349.TabIndex = 305;
             this.checkBox349.UseVisualStyleBackColor = true;
-            this.checkBox349.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox349.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox350
             // 
@@ -3291,7 +3291,7 @@ namespace TheatreTicketing
             this.checkBox350.Size = new System.Drawing.Size(15, 14);
             this.checkBox350.TabIndex = 304;
             this.checkBox350.UseVisualStyleBackColor = true;
-            this.checkBox350.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox350.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox351
             // 
@@ -3301,7 +3301,7 @@ namespace TheatreTicketing
             this.checkBox351.Size = new System.Drawing.Size(15, 14);
             this.checkBox351.TabIndex = 303;
             this.checkBox351.UseVisualStyleBackColor = true;
-            this.checkBox351.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox351.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox352
             // 
@@ -3311,7 +3311,7 @@ namespace TheatreTicketing
             this.checkBox352.Size = new System.Drawing.Size(15, 14);
             this.checkBox352.TabIndex = 302;
             this.checkBox352.UseVisualStyleBackColor = true;
-            this.checkBox352.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox352.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox353
             // 
@@ -3321,7 +3321,7 @@ namespace TheatreTicketing
             this.checkBox353.Size = new System.Drawing.Size(15, 14);
             this.checkBox353.TabIndex = 301;
             this.checkBox353.UseVisualStyleBackColor = true;
-            this.checkBox353.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox353.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox354
             // 
@@ -3331,7 +3331,7 @@ namespace TheatreTicketing
             this.checkBox354.Size = new System.Drawing.Size(15, 14);
             this.checkBox354.TabIndex = 300;
             this.checkBox354.UseVisualStyleBackColor = true;
-            this.checkBox354.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox354.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox283
             // 
@@ -3341,7 +3341,7 @@ namespace TheatreTicketing
             this.checkBox283.Size = new System.Drawing.Size(15, 14);
             this.checkBox283.TabIndex = 299;
             this.checkBox283.UseVisualStyleBackColor = true;
-            this.checkBox283.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox283.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox284
             // 
@@ -3351,7 +3351,7 @@ namespace TheatreTicketing
             this.checkBox284.Size = new System.Drawing.Size(15, 14);
             this.checkBox284.TabIndex = 298;
             this.checkBox284.UseVisualStyleBackColor = true;
-            this.checkBox284.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox284.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox285
             // 
@@ -3361,7 +3361,7 @@ namespace TheatreTicketing
             this.checkBox285.Size = new System.Drawing.Size(15, 14);
             this.checkBox285.TabIndex = 297;
             this.checkBox285.UseVisualStyleBackColor = true;
-            this.checkBox285.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox285.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox286
             // 
@@ -3371,7 +3371,7 @@ namespace TheatreTicketing
             this.checkBox286.Size = new System.Drawing.Size(15, 14);
             this.checkBox286.TabIndex = 296;
             this.checkBox286.UseVisualStyleBackColor = true;
-            this.checkBox286.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox286.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox287
             // 
@@ -3381,7 +3381,7 @@ namespace TheatreTicketing
             this.checkBox287.Size = new System.Drawing.Size(15, 14);
             this.checkBox287.TabIndex = 295;
             this.checkBox287.UseVisualStyleBackColor = true;
-            this.checkBox287.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox287.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox288
             // 
@@ -3391,7 +3391,7 @@ namespace TheatreTicketing
             this.checkBox288.Size = new System.Drawing.Size(15, 14);
             this.checkBox288.TabIndex = 294;
             this.checkBox288.UseVisualStyleBackColor = true;
-            this.checkBox288.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox288.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox289
             // 
@@ -3401,7 +3401,7 @@ namespace TheatreTicketing
             this.checkBox289.Size = new System.Drawing.Size(15, 14);
             this.checkBox289.TabIndex = 293;
             this.checkBox289.UseVisualStyleBackColor = true;
-            this.checkBox289.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox289.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox290
             // 
@@ -3411,7 +3411,7 @@ namespace TheatreTicketing
             this.checkBox290.Size = new System.Drawing.Size(15, 14);
             this.checkBox290.TabIndex = 292;
             this.checkBox290.UseVisualStyleBackColor = true;
-            this.checkBox290.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox290.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox291
             // 
@@ -3421,7 +3421,7 @@ namespace TheatreTicketing
             this.checkBox291.Size = new System.Drawing.Size(15, 14);
             this.checkBox291.TabIndex = 291;
             this.checkBox291.UseVisualStyleBackColor = true;
-            this.checkBox291.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox291.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox292
             // 
@@ -3431,7 +3431,7 @@ namespace TheatreTicketing
             this.checkBox292.Size = new System.Drawing.Size(15, 14);
             this.checkBox292.TabIndex = 290;
             this.checkBox292.UseVisualStyleBackColor = true;
-            this.checkBox292.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox292.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox273
             // 
@@ -3441,7 +3441,7 @@ namespace TheatreTicketing
             this.checkBox273.Size = new System.Drawing.Size(15, 14);
             this.checkBox273.TabIndex = 289;
             this.checkBox273.UseVisualStyleBackColor = true;
-            this.checkBox273.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox273.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox274
             // 
@@ -3451,7 +3451,7 @@ namespace TheatreTicketing
             this.checkBox274.Size = new System.Drawing.Size(15, 14);
             this.checkBox274.TabIndex = 288;
             this.checkBox274.UseVisualStyleBackColor = true;
-            this.checkBox274.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox274.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox275
             // 
@@ -3461,7 +3461,7 @@ namespace TheatreTicketing
             this.checkBox275.Size = new System.Drawing.Size(15, 14);
             this.checkBox275.TabIndex = 287;
             this.checkBox275.UseVisualStyleBackColor = true;
-            this.checkBox275.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox275.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox276
             // 
@@ -3471,7 +3471,7 @@ namespace TheatreTicketing
             this.checkBox276.Size = new System.Drawing.Size(15, 14);
             this.checkBox276.TabIndex = 286;
             this.checkBox276.UseVisualStyleBackColor = true;
-            this.checkBox276.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox276.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox277
             // 
@@ -3481,7 +3481,7 @@ namespace TheatreTicketing
             this.checkBox277.Size = new System.Drawing.Size(15, 14);
             this.checkBox277.TabIndex = 285;
             this.checkBox277.UseVisualStyleBackColor = true;
-            this.checkBox277.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox277.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox278
             // 
@@ -3491,7 +3491,7 @@ namespace TheatreTicketing
             this.checkBox278.Size = new System.Drawing.Size(15, 14);
             this.checkBox278.TabIndex = 284;
             this.checkBox278.UseVisualStyleBackColor = true;
-            this.checkBox278.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox278.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox279
             // 
@@ -3501,7 +3501,7 @@ namespace TheatreTicketing
             this.checkBox279.Size = new System.Drawing.Size(15, 14);
             this.checkBox279.TabIndex = 283;
             this.checkBox279.UseVisualStyleBackColor = true;
-            this.checkBox279.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox279.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox280
             // 
@@ -3511,7 +3511,7 @@ namespace TheatreTicketing
             this.checkBox280.Size = new System.Drawing.Size(15, 14);
             this.checkBox280.TabIndex = 282;
             this.checkBox280.UseVisualStyleBackColor = true;
-            this.checkBox280.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox280.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox281
             // 
@@ -3521,7 +3521,7 @@ namespace TheatreTicketing
             this.checkBox281.Size = new System.Drawing.Size(15, 14);
             this.checkBox281.TabIndex = 281;
             this.checkBox281.UseVisualStyleBackColor = true;
-            this.checkBox281.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox281.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox282
             // 
@@ -3531,7 +3531,7 @@ namespace TheatreTicketing
             this.checkBox282.Size = new System.Drawing.Size(15, 14);
             this.checkBox282.TabIndex = 280;
             this.checkBox282.UseVisualStyleBackColor = true;
-            this.checkBox282.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox282.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox263
             // 
@@ -3541,7 +3541,7 @@ namespace TheatreTicketing
             this.checkBox263.Size = new System.Drawing.Size(15, 14);
             this.checkBox263.TabIndex = 279;
             this.checkBox263.UseVisualStyleBackColor = true;
-            this.checkBox263.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox263.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox264
             // 
@@ -3551,7 +3551,7 @@ namespace TheatreTicketing
             this.checkBox264.Size = new System.Drawing.Size(15, 14);
             this.checkBox264.TabIndex = 278;
             this.checkBox264.UseVisualStyleBackColor = true;
-            this.checkBox264.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox264.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox265
             // 
@@ -3561,7 +3561,7 @@ namespace TheatreTicketing
             this.checkBox265.Size = new System.Drawing.Size(15, 14);
             this.checkBox265.TabIndex = 277;
             this.checkBox265.UseVisualStyleBackColor = true;
-            this.checkBox265.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox265.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox266
             // 
@@ -3571,7 +3571,7 @@ namespace TheatreTicketing
             this.checkBox266.Size = new System.Drawing.Size(15, 14);
             this.checkBox266.TabIndex = 276;
             this.checkBox266.UseVisualStyleBackColor = true;
-            this.checkBox266.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox266.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox267
             // 
@@ -3581,7 +3581,7 @@ namespace TheatreTicketing
             this.checkBox267.Size = new System.Drawing.Size(15, 14);
             this.checkBox267.TabIndex = 275;
             this.checkBox267.UseVisualStyleBackColor = true;
-            this.checkBox267.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox267.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox268
             // 
@@ -3591,7 +3591,7 @@ namespace TheatreTicketing
             this.checkBox268.Size = new System.Drawing.Size(15, 14);
             this.checkBox268.TabIndex = 274;
             this.checkBox268.UseVisualStyleBackColor = true;
-            this.checkBox268.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox268.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox269
             // 
@@ -3601,7 +3601,7 @@ namespace TheatreTicketing
             this.checkBox269.Size = new System.Drawing.Size(15, 14);
             this.checkBox269.TabIndex = 273;
             this.checkBox269.UseVisualStyleBackColor = true;
-            this.checkBox269.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox269.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox270
             // 
@@ -3611,7 +3611,7 @@ namespace TheatreTicketing
             this.checkBox270.Size = new System.Drawing.Size(15, 14);
             this.checkBox270.TabIndex = 272;
             this.checkBox270.UseVisualStyleBackColor = true;
-            this.checkBox270.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox270.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox271
             // 
@@ -3621,7 +3621,7 @@ namespace TheatreTicketing
             this.checkBox271.Size = new System.Drawing.Size(15, 14);
             this.checkBox271.TabIndex = 271;
             this.checkBox271.UseVisualStyleBackColor = true;
-            this.checkBox271.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox271.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox272
             // 
@@ -3631,7 +3631,7 @@ namespace TheatreTicketing
             this.checkBox272.Size = new System.Drawing.Size(15, 14);
             this.checkBox272.TabIndex = 270;
             this.checkBox272.UseVisualStyleBackColor = true;
-            this.checkBox272.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox272.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox253
             // 
@@ -3641,7 +3641,7 @@ namespace TheatreTicketing
             this.checkBox253.Size = new System.Drawing.Size(15, 14);
             this.checkBox253.TabIndex = 269;
             this.checkBox253.UseVisualStyleBackColor = true;
-            this.checkBox253.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox253.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox254
             // 
@@ -3651,7 +3651,7 @@ namespace TheatreTicketing
             this.checkBox254.Size = new System.Drawing.Size(15, 14);
             this.checkBox254.TabIndex = 268;
             this.checkBox254.UseVisualStyleBackColor = true;
-            this.checkBox254.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox254.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox255
             // 
@@ -3661,7 +3661,7 @@ namespace TheatreTicketing
             this.checkBox255.Size = new System.Drawing.Size(15, 14);
             this.checkBox255.TabIndex = 267;
             this.checkBox255.UseVisualStyleBackColor = true;
-            this.checkBox255.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox255.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox256
             // 
@@ -3671,7 +3671,7 @@ namespace TheatreTicketing
             this.checkBox256.Size = new System.Drawing.Size(15, 14);
             this.checkBox256.TabIndex = 266;
             this.checkBox256.UseVisualStyleBackColor = true;
-            this.checkBox256.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox256.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox257
             // 
@@ -3681,7 +3681,7 @@ namespace TheatreTicketing
             this.checkBox257.Size = new System.Drawing.Size(15, 14);
             this.checkBox257.TabIndex = 265;
             this.checkBox257.UseVisualStyleBackColor = true;
-            this.checkBox257.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox257.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox258
             // 
@@ -3691,7 +3691,7 @@ namespace TheatreTicketing
             this.checkBox258.Size = new System.Drawing.Size(15, 14);
             this.checkBox258.TabIndex = 264;
             this.checkBox258.UseVisualStyleBackColor = true;
-            this.checkBox258.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox258.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox259
             // 
@@ -3701,7 +3701,7 @@ namespace TheatreTicketing
             this.checkBox259.Size = new System.Drawing.Size(15, 14);
             this.checkBox259.TabIndex = 263;
             this.checkBox259.UseVisualStyleBackColor = true;
-            this.checkBox259.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox259.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox260
             // 
@@ -3711,7 +3711,7 @@ namespace TheatreTicketing
             this.checkBox260.Size = new System.Drawing.Size(15, 14);
             this.checkBox260.TabIndex = 262;
             this.checkBox260.UseVisualStyleBackColor = true;
-            this.checkBox260.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox260.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox261
             // 
@@ -3721,7 +3721,7 @@ namespace TheatreTicketing
             this.checkBox261.Size = new System.Drawing.Size(15, 14);
             this.checkBox261.TabIndex = 261;
             this.checkBox261.UseVisualStyleBackColor = true;
-            this.checkBox261.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox261.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox262
             // 
@@ -3731,7 +3731,7 @@ namespace TheatreTicketing
             this.checkBox262.Size = new System.Drawing.Size(15, 14);
             this.checkBox262.TabIndex = 260;
             this.checkBox262.UseVisualStyleBackColor = true;
-            this.checkBox262.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox262.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox245
             // 
@@ -3741,7 +3741,7 @@ namespace TheatreTicketing
             this.checkBox245.Size = new System.Drawing.Size(15, 14);
             this.checkBox245.TabIndex = 259;
             this.checkBox245.UseVisualStyleBackColor = true;
-            this.checkBox245.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox245.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox246
             // 
@@ -3751,7 +3751,7 @@ namespace TheatreTicketing
             this.checkBox246.Size = new System.Drawing.Size(15, 14);
             this.checkBox246.TabIndex = 258;
             this.checkBox246.UseVisualStyleBackColor = true;
-            this.checkBox246.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox246.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox247
             // 
@@ -3761,7 +3761,7 @@ namespace TheatreTicketing
             this.checkBox247.Size = new System.Drawing.Size(15, 14);
             this.checkBox247.TabIndex = 257;
             this.checkBox247.UseVisualStyleBackColor = true;
-            this.checkBox247.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox247.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox248
             // 
@@ -3771,7 +3771,7 @@ namespace TheatreTicketing
             this.checkBox248.Size = new System.Drawing.Size(15, 14);
             this.checkBox248.TabIndex = 256;
             this.checkBox248.UseVisualStyleBackColor = true;
-            this.checkBox248.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox248.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox249
             // 
@@ -3781,7 +3781,7 @@ namespace TheatreTicketing
             this.checkBox249.Size = new System.Drawing.Size(15, 14);
             this.checkBox249.TabIndex = 255;
             this.checkBox249.UseVisualStyleBackColor = true;
-            this.checkBox249.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox249.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox250
             // 
@@ -3791,7 +3791,7 @@ namespace TheatreTicketing
             this.checkBox250.Size = new System.Drawing.Size(15, 14);
             this.checkBox250.TabIndex = 254;
             this.checkBox250.UseVisualStyleBackColor = true;
-            this.checkBox250.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox250.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox251
             // 
@@ -3801,7 +3801,7 @@ namespace TheatreTicketing
             this.checkBox251.Size = new System.Drawing.Size(15, 14);
             this.checkBox251.TabIndex = 253;
             this.checkBox251.UseVisualStyleBackColor = true;
-            this.checkBox251.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox251.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox252
             // 
@@ -3811,7 +3811,7 @@ namespace TheatreTicketing
             this.checkBox252.Size = new System.Drawing.Size(15, 14);
             this.checkBox252.TabIndex = 252;
             this.checkBox252.UseVisualStyleBackColor = true;
-            this.checkBox252.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox252.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox237
             // 
@@ -3821,7 +3821,7 @@ namespace TheatreTicketing
             this.checkBox237.Size = new System.Drawing.Size(15, 14);
             this.checkBox237.TabIndex = 251;
             this.checkBox237.UseVisualStyleBackColor = true;
-            this.checkBox237.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox237.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox238
             // 
@@ -3831,7 +3831,7 @@ namespace TheatreTicketing
             this.checkBox238.Size = new System.Drawing.Size(15, 14);
             this.checkBox238.TabIndex = 250;
             this.checkBox238.UseVisualStyleBackColor = true;
-            this.checkBox238.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox238.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox239
             // 
@@ -3841,7 +3841,7 @@ namespace TheatreTicketing
             this.checkBox239.Size = new System.Drawing.Size(15, 14);
             this.checkBox239.TabIndex = 249;
             this.checkBox239.UseVisualStyleBackColor = true;
-            this.checkBox239.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox239.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox240
             // 
@@ -3851,7 +3851,7 @@ namespace TheatreTicketing
             this.checkBox240.Size = new System.Drawing.Size(15, 14);
             this.checkBox240.TabIndex = 248;
             this.checkBox240.UseVisualStyleBackColor = true;
-            this.checkBox240.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox240.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox241
             // 
@@ -3861,7 +3861,7 @@ namespace TheatreTicketing
             this.checkBox241.Size = new System.Drawing.Size(15, 14);
             this.checkBox241.TabIndex = 247;
             this.checkBox241.UseVisualStyleBackColor = true;
-            this.checkBox241.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox241.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox242
             // 
@@ -3871,7 +3871,7 @@ namespace TheatreTicketing
             this.checkBox242.Size = new System.Drawing.Size(15, 14);
             this.checkBox242.TabIndex = 246;
             this.checkBox242.UseVisualStyleBackColor = true;
-            this.checkBox242.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox242.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox243
             // 
@@ -3881,7 +3881,7 @@ namespace TheatreTicketing
             this.checkBox243.Size = new System.Drawing.Size(15, 14);
             this.checkBox243.TabIndex = 245;
             this.checkBox243.UseVisualStyleBackColor = true;
-            this.checkBox243.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox243.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox244
             // 
@@ -3891,7 +3891,7 @@ namespace TheatreTicketing
             this.checkBox244.Size = new System.Drawing.Size(15, 14);
             this.checkBox244.TabIndex = 244;
             this.checkBox244.UseVisualStyleBackColor = true;
-            this.checkBox244.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox244.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox229
             // 
@@ -3901,7 +3901,7 @@ namespace TheatreTicketing
             this.checkBox229.Size = new System.Drawing.Size(15, 14);
             this.checkBox229.TabIndex = 243;
             this.checkBox229.UseVisualStyleBackColor = true;
-            this.checkBox229.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox229.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox230
             // 
@@ -3911,7 +3911,7 @@ namespace TheatreTicketing
             this.checkBox230.Size = new System.Drawing.Size(15, 14);
             this.checkBox230.TabIndex = 242;
             this.checkBox230.UseVisualStyleBackColor = true;
-            this.checkBox230.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox230.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox231
             // 
@@ -3921,7 +3921,7 @@ namespace TheatreTicketing
             this.checkBox231.Size = new System.Drawing.Size(15, 14);
             this.checkBox231.TabIndex = 241;
             this.checkBox231.UseVisualStyleBackColor = true;
-            this.checkBox231.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox231.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox232
             // 
@@ -3931,7 +3931,7 @@ namespace TheatreTicketing
             this.checkBox232.Size = new System.Drawing.Size(15, 14);
             this.checkBox232.TabIndex = 240;
             this.checkBox232.UseVisualStyleBackColor = true;
-            this.checkBox232.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox232.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox233
             // 
@@ -3941,7 +3941,7 @@ namespace TheatreTicketing
             this.checkBox233.Size = new System.Drawing.Size(15, 14);
             this.checkBox233.TabIndex = 239;
             this.checkBox233.UseVisualStyleBackColor = true;
-            this.checkBox233.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox233.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox234
             // 
@@ -3951,7 +3951,7 @@ namespace TheatreTicketing
             this.checkBox234.Size = new System.Drawing.Size(15, 14);
             this.checkBox234.TabIndex = 238;
             this.checkBox234.UseVisualStyleBackColor = true;
-            this.checkBox234.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox234.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox235
             // 
@@ -3961,7 +3961,7 @@ namespace TheatreTicketing
             this.checkBox235.Size = new System.Drawing.Size(15, 14);
             this.checkBox235.TabIndex = 237;
             this.checkBox235.UseVisualStyleBackColor = true;
-            this.checkBox235.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox235.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox236
             // 
@@ -3971,7 +3971,7 @@ namespace TheatreTicketing
             this.checkBox236.Size = new System.Drawing.Size(15, 14);
             this.checkBox236.TabIndex = 236;
             this.checkBox236.UseVisualStyleBackColor = true;
-            this.checkBox236.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox236.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox221
             // 
@@ -3981,7 +3981,7 @@ namespace TheatreTicketing
             this.checkBox221.Size = new System.Drawing.Size(15, 14);
             this.checkBox221.TabIndex = 235;
             this.checkBox221.UseVisualStyleBackColor = true;
-            this.checkBox221.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox221.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox222
             // 
@@ -3991,7 +3991,7 @@ namespace TheatreTicketing
             this.checkBox222.Size = new System.Drawing.Size(15, 14);
             this.checkBox222.TabIndex = 234;
             this.checkBox222.UseVisualStyleBackColor = true;
-            this.checkBox222.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox222.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox223
             // 
@@ -4001,7 +4001,7 @@ namespace TheatreTicketing
             this.checkBox223.Size = new System.Drawing.Size(15, 14);
             this.checkBox223.TabIndex = 233;
             this.checkBox223.UseVisualStyleBackColor = true;
-            this.checkBox223.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox223.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox224
             // 
@@ -4011,7 +4011,7 @@ namespace TheatreTicketing
             this.checkBox224.Size = new System.Drawing.Size(15, 14);
             this.checkBox224.TabIndex = 232;
             this.checkBox224.UseVisualStyleBackColor = true;
-            this.checkBox224.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox224.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox225
             // 
@@ -4021,7 +4021,7 @@ namespace TheatreTicketing
             this.checkBox225.Size = new System.Drawing.Size(15, 14);
             this.checkBox225.TabIndex = 231;
             this.checkBox225.UseVisualStyleBackColor = true;
-            this.checkBox225.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox225.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox226
             // 
@@ -4031,7 +4031,7 @@ namespace TheatreTicketing
             this.checkBox226.Size = new System.Drawing.Size(15, 14);
             this.checkBox226.TabIndex = 230;
             this.checkBox226.UseVisualStyleBackColor = true;
-            this.checkBox226.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox226.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox227
             // 
@@ -4041,7 +4041,7 @@ namespace TheatreTicketing
             this.checkBox227.Size = new System.Drawing.Size(15, 14);
             this.checkBox227.TabIndex = 229;
             this.checkBox227.UseVisualStyleBackColor = true;
-            this.checkBox227.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox227.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox228
             // 
@@ -4051,7 +4051,7 @@ namespace TheatreTicketing
             this.checkBox228.Size = new System.Drawing.Size(15, 14);
             this.checkBox228.TabIndex = 228;
             this.checkBox228.UseVisualStyleBackColor = true;
-            this.checkBox228.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox228.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox214
             // 
@@ -4061,7 +4061,7 @@ namespace TheatreTicketing
             this.checkBox214.Size = new System.Drawing.Size(15, 14);
             this.checkBox214.TabIndex = 227;
             this.checkBox214.UseVisualStyleBackColor = true;
-            this.checkBox214.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox214.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox215
             // 
@@ -4071,7 +4071,7 @@ namespace TheatreTicketing
             this.checkBox215.Size = new System.Drawing.Size(15, 14);
             this.checkBox215.TabIndex = 226;
             this.checkBox215.UseVisualStyleBackColor = true;
-            this.checkBox215.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox215.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox216
             // 
@@ -4081,7 +4081,7 @@ namespace TheatreTicketing
             this.checkBox216.Size = new System.Drawing.Size(15, 14);
             this.checkBox216.TabIndex = 225;
             this.checkBox216.UseVisualStyleBackColor = true;
-            this.checkBox216.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox216.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox217
             // 
@@ -4091,7 +4091,7 @@ namespace TheatreTicketing
             this.checkBox217.Size = new System.Drawing.Size(15, 14);
             this.checkBox217.TabIndex = 224;
             this.checkBox217.UseVisualStyleBackColor = true;
-            this.checkBox217.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox217.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox218
             // 
@@ -4101,7 +4101,7 @@ namespace TheatreTicketing
             this.checkBox218.Size = new System.Drawing.Size(15, 14);
             this.checkBox218.TabIndex = 223;
             this.checkBox218.UseVisualStyleBackColor = true;
-            this.checkBox218.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox218.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox219
             // 
@@ -4111,7 +4111,7 @@ namespace TheatreTicketing
             this.checkBox219.Size = new System.Drawing.Size(15, 14);
             this.checkBox219.TabIndex = 222;
             this.checkBox219.UseVisualStyleBackColor = true;
-            this.checkBox219.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox219.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox220
             // 
@@ -4121,7 +4121,7 @@ namespace TheatreTicketing
             this.checkBox220.Size = new System.Drawing.Size(15, 14);
             this.checkBox220.TabIndex = 221;
             this.checkBox220.UseVisualStyleBackColor = true;
-            this.checkBox220.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox220.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox207
             // 
@@ -4131,7 +4131,7 @@ namespace TheatreTicketing
             this.checkBox207.Size = new System.Drawing.Size(15, 14);
             this.checkBox207.TabIndex = 220;
             this.checkBox207.UseVisualStyleBackColor = true;
-            this.checkBox207.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox207.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox208
             // 
@@ -4141,7 +4141,7 @@ namespace TheatreTicketing
             this.checkBox208.Size = new System.Drawing.Size(15, 14);
             this.checkBox208.TabIndex = 219;
             this.checkBox208.UseVisualStyleBackColor = true;
-            this.checkBox208.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox208.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox209
             // 
@@ -4151,7 +4151,7 @@ namespace TheatreTicketing
             this.checkBox209.Size = new System.Drawing.Size(15, 14);
             this.checkBox209.TabIndex = 218;
             this.checkBox209.UseVisualStyleBackColor = true;
-            this.checkBox209.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox209.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox210
             // 
@@ -4161,7 +4161,7 @@ namespace TheatreTicketing
             this.checkBox210.Size = new System.Drawing.Size(15, 14);
             this.checkBox210.TabIndex = 217;
             this.checkBox210.UseVisualStyleBackColor = true;
-            this.checkBox210.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox210.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox211
             // 
@@ -4171,7 +4171,7 @@ namespace TheatreTicketing
             this.checkBox211.Size = new System.Drawing.Size(15, 14);
             this.checkBox211.TabIndex = 216;
             this.checkBox211.UseVisualStyleBackColor = true;
-            this.checkBox211.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox211.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox212
             // 
@@ -4181,7 +4181,7 @@ namespace TheatreTicketing
             this.checkBox212.Size = new System.Drawing.Size(15, 14);
             this.checkBox212.TabIndex = 215;
             this.checkBox212.UseVisualStyleBackColor = true;
-            this.checkBox212.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox212.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox213
             // 
@@ -4191,7 +4191,7 @@ namespace TheatreTicketing
             this.checkBox213.Size = new System.Drawing.Size(15, 14);
             this.checkBox213.TabIndex = 214;
             this.checkBox213.UseVisualStyleBackColor = true;
-            this.checkBox213.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox213.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox200
             // 
@@ -4201,7 +4201,7 @@ namespace TheatreTicketing
             this.checkBox200.Size = new System.Drawing.Size(15, 14);
             this.checkBox200.TabIndex = 213;
             this.checkBox200.UseVisualStyleBackColor = true;
-            this.checkBox200.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox200.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox201
             // 
@@ -4211,7 +4211,7 @@ namespace TheatreTicketing
             this.checkBox201.Size = new System.Drawing.Size(15, 14);
             this.checkBox201.TabIndex = 212;
             this.checkBox201.UseVisualStyleBackColor = true;
-            this.checkBox201.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox201.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox202
             // 
@@ -4221,7 +4221,7 @@ namespace TheatreTicketing
             this.checkBox202.Size = new System.Drawing.Size(15, 14);
             this.checkBox202.TabIndex = 211;
             this.checkBox202.UseVisualStyleBackColor = true;
-            this.checkBox202.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox202.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox203
             // 
@@ -4231,7 +4231,7 @@ namespace TheatreTicketing
             this.checkBox203.Size = new System.Drawing.Size(15, 14);
             this.checkBox203.TabIndex = 210;
             this.checkBox203.UseVisualStyleBackColor = true;
-            this.checkBox203.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox203.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox204
             // 
@@ -4241,7 +4241,7 @@ namespace TheatreTicketing
             this.checkBox204.Size = new System.Drawing.Size(15, 14);
             this.checkBox204.TabIndex = 209;
             this.checkBox204.UseVisualStyleBackColor = true;
-            this.checkBox204.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox204.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox205
             // 
@@ -4251,7 +4251,7 @@ namespace TheatreTicketing
             this.checkBox205.Size = new System.Drawing.Size(15, 14);
             this.checkBox205.TabIndex = 208;
             this.checkBox205.UseVisualStyleBackColor = true;
-            this.checkBox205.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox205.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox206
             // 
@@ -4261,7 +4261,7 @@ namespace TheatreTicketing
             this.checkBox206.Size = new System.Drawing.Size(15, 14);
             this.checkBox206.TabIndex = 207;
             this.checkBox206.UseVisualStyleBackColor = true;
-            this.checkBox206.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox206.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox193
             // 
@@ -4271,7 +4271,7 @@ namespace TheatreTicketing
             this.checkBox193.Size = new System.Drawing.Size(15, 14);
             this.checkBox193.TabIndex = 206;
             this.checkBox193.UseVisualStyleBackColor = true;
-            this.checkBox193.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox193.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox194
             // 
@@ -4281,7 +4281,7 @@ namespace TheatreTicketing
             this.checkBox194.Size = new System.Drawing.Size(15, 14);
             this.checkBox194.TabIndex = 205;
             this.checkBox194.UseVisualStyleBackColor = true;
-            this.checkBox194.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox194.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox195
             // 
@@ -4291,7 +4291,7 @@ namespace TheatreTicketing
             this.checkBox195.Size = new System.Drawing.Size(15, 14);
             this.checkBox195.TabIndex = 204;
             this.checkBox195.UseVisualStyleBackColor = true;
-            this.checkBox195.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox195.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox196
             // 
@@ -4301,7 +4301,7 @@ namespace TheatreTicketing
             this.checkBox196.Size = new System.Drawing.Size(15, 14);
             this.checkBox196.TabIndex = 203;
             this.checkBox196.UseVisualStyleBackColor = true;
-            this.checkBox196.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox196.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox197
             // 
@@ -4311,7 +4311,7 @@ namespace TheatreTicketing
             this.checkBox197.Size = new System.Drawing.Size(15, 14);
             this.checkBox197.TabIndex = 202;
             this.checkBox197.UseVisualStyleBackColor = true;
-            this.checkBox197.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox197.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox198
             // 
@@ -4321,7 +4321,7 @@ namespace TheatreTicketing
             this.checkBox198.Size = new System.Drawing.Size(15, 14);
             this.checkBox198.TabIndex = 201;
             this.checkBox198.UseVisualStyleBackColor = true;
-            this.checkBox198.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox198.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox199
             // 
@@ -4331,7 +4331,7 @@ namespace TheatreTicketing
             this.checkBox199.Size = new System.Drawing.Size(15, 14);
             this.checkBox199.TabIndex = 200;
             this.checkBox199.UseVisualStyleBackColor = true;
-            this.checkBox199.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox199.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox187
             // 
@@ -4341,7 +4341,7 @@ namespace TheatreTicketing
             this.checkBox187.Size = new System.Drawing.Size(15, 14);
             this.checkBox187.TabIndex = 197;
             this.checkBox187.UseVisualStyleBackColor = true;
-            this.checkBox187.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox187.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox188
             // 
@@ -4351,7 +4351,7 @@ namespace TheatreTicketing
             this.checkBox188.Size = new System.Drawing.Size(15, 14);
             this.checkBox188.TabIndex = 196;
             this.checkBox188.UseVisualStyleBackColor = true;
-            this.checkBox188.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox188.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox189
             // 
@@ -4361,7 +4361,7 @@ namespace TheatreTicketing
             this.checkBox189.Size = new System.Drawing.Size(15, 14);
             this.checkBox189.TabIndex = 195;
             this.checkBox189.UseVisualStyleBackColor = true;
-            this.checkBox189.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox189.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox190
             // 
@@ -4371,7 +4371,7 @@ namespace TheatreTicketing
             this.checkBox190.Size = new System.Drawing.Size(15, 14);
             this.checkBox190.TabIndex = 194;
             this.checkBox190.UseVisualStyleBackColor = true;
-            this.checkBox190.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox190.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox191
             // 
@@ -4381,7 +4381,7 @@ namespace TheatreTicketing
             this.checkBox191.Size = new System.Drawing.Size(15, 14);
             this.checkBox191.TabIndex = 193;
             this.checkBox191.UseVisualStyleBackColor = true;
-            this.checkBox191.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox191.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox192
             // 
@@ -4391,7 +4391,7 @@ namespace TheatreTicketing
             this.checkBox192.Size = new System.Drawing.Size(15, 14);
             this.checkBox192.TabIndex = 192;
             this.checkBox192.UseVisualStyleBackColor = true;
-            this.checkBox192.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox192.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox185
             // 
@@ -4401,7 +4401,7 @@ namespace TheatreTicketing
             this.checkBox185.Size = new System.Drawing.Size(15, 14);
             this.checkBox185.TabIndex = 191;
             this.checkBox185.UseVisualStyleBackColor = true;
-            this.checkBox185.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox185.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox186
             // 
@@ -4411,7 +4411,7 @@ namespace TheatreTicketing
             this.checkBox186.Size = new System.Drawing.Size(15, 14);
             this.checkBox186.TabIndex = 190;
             this.checkBox186.UseVisualStyleBackColor = true;
-            this.checkBox186.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox186.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox181
             // 
@@ -4421,7 +4421,7 @@ namespace TheatreTicketing
             this.checkBox181.Size = new System.Drawing.Size(15, 14);
             this.checkBox181.TabIndex = 189;
             this.checkBox181.UseVisualStyleBackColor = true;
-            this.checkBox181.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox181.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox182
             // 
@@ -4431,7 +4431,7 @@ namespace TheatreTicketing
             this.checkBox182.Size = new System.Drawing.Size(15, 14);
             this.checkBox182.TabIndex = 188;
             this.checkBox182.UseVisualStyleBackColor = true;
-            this.checkBox182.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox182.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox183
             // 
@@ -4441,7 +4441,7 @@ namespace TheatreTicketing
             this.checkBox183.Size = new System.Drawing.Size(15, 14);
             this.checkBox183.TabIndex = 187;
             this.checkBox183.UseVisualStyleBackColor = true;
-            this.checkBox183.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox183.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox184
             // 
@@ -4451,7 +4451,7 @@ namespace TheatreTicketing
             this.checkBox184.Size = new System.Drawing.Size(15, 14);
             this.checkBox184.TabIndex = 186;
             this.checkBox184.UseVisualStyleBackColor = true;
-            this.checkBox184.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox184.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox177
             // 
@@ -4461,7 +4461,7 @@ namespace TheatreTicketing
             this.checkBox177.Size = new System.Drawing.Size(15, 14);
             this.checkBox177.TabIndex = 185;
             this.checkBox177.UseVisualStyleBackColor = true;
-            this.checkBox177.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox177.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox178
             // 
@@ -4471,39 +4471,31 @@ namespace TheatreTicketing
             this.checkBox178.Size = new System.Drawing.Size(15, 14);
             this.checkBox178.TabIndex = 184;
             this.checkBox178.UseVisualStyleBackColor = true;
-            this.checkBox178.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox178.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox179
             // 
-            this.checkBox179.AutoCheck = false;
             this.checkBox179.AutoSize = true;
-            this.checkBox179.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.checkBox179.Checked = true;
-            this.checkBox179.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox179.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox179.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox179.BackColor = System.Drawing.Color.White;
+            this.checkBox179.ForeColor = System.Drawing.Color.White;
             this.checkBox179.Location = new System.Drawing.Point(665, 164);
             this.checkBox179.Name = "checkBox179";
-            this.checkBox179.Size = new System.Drawing.Size(12, 11);
+            this.checkBox179.Size = new System.Drawing.Size(15, 14);
             this.checkBox179.TabIndex = 183;
             this.checkBox179.UseVisualStyleBackColor = false;
-            this.checkBox179.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox179.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox180
             // 
-            this.checkBox180.AutoCheck = false;
             this.checkBox180.AutoSize = true;
-            this.checkBox180.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.checkBox180.Checked = true;
-            this.checkBox180.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox180.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox180.BackColor = System.Drawing.Color.White;
+            this.checkBox180.ForeColor = System.Drawing.Color.White;
             this.checkBox180.Location = new System.Drawing.Point(644, 164);
             this.checkBox180.Name = "checkBox180";
-            this.checkBox180.Size = new System.Drawing.Size(12, 11);
+            this.checkBox180.Size = new System.Drawing.Size(15, 14);
             this.checkBox180.TabIndex = 182;
             this.checkBox180.UseVisualStyleBackColor = false;
-            this.checkBox180.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox180.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox173
             // 
@@ -4513,7 +4505,7 @@ namespace TheatreTicketing
             this.checkBox173.Size = new System.Drawing.Size(15, 14);
             this.checkBox173.TabIndex = 181;
             this.checkBox173.UseVisualStyleBackColor = true;
-            this.checkBox173.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox173.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox174
             // 
@@ -4523,7 +4515,7 @@ namespace TheatreTicketing
             this.checkBox174.Size = new System.Drawing.Size(15, 14);
             this.checkBox174.TabIndex = 180;
             this.checkBox174.UseVisualStyleBackColor = true;
-            this.checkBox174.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox174.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox175
             // 
@@ -4533,7 +4525,7 @@ namespace TheatreTicketing
             this.checkBox175.Size = new System.Drawing.Size(15, 14);
             this.checkBox175.TabIndex = 179;
             this.checkBox175.UseVisualStyleBackColor = true;
-            this.checkBox175.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox175.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox176
             // 
@@ -4543,7 +4535,7 @@ namespace TheatreTicketing
             this.checkBox176.Size = new System.Drawing.Size(15, 14);
             this.checkBox176.TabIndex = 178;
             this.checkBox176.UseVisualStyleBackColor = true;
-            this.checkBox176.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox176.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox167
             // 
@@ -4553,7 +4545,7 @@ namespace TheatreTicketing
             this.checkBox167.Size = new System.Drawing.Size(15, 14);
             this.checkBox167.TabIndex = 177;
             this.checkBox167.UseVisualStyleBackColor = true;
-            this.checkBox167.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox167.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox168
             // 
@@ -4563,7 +4555,7 @@ namespace TheatreTicketing
             this.checkBox168.Size = new System.Drawing.Size(15, 14);
             this.checkBox168.TabIndex = 176;
             this.checkBox168.UseVisualStyleBackColor = true;
-            this.checkBox168.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox168.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox171
             // 
@@ -4573,7 +4565,7 @@ namespace TheatreTicketing
             this.checkBox171.Size = new System.Drawing.Size(15, 14);
             this.checkBox171.TabIndex = 175;
             this.checkBox171.UseVisualStyleBackColor = true;
-            this.checkBox171.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox171.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox172
             // 
@@ -4583,7 +4575,7 @@ namespace TheatreTicketing
             this.checkBox172.Size = new System.Drawing.Size(15, 14);
             this.checkBox172.TabIndex = 174;
             this.checkBox172.UseVisualStyleBackColor = true;
-            this.checkBox172.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox172.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox169
             // 
@@ -4593,7 +4585,7 @@ namespace TheatreTicketing
             this.checkBox169.Size = new System.Drawing.Size(15, 14);
             this.checkBox169.TabIndex = 173;
             this.checkBox169.UseVisualStyleBackColor = true;
-            this.checkBox169.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox169.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox170
             // 
@@ -4603,7 +4595,7 @@ namespace TheatreTicketing
             this.checkBox170.Size = new System.Drawing.Size(15, 14);
             this.checkBox170.TabIndex = 172;
             this.checkBox170.UseVisualStyleBackColor = true;
-            this.checkBox170.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox170.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox165
             // 
@@ -4613,7 +4605,7 @@ namespace TheatreTicketing
             this.checkBox165.Size = new System.Drawing.Size(15, 14);
             this.checkBox165.TabIndex = 169;
             this.checkBox165.UseVisualStyleBackColor = true;
-            this.checkBox165.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox165.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox166
             // 
@@ -4627,7 +4619,7 @@ namespace TheatreTicketing
             this.checkBox166.Size = new System.Drawing.Size(15, 14);
             this.checkBox166.TabIndex = 168;
             this.checkBox166.UseVisualStyleBackColor = false;
-            this.checkBox166.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox166.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox161
             // 
@@ -4637,7 +4629,7 @@ namespace TheatreTicketing
             this.checkBox161.Size = new System.Drawing.Size(15, 14);
             this.checkBox161.TabIndex = 165;
             this.checkBox161.UseVisualStyleBackColor = true;
-            this.checkBox161.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox161.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox162
             // 
@@ -4647,7 +4639,7 @@ namespace TheatreTicketing
             this.checkBox162.Size = new System.Drawing.Size(15, 14);
             this.checkBox162.TabIndex = 164;
             this.checkBox162.UseVisualStyleBackColor = true;
-            this.checkBox162.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox162.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox163
             // 
@@ -4657,7 +4649,7 @@ namespace TheatreTicketing
             this.checkBox163.Size = new System.Drawing.Size(15, 14);
             this.checkBox163.TabIndex = 163;
             this.checkBox163.UseVisualStyleBackColor = true;
-            this.checkBox163.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox163.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox164
             // 
@@ -4667,7 +4659,7 @@ namespace TheatreTicketing
             this.checkBox164.Size = new System.Drawing.Size(15, 14);
             this.checkBox164.TabIndex = 162;
             this.checkBox164.UseVisualStyleBackColor = true;
-            this.checkBox164.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox164.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox157
             // 
@@ -4677,7 +4669,7 @@ namespace TheatreTicketing
             this.checkBox157.Size = new System.Drawing.Size(15, 14);
             this.checkBox157.TabIndex = 161;
             this.checkBox157.UseVisualStyleBackColor = true;
-            this.checkBox157.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox157.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox158
             // 
@@ -4687,7 +4679,7 @@ namespace TheatreTicketing
             this.checkBox158.Size = new System.Drawing.Size(15, 14);
             this.checkBox158.TabIndex = 160;
             this.checkBox158.UseVisualStyleBackColor = true;
-            this.checkBox158.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox158.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox159
             // 
@@ -4697,7 +4689,7 @@ namespace TheatreTicketing
             this.checkBox159.Size = new System.Drawing.Size(15, 14);
             this.checkBox159.TabIndex = 159;
             this.checkBox159.UseVisualStyleBackColor = true;
-            this.checkBox159.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox159.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox160
             // 
@@ -4707,7 +4699,7 @@ namespace TheatreTicketing
             this.checkBox160.Size = new System.Drawing.Size(15, 14);
             this.checkBox160.TabIndex = 158;
             this.checkBox160.UseVisualStyleBackColor = true;
-            this.checkBox160.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox160.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox153
             // 
@@ -4717,7 +4709,7 @@ namespace TheatreTicketing
             this.checkBox153.Size = new System.Drawing.Size(15, 14);
             this.checkBox153.TabIndex = 157;
             this.checkBox153.UseVisualStyleBackColor = true;
-            this.checkBox153.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox153.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox154
             // 
@@ -4727,7 +4719,7 @@ namespace TheatreTicketing
             this.checkBox154.Size = new System.Drawing.Size(15, 14);
             this.checkBox154.TabIndex = 156;
             this.checkBox154.UseVisualStyleBackColor = true;
-            this.checkBox154.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox154.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox155
             // 
@@ -4737,7 +4729,7 @@ namespace TheatreTicketing
             this.checkBox155.Size = new System.Drawing.Size(15, 14);
             this.checkBox155.TabIndex = 155;
             this.checkBox155.UseVisualStyleBackColor = true;
-            this.checkBox155.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox155.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox156
             // 
@@ -4747,7 +4739,7 @@ namespace TheatreTicketing
             this.checkBox156.Size = new System.Drawing.Size(15, 14);
             this.checkBox156.TabIndex = 154;
             this.checkBox156.UseVisualStyleBackColor = true;
-            this.checkBox156.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox156.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox150
             // 
@@ -4757,7 +4749,7 @@ namespace TheatreTicketing
             this.checkBox150.Size = new System.Drawing.Size(15, 14);
             this.checkBox150.TabIndex = 153;
             this.checkBox150.UseVisualStyleBackColor = true;
-            this.checkBox150.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox150.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox151
             // 
@@ -4767,7 +4759,7 @@ namespace TheatreTicketing
             this.checkBox151.Size = new System.Drawing.Size(15, 14);
             this.checkBox151.TabIndex = 152;
             this.checkBox151.UseVisualStyleBackColor = true;
-            this.checkBox151.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox151.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox152
             // 
@@ -4777,7 +4769,7 @@ namespace TheatreTicketing
             this.checkBox152.Size = new System.Drawing.Size(15, 14);
             this.checkBox152.TabIndex = 151;
             this.checkBox152.UseVisualStyleBackColor = true;
-            this.checkBox152.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox152.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox147
             // 
@@ -4787,7 +4779,7 @@ namespace TheatreTicketing
             this.checkBox147.Size = new System.Drawing.Size(15, 14);
             this.checkBox147.TabIndex = 150;
             this.checkBox147.UseVisualStyleBackColor = true;
-            this.checkBox147.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox147.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox148
             // 
@@ -4797,7 +4789,7 @@ namespace TheatreTicketing
             this.checkBox148.Size = new System.Drawing.Size(15, 14);
             this.checkBox148.TabIndex = 149;
             this.checkBox148.UseVisualStyleBackColor = true;
-            this.checkBox148.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox148.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox149
             // 
@@ -4807,55 +4799,43 @@ namespace TheatreTicketing
             this.checkBox149.Size = new System.Drawing.Size(15, 14);
             this.checkBox149.TabIndex = 148;
             this.checkBox149.UseVisualStyleBackColor = true;
-            this.checkBox149.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox149.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox144
             // 
-            this.checkBox144.AutoCheck = false;
             this.checkBox144.AutoSize = true;
-            this.checkBox144.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.checkBox144.Checked = true;
-            this.checkBox144.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox144.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox144.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox144.BackColor = System.Drawing.Color.White;
+            this.checkBox144.ForeColor = System.Drawing.Color.White;
             this.checkBox144.Location = new System.Drawing.Point(623, 164);
             this.checkBox144.Name = "checkBox144";
-            this.checkBox144.Size = new System.Drawing.Size(12, 11);
+            this.checkBox144.Size = new System.Drawing.Size(15, 14);
             this.checkBox144.TabIndex = 147;
             this.checkBox144.UseVisualStyleBackColor = false;
-            this.checkBox144.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox144.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox145
             // 
-            this.checkBox145.AutoCheck = false;
             this.checkBox145.AutoSize = true;
-            this.checkBox145.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.checkBox145.Checked = true;
-            this.checkBox145.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox145.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox145.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox145.BackColor = System.Drawing.Color.White;
+            this.checkBox145.ForeColor = System.Drawing.Color.White;
             this.checkBox145.Location = new System.Drawing.Point(602, 164);
             this.checkBox145.Name = "checkBox145";
-            this.checkBox145.Size = new System.Drawing.Size(12, 11);
+            this.checkBox145.Size = new System.Drawing.Size(15, 14);
             this.checkBox145.TabIndex = 146;
             this.checkBox145.UseVisualStyleBackColor = false;
-            this.checkBox145.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox145.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox146
             // 
-            this.checkBox146.AutoCheck = false;
             this.checkBox146.AutoSize = true;
-            this.checkBox146.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.checkBox146.Checked = true;
-            this.checkBox146.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox146.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox146.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox146.BackColor = System.Drawing.Color.White;
+            this.checkBox146.ForeColor = System.Drawing.Color.White;
             this.checkBox146.Location = new System.Drawing.Point(581, 164);
             this.checkBox146.Name = "checkBox146";
-            this.checkBox146.Size = new System.Drawing.Size(12, 11);
+            this.checkBox146.Size = new System.Drawing.Size(15, 14);
             this.checkBox146.TabIndex = 145;
             this.checkBox146.UseVisualStyleBackColor = false;
-            this.checkBox146.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox146.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox141
             // 
@@ -4865,7 +4845,7 @@ namespace TheatreTicketing
             this.checkBox141.Size = new System.Drawing.Size(15, 14);
             this.checkBox141.TabIndex = 144;
             this.checkBox141.UseVisualStyleBackColor = true;
-            this.checkBox141.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox141.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox142
             // 
@@ -4875,7 +4855,7 @@ namespace TheatreTicketing
             this.checkBox142.Size = new System.Drawing.Size(15, 14);
             this.checkBox142.TabIndex = 143;
             this.checkBox142.UseVisualStyleBackColor = true;
-            this.checkBox142.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox142.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox143
             // 
@@ -4885,7 +4865,7 @@ namespace TheatreTicketing
             this.checkBox143.Size = new System.Drawing.Size(15, 14);
             this.checkBox143.TabIndex = 142;
             this.checkBox143.UseVisualStyleBackColor = true;
-            this.checkBox143.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox143.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox139
             // 
@@ -4895,7 +4875,7 @@ namespace TheatreTicketing
             this.checkBox139.Size = new System.Drawing.Size(15, 14);
             this.checkBox139.TabIndex = 141;
             this.checkBox139.UseVisualStyleBackColor = true;
-            this.checkBox139.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox139.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox140
             // 
@@ -4905,7 +4885,7 @@ namespace TheatreTicketing
             this.checkBox140.Size = new System.Drawing.Size(15, 14);
             this.checkBox140.TabIndex = 140;
             this.checkBox140.UseVisualStyleBackColor = true;
-            this.checkBox140.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox140.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox137
             // 
@@ -4915,7 +4895,7 @@ namespace TheatreTicketing
             this.checkBox137.Size = new System.Drawing.Size(15, 14);
             this.checkBox137.TabIndex = 139;
             this.checkBox137.UseVisualStyleBackColor = true;
-            this.checkBox137.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox137.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox138
             // 
@@ -4925,7 +4905,7 @@ namespace TheatreTicketing
             this.checkBox138.Size = new System.Drawing.Size(15, 14);
             this.checkBox138.TabIndex = 138;
             this.checkBox138.UseVisualStyleBackColor = true;
-            this.checkBox138.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox138.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox135
             // 
@@ -4935,7 +4915,7 @@ namespace TheatreTicketing
             this.checkBox135.Size = new System.Drawing.Size(15, 14);
             this.checkBox135.TabIndex = 137;
             this.checkBox135.UseVisualStyleBackColor = true;
-            this.checkBox135.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox135.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox136
             // 
@@ -4945,7 +4925,7 @@ namespace TheatreTicketing
             this.checkBox136.Size = new System.Drawing.Size(15, 14);
             this.checkBox136.TabIndex = 136;
             this.checkBox136.UseVisualStyleBackColor = true;
-            this.checkBox136.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox136.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox133
             // 
@@ -4955,7 +4935,7 @@ namespace TheatreTicketing
             this.checkBox133.Size = new System.Drawing.Size(15, 14);
             this.checkBox133.TabIndex = 135;
             this.checkBox133.UseVisualStyleBackColor = true;
-            this.checkBox133.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox133.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox134
             // 
@@ -4965,7 +4945,7 @@ namespace TheatreTicketing
             this.checkBox134.Size = new System.Drawing.Size(15, 14);
             this.checkBox134.TabIndex = 134;
             this.checkBox134.UseVisualStyleBackColor = true;
-            this.checkBox134.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox134.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox122
             // 
@@ -4975,7 +4955,7 @@ namespace TheatreTicketing
             this.checkBox122.Size = new System.Drawing.Size(15, 14);
             this.checkBox122.TabIndex = 133;
             this.checkBox122.UseVisualStyleBackColor = true;
-            this.checkBox122.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox122.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox123
             // 
@@ -4985,7 +4965,7 @@ namespace TheatreTicketing
             this.checkBox123.Size = new System.Drawing.Size(15, 14);
             this.checkBox123.TabIndex = 132;
             this.checkBox123.UseVisualStyleBackColor = true;
-            this.checkBox123.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox123.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox124
             // 
@@ -4995,7 +4975,7 @@ namespace TheatreTicketing
             this.checkBox124.Size = new System.Drawing.Size(15, 14);
             this.checkBox124.TabIndex = 131;
             this.checkBox124.UseVisualStyleBackColor = true;
-            this.checkBox124.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox124.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox125
             // 
@@ -5005,7 +4985,7 @@ namespace TheatreTicketing
             this.checkBox125.Size = new System.Drawing.Size(15, 14);
             this.checkBox125.TabIndex = 130;
             this.checkBox125.UseVisualStyleBackColor = true;
-            this.checkBox125.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox125.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox126
             // 
@@ -5015,7 +4995,7 @@ namespace TheatreTicketing
             this.checkBox126.Size = new System.Drawing.Size(15, 14);
             this.checkBox126.TabIndex = 129;
             this.checkBox126.UseVisualStyleBackColor = true;
-            this.checkBox126.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox126.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox127
             // 
@@ -5025,7 +5005,7 @@ namespace TheatreTicketing
             this.checkBox127.Size = new System.Drawing.Size(15, 14);
             this.checkBox127.TabIndex = 128;
             this.checkBox127.UseVisualStyleBackColor = true;
-            this.checkBox127.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox127.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox128
             // 
@@ -5035,7 +5015,7 @@ namespace TheatreTicketing
             this.checkBox128.Size = new System.Drawing.Size(15, 14);
             this.checkBox128.TabIndex = 127;
             this.checkBox128.UseVisualStyleBackColor = true;
-            this.checkBox128.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox128.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox129
             // 
@@ -5045,7 +5025,7 @@ namespace TheatreTicketing
             this.checkBox129.Size = new System.Drawing.Size(15, 14);
             this.checkBox129.TabIndex = 126;
             this.checkBox129.UseVisualStyleBackColor = true;
-            this.checkBox129.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox129.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox130
             // 
@@ -5055,7 +5035,7 @@ namespace TheatreTicketing
             this.checkBox130.Size = new System.Drawing.Size(15, 14);
             this.checkBox130.TabIndex = 125;
             this.checkBox130.UseVisualStyleBackColor = true;
-            this.checkBox130.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox130.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox131
             // 
@@ -5065,7 +5045,7 @@ namespace TheatreTicketing
             this.checkBox131.Size = new System.Drawing.Size(15, 14);
             this.checkBox131.TabIndex = 124;
             this.checkBox131.UseVisualStyleBackColor = true;
-            this.checkBox131.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox131.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox132
             // 
@@ -5075,7 +5055,7 @@ namespace TheatreTicketing
             this.checkBox132.Size = new System.Drawing.Size(15, 14);
             this.checkBox132.TabIndex = 123;
             this.checkBox132.UseVisualStyleBackColor = true;
-            this.checkBox132.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox132.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox111
             // 
@@ -5085,7 +5065,7 @@ namespace TheatreTicketing
             this.checkBox111.Size = new System.Drawing.Size(15, 14);
             this.checkBox111.TabIndex = 122;
             this.checkBox111.UseVisualStyleBackColor = true;
-            this.checkBox111.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox111.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox112
             // 
@@ -5095,7 +5075,7 @@ namespace TheatreTicketing
             this.checkBox112.Size = new System.Drawing.Size(15, 14);
             this.checkBox112.TabIndex = 121;
             this.checkBox112.UseVisualStyleBackColor = true;
-            this.checkBox112.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox112.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox113
             // 
@@ -5105,7 +5085,7 @@ namespace TheatreTicketing
             this.checkBox113.Size = new System.Drawing.Size(15, 14);
             this.checkBox113.TabIndex = 120;
             this.checkBox113.UseVisualStyleBackColor = true;
-            this.checkBox113.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox113.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox114
             // 
@@ -5115,7 +5095,7 @@ namespace TheatreTicketing
             this.checkBox114.Size = new System.Drawing.Size(15, 14);
             this.checkBox114.TabIndex = 119;
             this.checkBox114.UseVisualStyleBackColor = true;
-            this.checkBox114.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox114.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox115
             // 
@@ -5125,7 +5105,7 @@ namespace TheatreTicketing
             this.checkBox115.Size = new System.Drawing.Size(15, 14);
             this.checkBox115.TabIndex = 118;
             this.checkBox115.UseVisualStyleBackColor = true;
-            this.checkBox115.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox115.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox116
             // 
@@ -5135,7 +5115,7 @@ namespace TheatreTicketing
             this.checkBox116.Size = new System.Drawing.Size(15, 14);
             this.checkBox116.TabIndex = 117;
             this.checkBox116.UseVisualStyleBackColor = true;
-            this.checkBox116.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox116.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox117
             // 
@@ -5145,7 +5125,7 @@ namespace TheatreTicketing
             this.checkBox117.Size = new System.Drawing.Size(15, 14);
             this.checkBox117.TabIndex = 116;
             this.checkBox117.UseVisualStyleBackColor = true;
-            this.checkBox117.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox117.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox118
             // 
@@ -5155,7 +5135,7 @@ namespace TheatreTicketing
             this.checkBox118.Size = new System.Drawing.Size(15, 14);
             this.checkBox118.TabIndex = 115;
             this.checkBox118.UseVisualStyleBackColor = true;
-            this.checkBox118.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox118.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox119
             // 
@@ -5165,7 +5145,7 @@ namespace TheatreTicketing
             this.checkBox119.Size = new System.Drawing.Size(15, 14);
             this.checkBox119.TabIndex = 114;
             this.checkBox119.UseVisualStyleBackColor = true;
-            this.checkBox119.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox119.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox120
             // 
@@ -5175,7 +5155,7 @@ namespace TheatreTicketing
             this.checkBox120.Size = new System.Drawing.Size(15, 14);
             this.checkBox120.TabIndex = 113;
             this.checkBox120.UseVisualStyleBackColor = true;
-            this.checkBox120.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox120.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox121
             // 
@@ -5185,7 +5165,7 @@ namespace TheatreTicketing
             this.checkBox121.Size = new System.Drawing.Size(15, 14);
             this.checkBox121.TabIndex = 112;
             this.checkBox121.UseVisualStyleBackColor = true;
-            this.checkBox121.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox121.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox100
             // 
@@ -5195,7 +5175,7 @@ namespace TheatreTicketing
             this.checkBox100.Size = new System.Drawing.Size(15, 14);
             this.checkBox100.TabIndex = 111;
             this.checkBox100.UseVisualStyleBackColor = true;
-            this.checkBox100.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox100.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox101
             // 
@@ -5205,7 +5185,7 @@ namespace TheatreTicketing
             this.checkBox101.Size = new System.Drawing.Size(15, 14);
             this.checkBox101.TabIndex = 110;
             this.checkBox101.UseVisualStyleBackColor = true;
-            this.checkBox101.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox101.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox102
             // 
@@ -5215,7 +5195,7 @@ namespace TheatreTicketing
             this.checkBox102.Size = new System.Drawing.Size(15, 14);
             this.checkBox102.TabIndex = 109;
             this.checkBox102.UseVisualStyleBackColor = true;
-            this.checkBox102.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox102.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox103
             // 
@@ -5225,7 +5205,7 @@ namespace TheatreTicketing
             this.checkBox103.Size = new System.Drawing.Size(15, 14);
             this.checkBox103.TabIndex = 108;
             this.checkBox103.UseVisualStyleBackColor = true;
-            this.checkBox103.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox103.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox104
             // 
@@ -5235,7 +5215,7 @@ namespace TheatreTicketing
             this.checkBox104.Size = new System.Drawing.Size(15, 14);
             this.checkBox104.TabIndex = 107;
             this.checkBox104.UseVisualStyleBackColor = true;
-            this.checkBox104.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox104.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox105
             // 
@@ -5245,7 +5225,7 @@ namespace TheatreTicketing
             this.checkBox105.Size = new System.Drawing.Size(15, 14);
             this.checkBox105.TabIndex = 106;
             this.checkBox105.UseVisualStyleBackColor = true;
-            this.checkBox105.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox105.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox106
             // 
@@ -5255,7 +5235,7 @@ namespace TheatreTicketing
             this.checkBox106.Size = new System.Drawing.Size(15, 14);
             this.checkBox106.TabIndex = 105;
             this.checkBox106.UseVisualStyleBackColor = true;
-            this.checkBox106.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox106.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox107
             // 
@@ -5265,7 +5245,7 @@ namespace TheatreTicketing
             this.checkBox107.Size = new System.Drawing.Size(15, 14);
             this.checkBox107.TabIndex = 104;
             this.checkBox107.UseVisualStyleBackColor = true;
-            this.checkBox107.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox107.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox108
             // 
@@ -5275,7 +5255,7 @@ namespace TheatreTicketing
             this.checkBox108.Size = new System.Drawing.Size(15, 14);
             this.checkBox108.TabIndex = 103;
             this.checkBox108.UseVisualStyleBackColor = true;
-            this.checkBox108.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox108.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox109
             // 
@@ -5285,7 +5265,7 @@ namespace TheatreTicketing
             this.checkBox109.Size = new System.Drawing.Size(15, 14);
             this.checkBox109.TabIndex = 102;
             this.checkBox109.UseVisualStyleBackColor = true;
-            this.checkBox109.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox109.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox110
             // 
@@ -5295,7 +5275,7 @@ namespace TheatreTicketing
             this.checkBox110.Size = new System.Drawing.Size(15, 14);
             this.checkBox110.TabIndex = 101;
             this.checkBox110.UseVisualStyleBackColor = true;
-            this.checkBox110.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox110.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox89
             // 
@@ -5305,7 +5285,7 @@ namespace TheatreTicketing
             this.checkBox89.Size = new System.Drawing.Size(15, 14);
             this.checkBox89.TabIndex = 100;
             this.checkBox89.UseVisualStyleBackColor = true;
-            this.checkBox89.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox89.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox90
             // 
@@ -5315,7 +5295,7 @@ namespace TheatreTicketing
             this.checkBox90.Size = new System.Drawing.Size(15, 14);
             this.checkBox90.TabIndex = 99;
             this.checkBox90.UseVisualStyleBackColor = true;
-            this.checkBox90.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox90.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox91
             // 
@@ -5325,7 +5305,7 @@ namespace TheatreTicketing
             this.checkBox91.Size = new System.Drawing.Size(15, 14);
             this.checkBox91.TabIndex = 98;
             this.checkBox91.UseVisualStyleBackColor = true;
-            this.checkBox91.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox91.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox92
             // 
@@ -5335,7 +5315,7 @@ namespace TheatreTicketing
             this.checkBox92.Size = new System.Drawing.Size(15, 14);
             this.checkBox92.TabIndex = 97;
             this.checkBox92.UseVisualStyleBackColor = true;
-            this.checkBox92.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox92.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox93
             // 
@@ -5345,7 +5325,7 @@ namespace TheatreTicketing
             this.checkBox93.Size = new System.Drawing.Size(15, 14);
             this.checkBox93.TabIndex = 96;
             this.checkBox93.UseVisualStyleBackColor = true;
-            this.checkBox93.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox93.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox94
             // 
@@ -5355,7 +5335,7 @@ namespace TheatreTicketing
             this.checkBox94.Size = new System.Drawing.Size(15, 14);
             this.checkBox94.TabIndex = 95;
             this.checkBox94.UseVisualStyleBackColor = true;
-            this.checkBox94.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox94.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox95
             // 
@@ -5365,7 +5345,7 @@ namespace TheatreTicketing
             this.checkBox95.Size = new System.Drawing.Size(15, 14);
             this.checkBox95.TabIndex = 94;
             this.checkBox95.UseVisualStyleBackColor = true;
-            this.checkBox95.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox95.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox96
             // 
@@ -5375,7 +5355,7 @@ namespace TheatreTicketing
             this.checkBox96.Size = new System.Drawing.Size(15, 14);
             this.checkBox96.TabIndex = 93;
             this.checkBox96.UseVisualStyleBackColor = true;
-            this.checkBox96.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox96.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox97
             // 
@@ -5385,7 +5365,7 @@ namespace TheatreTicketing
             this.checkBox97.Size = new System.Drawing.Size(15, 14);
             this.checkBox97.TabIndex = 92;
             this.checkBox97.UseVisualStyleBackColor = true;
-            this.checkBox97.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox97.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox98
             // 
@@ -5395,7 +5375,7 @@ namespace TheatreTicketing
             this.checkBox98.Size = new System.Drawing.Size(15, 14);
             this.checkBox98.TabIndex = 91;
             this.checkBox98.UseVisualStyleBackColor = true;
-            this.checkBox98.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox98.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox99
             // 
@@ -5405,7 +5385,7 @@ namespace TheatreTicketing
             this.checkBox99.Size = new System.Drawing.Size(15, 14);
             this.checkBox99.TabIndex = 90;
             this.checkBox99.UseVisualStyleBackColor = true;
-            this.checkBox99.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox99.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox78
             // 
@@ -5415,7 +5395,7 @@ namespace TheatreTicketing
             this.checkBox78.Size = new System.Drawing.Size(15, 14);
             this.checkBox78.TabIndex = 89;
             this.checkBox78.UseVisualStyleBackColor = true;
-            this.checkBox78.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox78.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox79
             // 
@@ -5425,7 +5405,7 @@ namespace TheatreTicketing
             this.checkBox79.Size = new System.Drawing.Size(15, 14);
             this.checkBox79.TabIndex = 88;
             this.checkBox79.UseVisualStyleBackColor = true;
-            this.checkBox79.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox79.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox80
             // 
@@ -5435,7 +5415,7 @@ namespace TheatreTicketing
             this.checkBox80.Size = new System.Drawing.Size(15, 14);
             this.checkBox80.TabIndex = 87;
             this.checkBox80.UseVisualStyleBackColor = true;
-            this.checkBox80.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox80.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox81
             // 
@@ -5445,7 +5425,7 @@ namespace TheatreTicketing
             this.checkBox81.Size = new System.Drawing.Size(15, 14);
             this.checkBox81.TabIndex = 86;
             this.checkBox81.UseVisualStyleBackColor = true;
-            this.checkBox81.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox81.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox82
             // 
@@ -5455,7 +5435,7 @@ namespace TheatreTicketing
             this.checkBox82.Size = new System.Drawing.Size(15, 14);
             this.checkBox82.TabIndex = 85;
             this.checkBox82.UseVisualStyleBackColor = true;
-            this.checkBox82.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox82.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox83
             // 
@@ -5465,7 +5445,7 @@ namespace TheatreTicketing
             this.checkBox83.Size = new System.Drawing.Size(15, 14);
             this.checkBox83.TabIndex = 84;
             this.checkBox83.UseVisualStyleBackColor = true;
-            this.checkBox83.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox83.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox84
             // 
@@ -5475,7 +5455,7 @@ namespace TheatreTicketing
             this.checkBox84.Size = new System.Drawing.Size(15, 14);
             this.checkBox84.TabIndex = 83;
             this.checkBox84.UseVisualStyleBackColor = true;
-            this.checkBox84.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox84.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox85
             // 
@@ -5485,7 +5465,7 @@ namespace TheatreTicketing
             this.checkBox85.Size = new System.Drawing.Size(15, 14);
             this.checkBox85.TabIndex = 82;
             this.checkBox85.UseVisualStyleBackColor = true;
-            this.checkBox85.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox85.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox86
             // 
@@ -5495,7 +5475,7 @@ namespace TheatreTicketing
             this.checkBox86.Size = new System.Drawing.Size(15, 14);
             this.checkBox86.TabIndex = 81;
             this.checkBox86.UseVisualStyleBackColor = true;
-            this.checkBox86.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox86.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox87
             // 
@@ -5505,7 +5485,7 @@ namespace TheatreTicketing
             this.checkBox87.Size = new System.Drawing.Size(15, 14);
             this.checkBox87.TabIndex = 80;
             this.checkBox87.UseVisualStyleBackColor = true;
-            this.checkBox87.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox87.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox88
             // 
@@ -5515,7 +5495,7 @@ namespace TheatreTicketing
             this.checkBox88.Size = new System.Drawing.Size(15, 14);
             this.checkBox88.TabIndex = 79;
             this.checkBox88.UseVisualStyleBackColor = true;
-            this.checkBox88.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox88.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox67
             // 
@@ -5525,7 +5505,7 @@ namespace TheatreTicketing
             this.checkBox67.Size = new System.Drawing.Size(15, 14);
             this.checkBox67.TabIndex = 78;
             this.checkBox67.UseVisualStyleBackColor = true;
-            this.checkBox67.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox67.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox68
             // 
@@ -5535,7 +5515,7 @@ namespace TheatreTicketing
             this.checkBox68.Size = new System.Drawing.Size(15, 14);
             this.checkBox68.TabIndex = 77;
             this.checkBox68.UseVisualStyleBackColor = true;
-            this.checkBox68.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox68.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox69
             // 
@@ -5545,7 +5525,7 @@ namespace TheatreTicketing
             this.checkBox69.Size = new System.Drawing.Size(15, 14);
             this.checkBox69.TabIndex = 76;
             this.checkBox69.UseVisualStyleBackColor = true;
-            this.checkBox69.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox69.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox70
             // 
@@ -5555,7 +5535,7 @@ namespace TheatreTicketing
             this.checkBox70.Size = new System.Drawing.Size(15, 14);
             this.checkBox70.TabIndex = 75;
             this.checkBox70.UseVisualStyleBackColor = true;
-            this.checkBox70.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox70.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox71
             // 
@@ -5565,7 +5545,7 @@ namespace TheatreTicketing
             this.checkBox71.Size = new System.Drawing.Size(15, 14);
             this.checkBox71.TabIndex = 74;
             this.checkBox71.UseVisualStyleBackColor = true;
-            this.checkBox71.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox71.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox72
             // 
@@ -5575,7 +5555,7 @@ namespace TheatreTicketing
             this.checkBox72.Size = new System.Drawing.Size(15, 14);
             this.checkBox72.TabIndex = 73;
             this.checkBox72.UseVisualStyleBackColor = true;
-            this.checkBox72.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox72.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox73
             // 
@@ -5585,7 +5565,7 @@ namespace TheatreTicketing
             this.checkBox73.Size = new System.Drawing.Size(15, 14);
             this.checkBox73.TabIndex = 72;
             this.checkBox73.UseVisualStyleBackColor = true;
-            this.checkBox73.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox73.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox74
             // 
@@ -5595,7 +5575,7 @@ namespace TheatreTicketing
             this.checkBox74.Size = new System.Drawing.Size(15, 14);
             this.checkBox74.TabIndex = 71;
             this.checkBox74.UseVisualStyleBackColor = true;
-            this.checkBox74.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox74.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox75
             // 
@@ -5605,7 +5585,7 @@ namespace TheatreTicketing
             this.checkBox75.Size = new System.Drawing.Size(15, 14);
             this.checkBox75.TabIndex = 70;
             this.checkBox75.UseVisualStyleBackColor = true;
-            this.checkBox75.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox75.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox76
             // 
@@ -5615,7 +5595,7 @@ namespace TheatreTicketing
             this.checkBox76.Size = new System.Drawing.Size(15, 14);
             this.checkBox76.TabIndex = 69;
             this.checkBox76.UseVisualStyleBackColor = true;
-            this.checkBox76.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox76.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox77
             // 
@@ -5625,7 +5605,7 @@ namespace TheatreTicketing
             this.checkBox77.Size = new System.Drawing.Size(15, 14);
             this.checkBox77.TabIndex = 68;
             this.checkBox77.UseVisualStyleBackColor = true;
-            this.checkBox77.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox77.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox56
             // 
@@ -5635,7 +5615,7 @@ namespace TheatreTicketing
             this.checkBox56.Size = new System.Drawing.Size(15, 14);
             this.checkBox56.TabIndex = 67;
             this.checkBox56.UseVisualStyleBackColor = true;
-            this.checkBox56.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox56.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox57
             // 
@@ -5645,7 +5625,7 @@ namespace TheatreTicketing
             this.checkBox57.Size = new System.Drawing.Size(15, 14);
             this.checkBox57.TabIndex = 66;
             this.checkBox57.UseVisualStyleBackColor = true;
-            this.checkBox57.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox57.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox58
             // 
@@ -5655,7 +5635,7 @@ namespace TheatreTicketing
             this.checkBox58.Size = new System.Drawing.Size(15, 14);
             this.checkBox58.TabIndex = 65;
             this.checkBox58.UseVisualStyleBackColor = true;
-            this.checkBox58.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox58.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox59
             // 
@@ -5665,7 +5645,7 @@ namespace TheatreTicketing
             this.checkBox59.Size = new System.Drawing.Size(15, 14);
             this.checkBox59.TabIndex = 64;
             this.checkBox59.UseVisualStyleBackColor = true;
-            this.checkBox59.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox59.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox60
             // 
@@ -5675,7 +5655,7 @@ namespace TheatreTicketing
             this.checkBox60.Size = new System.Drawing.Size(15, 14);
             this.checkBox60.TabIndex = 63;
             this.checkBox60.UseVisualStyleBackColor = true;
-            this.checkBox60.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox60.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox61
             // 
@@ -5685,7 +5665,7 @@ namespace TheatreTicketing
             this.checkBox61.Size = new System.Drawing.Size(15, 14);
             this.checkBox61.TabIndex = 62;
             this.checkBox61.UseVisualStyleBackColor = true;
-            this.checkBox61.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox61.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox62
             // 
@@ -5695,7 +5675,7 @@ namespace TheatreTicketing
             this.checkBox62.Size = new System.Drawing.Size(15, 14);
             this.checkBox62.TabIndex = 61;
             this.checkBox62.UseVisualStyleBackColor = true;
-            this.checkBox62.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox62.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox63
             // 
@@ -5705,7 +5685,7 @@ namespace TheatreTicketing
             this.checkBox63.Size = new System.Drawing.Size(15, 14);
             this.checkBox63.TabIndex = 60;
             this.checkBox63.UseVisualStyleBackColor = true;
-            this.checkBox63.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox63.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox64
             // 
@@ -5715,7 +5695,7 @@ namespace TheatreTicketing
             this.checkBox64.Size = new System.Drawing.Size(15, 14);
             this.checkBox64.TabIndex = 59;
             this.checkBox64.UseVisualStyleBackColor = true;
-            this.checkBox64.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox64.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox65
             // 
@@ -5725,7 +5705,7 @@ namespace TheatreTicketing
             this.checkBox65.Size = new System.Drawing.Size(15, 14);
             this.checkBox65.TabIndex = 58;
             this.checkBox65.UseVisualStyleBackColor = true;
-            this.checkBox65.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox65.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox66
             // 
@@ -5735,7 +5715,7 @@ namespace TheatreTicketing
             this.checkBox66.Size = new System.Drawing.Size(15, 14);
             this.checkBox66.TabIndex = 57;
             this.checkBox66.UseVisualStyleBackColor = true;
-            this.checkBox66.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox66.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox45
             // 
@@ -5745,7 +5725,7 @@ namespace TheatreTicketing
             this.checkBox45.Size = new System.Drawing.Size(15, 14);
             this.checkBox45.TabIndex = 56;
             this.checkBox45.UseVisualStyleBackColor = true;
-            this.checkBox45.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox45.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox46
             // 
@@ -5755,7 +5735,7 @@ namespace TheatreTicketing
             this.checkBox46.Size = new System.Drawing.Size(15, 14);
             this.checkBox46.TabIndex = 55;
             this.checkBox46.UseVisualStyleBackColor = true;
-            this.checkBox46.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox46.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox47
             // 
@@ -5765,7 +5745,7 @@ namespace TheatreTicketing
             this.checkBox47.Size = new System.Drawing.Size(15, 14);
             this.checkBox47.TabIndex = 54;
             this.checkBox47.UseVisualStyleBackColor = true;
-            this.checkBox47.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox47.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox48
             // 
@@ -5775,7 +5755,7 @@ namespace TheatreTicketing
             this.checkBox48.Size = new System.Drawing.Size(15, 14);
             this.checkBox48.TabIndex = 53;
             this.checkBox48.UseVisualStyleBackColor = true;
-            this.checkBox48.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox48.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox49
             // 
@@ -5785,7 +5765,7 @@ namespace TheatreTicketing
             this.checkBox49.Size = new System.Drawing.Size(15, 14);
             this.checkBox49.TabIndex = 52;
             this.checkBox49.UseVisualStyleBackColor = true;
-            this.checkBox49.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox49.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox50
             // 
@@ -5795,7 +5775,7 @@ namespace TheatreTicketing
             this.checkBox50.Size = new System.Drawing.Size(15, 14);
             this.checkBox50.TabIndex = 51;
             this.checkBox50.UseVisualStyleBackColor = true;
-            this.checkBox50.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox50.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox51
             // 
@@ -5805,7 +5785,7 @@ namespace TheatreTicketing
             this.checkBox51.Size = new System.Drawing.Size(15, 14);
             this.checkBox51.TabIndex = 50;
             this.checkBox51.UseVisualStyleBackColor = true;
-            this.checkBox51.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox51.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox52
             // 
@@ -5815,7 +5795,7 @@ namespace TheatreTicketing
             this.checkBox52.Size = new System.Drawing.Size(15, 14);
             this.checkBox52.TabIndex = 49;
             this.checkBox52.UseVisualStyleBackColor = true;
-            this.checkBox52.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox52.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox53
             // 
@@ -5825,7 +5805,7 @@ namespace TheatreTicketing
             this.checkBox53.Size = new System.Drawing.Size(15, 14);
             this.checkBox53.TabIndex = 48;
             this.checkBox53.UseVisualStyleBackColor = true;
-            this.checkBox53.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox53.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox54
             // 
@@ -5835,7 +5815,7 @@ namespace TheatreTicketing
             this.checkBox54.Size = new System.Drawing.Size(15, 14);
             this.checkBox54.TabIndex = 47;
             this.checkBox54.UseVisualStyleBackColor = true;
-            this.checkBox54.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox54.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox55
             // 
@@ -5845,7 +5825,7 @@ namespace TheatreTicketing
             this.checkBox55.Size = new System.Drawing.Size(15, 14);
             this.checkBox55.TabIndex = 46;
             this.checkBox55.UseVisualStyleBackColor = true;
-            this.checkBox55.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox55.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox34
             // 
@@ -5855,7 +5835,7 @@ namespace TheatreTicketing
             this.checkBox34.Size = new System.Drawing.Size(15, 14);
             this.checkBox34.TabIndex = 45;
             this.checkBox34.UseVisualStyleBackColor = true;
-            this.checkBox34.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox34.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox35
             // 
@@ -5865,7 +5845,7 @@ namespace TheatreTicketing
             this.checkBox35.Size = new System.Drawing.Size(15, 14);
             this.checkBox35.TabIndex = 44;
             this.checkBox35.UseVisualStyleBackColor = true;
-            this.checkBox35.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox35.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox36
             // 
@@ -5875,7 +5855,7 @@ namespace TheatreTicketing
             this.checkBox36.Size = new System.Drawing.Size(15, 14);
             this.checkBox36.TabIndex = 43;
             this.checkBox36.UseVisualStyleBackColor = true;
-            this.checkBox36.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox36.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox37
             // 
@@ -5885,7 +5865,7 @@ namespace TheatreTicketing
             this.checkBox37.Size = new System.Drawing.Size(15, 14);
             this.checkBox37.TabIndex = 42;
             this.checkBox37.UseVisualStyleBackColor = true;
-            this.checkBox37.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox37.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox38
             // 
@@ -5895,7 +5875,7 @@ namespace TheatreTicketing
             this.checkBox38.Size = new System.Drawing.Size(15, 14);
             this.checkBox38.TabIndex = 41;
             this.checkBox38.UseVisualStyleBackColor = true;
-            this.checkBox38.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox38.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox39
             // 
@@ -5905,7 +5885,7 @@ namespace TheatreTicketing
             this.checkBox39.Size = new System.Drawing.Size(15, 14);
             this.checkBox39.TabIndex = 40;
             this.checkBox39.UseVisualStyleBackColor = true;
-            this.checkBox39.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox39.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox40
             // 
@@ -5915,7 +5895,7 @@ namespace TheatreTicketing
             this.checkBox40.Size = new System.Drawing.Size(15, 14);
             this.checkBox40.TabIndex = 39;
             this.checkBox40.UseVisualStyleBackColor = true;
-            this.checkBox40.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox40.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox41
             // 
@@ -5925,7 +5905,7 @@ namespace TheatreTicketing
             this.checkBox41.Size = new System.Drawing.Size(15, 14);
             this.checkBox41.TabIndex = 38;
             this.checkBox41.UseVisualStyleBackColor = true;
-            this.checkBox41.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox41.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox42
             // 
@@ -5935,7 +5915,7 @@ namespace TheatreTicketing
             this.checkBox42.Size = new System.Drawing.Size(15, 14);
             this.checkBox42.TabIndex = 37;
             this.checkBox42.UseVisualStyleBackColor = true;
-            this.checkBox42.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox42.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox43
             // 
@@ -5945,7 +5925,7 @@ namespace TheatreTicketing
             this.checkBox43.Size = new System.Drawing.Size(15, 14);
             this.checkBox43.TabIndex = 36;
             this.checkBox43.UseVisualStyleBackColor = true;
-            this.checkBox43.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox43.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox44
             // 
@@ -5955,7 +5935,7 @@ namespace TheatreTicketing
             this.checkBox44.Size = new System.Drawing.Size(15, 14);
             this.checkBox44.TabIndex = 35;
             this.checkBox44.UseVisualStyleBackColor = true;
-            this.checkBox44.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox44.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox23
             // 
@@ -5965,7 +5945,7 @@ namespace TheatreTicketing
             this.checkBox23.Size = new System.Drawing.Size(15, 14);
             this.checkBox23.TabIndex = 34;
             this.checkBox23.UseVisualStyleBackColor = true;
-            this.checkBox23.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox23.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox24
             // 
@@ -5975,7 +5955,7 @@ namespace TheatreTicketing
             this.checkBox24.Size = new System.Drawing.Size(15, 14);
             this.checkBox24.TabIndex = 33;
             this.checkBox24.UseVisualStyleBackColor = true;
-            this.checkBox24.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox24.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox25
             // 
@@ -5985,7 +5965,7 @@ namespace TheatreTicketing
             this.checkBox25.Size = new System.Drawing.Size(15, 14);
             this.checkBox25.TabIndex = 32;
             this.checkBox25.UseVisualStyleBackColor = true;
-            this.checkBox25.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox25.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox26
             // 
@@ -5995,7 +5975,7 @@ namespace TheatreTicketing
             this.checkBox26.Size = new System.Drawing.Size(15, 14);
             this.checkBox26.TabIndex = 31;
             this.checkBox26.UseVisualStyleBackColor = true;
-            this.checkBox26.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox26.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox27
             // 
@@ -6005,7 +5985,7 @@ namespace TheatreTicketing
             this.checkBox27.Size = new System.Drawing.Size(15, 14);
             this.checkBox27.TabIndex = 30;
             this.checkBox27.UseVisualStyleBackColor = true;
-            this.checkBox27.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox27.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox28
             // 
@@ -6015,7 +5995,7 @@ namespace TheatreTicketing
             this.checkBox28.Size = new System.Drawing.Size(15, 14);
             this.checkBox28.TabIndex = 29;
             this.checkBox28.UseVisualStyleBackColor = true;
-            this.checkBox28.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox28.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox29
             // 
@@ -6025,7 +6005,7 @@ namespace TheatreTicketing
             this.checkBox29.Size = new System.Drawing.Size(15, 14);
             this.checkBox29.TabIndex = 28;
             this.checkBox29.UseVisualStyleBackColor = true;
-            this.checkBox29.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox29.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox30
             // 
@@ -6035,7 +6015,7 @@ namespace TheatreTicketing
             this.checkBox30.Size = new System.Drawing.Size(15, 14);
             this.checkBox30.TabIndex = 27;
             this.checkBox30.UseVisualStyleBackColor = true;
-            this.checkBox30.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox30.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox31
             // 
@@ -6045,7 +6025,7 @@ namespace TheatreTicketing
             this.checkBox31.Size = new System.Drawing.Size(15, 14);
             this.checkBox31.TabIndex = 26;
             this.checkBox31.UseVisualStyleBackColor = true;
-            this.checkBox31.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox31.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox32
             // 
@@ -6055,7 +6035,7 @@ namespace TheatreTicketing
             this.checkBox32.Size = new System.Drawing.Size(15, 14);
             this.checkBox32.TabIndex = 25;
             this.checkBox32.UseVisualStyleBackColor = true;
-            this.checkBox32.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox32.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox33
             // 
@@ -6065,7 +6045,7 @@ namespace TheatreTicketing
             this.checkBox33.Size = new System.Drawing.Size(15, 14);
             this.checkBox33.TabIndex = 24;
             this.checkBox33.UseVisualStyleBackColor = true;
-            this.checkBox33.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox33.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox12
             // 
@@ -6075,7 +6055,7 @@ namespace TheatreTicketing
             this.checkBox12.Size = new System.Drawing.Size(15, 14);
             this.checkBox12.TabIndex = 23;
             this.checkBox12.UseVisualStyleBackColor = true;
-            this.checkBox12.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox12.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox13
             // 
@@ -6085,7 +6065,7 @@ namespace TheatreTicketing
             this.checkBox13.Size = new System.Drawing.Size(15, 14);
             this.checkBox13.TabIndex = 22;
             this.checkBox13.UseVisualStyleBackColor = true;
-            this.checkBox13.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox14
             // 
@@ -6095,7 +6075,7 @@ namespace TheatreTicketing
             this.checkBox14.Size = new System.Drawing.Size(15, 14);
             this.checkBox14.TabIndex = 21;
             this.checkBox14.UseVisualStyleBackColor = true;
-            this.checkBox14.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox14.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox15
             // 
@@ -6105,7 +6085,7 @@ namespace TheatreTicketing
             this.checkBox15.Size = new System.Drawing.Size(15, 14);
             this.checkBox15.TabIndex = 20;
             this.checkBox15.UseVisualStyleBackColor = true;
-            this.checkBox15.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox15.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox16
             // 
@@ -6115,7 +6095,7 @@ namespace TheatreTicketing
             this.checkBox16.Size = new System.Drawing.Size(15, 14);
             this.checkBox16.TabIndex = 19;
             this.checkBox16.UseVisualStyleBackColor = true;
-            this.checkBox16.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox16.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox17
             // 
@@ -6125,7 +6105,7 @@ namespace TheatreTicketing
             this.checkBox17.Size = new System.Drawing.Size(15, 14);
             this.checkBox17.TabIndex = 18;
             this.checkBox17.UseVisualStyleBackColor = true;
-            this.checkBox17.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox17.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox18
             // 
@@ -6135,7 +6115,7 @@ namespace TheatreTicketing
             this.checkBox18.Size = new System.Drawing.Size(15, 14);
             this.checkBox18.TabIndex = 17;
             this.checkBox18.UseVisualStyleBackColor = true;
-            this.checkBox18.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox18.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox19
             // 
@@ -6145,7 +6125,7 @@ namespace TheatreTicketing
             this.checkBox19.Size = new System.Drawing.Size(15, 14);
             this.checkBox19.TabIndex = 16;
             this.checkBox19.UseVisualStyleBackColor = true;
-            this.checkBox19.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox19.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox20
             // 
@@ -6155,7 +6135,7 @@ namespace TheatreTicketing
             this.checkBox20.Size = new System.Drawing.Size(15, 14);
             this.checkBox20.TabIndex = 15;
             this.checkBox20.UseVisualStyleBackColor = true;
-            this.checkBox20.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox20.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox21
             // 
@@ -6165,7 +6145,7 @@ namespace TheatreTicketing
             this.checkBox21.Size = new System.Drawing.Size(15, 14);
             this.checkBox21.TabIndex = 14;
             this.checkBox21.UseVisualStyleBackColor = true;
-            this.checkBox21.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox21.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox22
             // 
@@ -6175,7 +6155,7 @@ namespace TheatreTicketing
             this.checkBox22.Size = new System.Drawing.Size(15, 14);
             this.checkBox22.TabIndex = 13;
             this.checkBox22.UseVisualStyleBackColor = true;
-            this.checkBox22.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox22.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox11
             // 
@@ -6185,7 +6165,7 @@ namespace TheatreTicketing
             this.checkBox11.Size = new System.Drawing.Size(15, 14);
             this.checkBox11.TabIndex = 12;
             this.checkBox11.UseVisualStyleBackColor = true;
-            this.checkBox11.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox9
             // 
@@ -6195,7 +6175,7 @@ namespace TheatreTicketing
             this.checkBox9.Size = new System.Drawing.Size(15, 14);
             this.checkBox9.TabIndex = 11;
             this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox10
             // 
@@ -6205,7 +6185,7 @@ namespace TheatreTicketing
             this.checkBox10.Size = new System.Drawing.Size(15, 14);
             this.checkBox10.TabIndex = 10;
             this.checkBox10.UseVisualStyleBackColor = true;
-            this.checkBox10.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -6215,7 +6195,7 @@ namespace TheatreTicketing
             this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 9;
             this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -6225,7 +6205,7 @@ namespace TheatreTicketing
             this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 8;
             this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox7
             // 
@@ -6235,7 +6215,7 @@ namespace TheatreTicketing
             this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 7;
             this.checkBox7.UseVisualStyleBackColor = true;
-            this.checkBox7.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox8
             // 
@@ -6245,71 +6225,55 @@ namespace TheatreTicketing
             this.checkBox8.Size = new System.Drawing.Size(15, 14);
             this.checkBox8.TabIndex = 6;
             this.checkBox8.UseVisualStyleBackColor = true;
-            this.checkBox8.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoCheck = false;
             this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.LightCoral;
-            this.checkBox4.Checked = true;
-            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox4.ForeColor = System.Drawing.Color.Red;
+            this.checkBox4.BackColor = System.Drawing.Color.White;
+            this.checkBox4.ForeColor = System.Drawing.Color.White;
             this.checkBox4.Location = new System.Drawing.Point(391, 124);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(12, 11);
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 5;
             this.checkBox4.UseVisualStyleBackColor = false;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoCheck = false;
             this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.LightGreen;
-            this.checkBox3.Checked = true;
-            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox3.ForeColor = System.Drawing.Color.Green;
+            this.checkBox3.BackColor = System.Drawing.Color.White;
+            this.checkBox3.ForeColor = System.Drawing.Color.White;
             this.checkBox3.Location = new System.Drawing.Point(370, 124);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(12, 11);
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 4;
             this.checkBox3.UseVisualStyleBackColor = false;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoCheck = false;
             this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.LightCoral;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.ForeColor = System.Drawing.Color.Red;
+            this.checkBox2.BackColor = System.Drawing.Color.White;
+            this.checkBox2.ForeColor = System.Drawing.Color.White;
             this.checkBox2.Location = new System.Drawing.Point(349, 124);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(12, 11);
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 3;
             this.checkBox2.UseVisualStyleBackColor = false;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoCheck = false;
             this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.LightCoral;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.ForeColor = System.Drawing.Color.Red;
+            this.checkBox1.BackColor = System.Drawing.Color.White;
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(328, 124);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(12, 11);
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.updateNumberSeatSelected_CheckedChanged);
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.updateNumberSelected_CheckedChanged);
             // 
             // pictureBoxStage
             // 
@@ -6511,9 +6475,9 @@ namespace TheatreTicketing
             this.panelTicketSold.Controls.Add(this.checkBoxStudentSold);
             this.panelTicketSold.Controls.Add(this.checkBoxAdultSold);
             this.panelTicketSold.Controls.Add(this.labelTicketSold);
-            this.panelTicketSold.Controls.Add(this.label2);
-            this.panelTicketSold.Controls.Add(this.label3);
-            this.panelTicketSold.Controls.Add(this.label4);
+            this.panelTicketSold.Controls.Add(this.labelAdultSeat);
+            this.panelTicketSold.Controls.Add(this.labelStudentSeat);
+            this.panelTicketSold.Controls.Add(this.labelUofCSeat);
             this.panelTicketSold.Location = new System.Drawing.Point(761, 42);
             this.panelTicketSold.Name = "panelTicketSold";
             this.panelTicketSold.Size = new System.Drawing.Size(165, 126);
@@ -6578,42 +6542,39 @@ namespace TheatreTicketing
             this.labelTicketSold.TabIndex = 0;
             this.labelTicketSold.Text = "Tickets Sold :";
             // 
-            // label2
+            // labelAdultSeat
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightCoral;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 42);
-            this.label2.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "     Adult ( 3 )";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.labelAdultSeat.AutoSize = true;
+            this.labelAdultSeat.BackColor = System.Drawing.Color.LightCoral;
+            this.labelAdultSeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAdultSeat.Location = new System.Drawing.Point(7, 42);
+            this.labelAdultSeat.MinimumSize = new System.Drawing.Size(0, 22);
+            this.labelAdultSeat.Name = "labelAdultSeat";
+            this.labelAdultSeat.Size = new System.Drawing.Size(0, 22);
+            this.labelAdultSeat.TabIndex = 4;
+            this.labelAdultSeat.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // labelStudentSeat
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightGreen;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 66);
-            this.label3.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 22);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "     Student/Senior ( 1 )";
+            this.labelStudentSeat.AutoSize = true;
+            this.labelStudentSeat.BackColor = System.Drawing.Color.LightGreen;
+            this.labelStudentSeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStudentSeat.Location = new System.Drawing.Point(7, 66);
+            this.labelStudentSeat.MinimumSize = new System.Drawing.Size(0, 22);
+            this.labelStudentSeat.Name = "labelStudentSeat";
+            this.labelStudentSeat.Size = new System.Drawing.Size(0, 22);
+            this.labelStudentSeat.TabIndex = 5;
             // 
-            // label4
+            // labelUofCSeat
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 90);
-            this.label4.MinimumSize = new System.Drawing.Size(0, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 22);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "     UofC Student ( 5 )";
+            this.labelUofCSeat.AutoSize = true;
+            this.labelUofCSeat.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.labelUofCSeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUofCSeat.Location = new System.Drawing.Point(8, 90);
+            this.labelUofCSeat.MinimumSize = new System.Drawing.Size(0, 22);
+            this.labelUofCSeat.Name = "labelUofCSeat";
+            this.labelUofCSeat.Size = new System.Drawing.Size(0, 22);
+            this.labelUofCSeat.TabIndex = 6;
             // 
             // MainScreen
             // 
@@ -7184,9 +7145,9 @@ namespace TheatreTicketing
         private System.Windows.Forms.CheckBox checkBoxUofCSold;
         private System.Windows.Forms.CheckBox checkBoxStudentSold;
         private System.Windows.Forms.CheckBox checkBoxAdultSold;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelUofCSeat;
+        private System.Windows.Forms.Label labelStudentSeat;
+        private System.Windows.Forms.Label labelAdultSeat;
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Label labelTime;
         private System.Windows.Forms.Label labelDate;

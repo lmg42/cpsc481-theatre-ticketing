@@ -5,9 +5,9 @@ using System.Text;
 
 namespace TheatreTicketing
 {
-    enum SeriesName { NowShowing, Celebration, Discovery, Jazz, Organ, StringQuartet };
+    public enum SeriesName { NowShowing, Celebration, Discovery, Jazz, Organ, StringQuartet };
 
-    class Serie
+    public class Serie
     {
         public SeriesName seriesName;
         public Concert[] concerts;
@@ -18,41 +18,53 @@ namespace TheatreTicketing
             {
                 case 0:
                     seriesName = SeriesName.NowShowing;
-                    ConcertName nextConcert = NextConcert();
+                    string nextConcert = NextConcert();
                     concerts = new Concert[] { new Concert(nextConcert) };
                     break;
                 case 1:
                     seriesName = SeriesName.Celebration;
-                    concerts = new Concert[] { new Concert(ConcertName.BlackbirdSings), new Concert(ConcertName.HyphenatedLizst)
-                        , new Concert(ConcertName.SchubertWinterreise), new Concert(ConcertName.LiteraryLiszt), new Concert(ConcertName.OldVsNew) };
+                    concerts = new Concert[] { new Concert("The Blackbird Sings: Music for Flute and Piano "), new Concert("The Hyphenated Liszt ")
+                        , new Concert("Schubert's Winterreise "), new Concert("The Literary Liszt "), new Concert("Old vs New ") };
                     break;
                 case 2:
                     seriesName = SeriesName.Discovery;
-                    concerts = new Concert[] { new Concert(ConcertName.ContemporaryCanada), new Concert(ConcertName.HistoireDuTango), 
-                        new Concert(ConcertName.PersianZeal) };
+                    concerts = new Concert[] { new Concert("Contemporary Canada "), new Concert("Histoire du Tango "), 
+                        new Concert("Persian Zeal ") };
                     break;
                 case 3:
                     seriesName = SeriesName.Celebration;
-                    concerts = new Concert[] { new Concert(ConcertName.TommyBanks), new Concert(ConcertName.BillEvans), new Concert(ConcertName.MariaSchneider),
-                        new Concert(ConcertName.ChrisAndrew), new Concert(ConcertName.Verismo), new Concert(ConcertName.GoodmanMahQuartet) };
+                    concerts = new Concert[] { new Concert("Tommy Banks Quartet "), new Concert("Bill Evans Tribute "), new Concert("Maria Schneider "),
+                        new Concert("Chris Andrew Quintet "), new Concert("Verismo with Chris Tarry "), new Concert("Alex Goodman/Brent Mah Quartet ") };
                     break;
                 case 4:
                     seriesName = SeriesName.Organ;
-                    concerts = new Concert[] { new Concert(ConcertName.GermanySeduced), new Concert(ConcertName.FrenchSymphonic), new Concert(ConcertName.LivreDOrgue) };
+                    concerts = new Concert[] { new Concert("Romance: Germany Seduced by the South "), new Concert("French Symphonic Music of the 20th and 21st Centuries "), new Concert("Livre d'orgue de Montreal ") };
                     break;
                 case 5:
                     seriesName = SeriesName.StringQuartet;
-                    concerts = new Concert[] { new Concert(ConcertName.BrahmsI), new Concert(ConcertName.BrahmsII), new Concert(ConcertName.BrahmsIII) };;
+                    concerts = new Concert[] { new Concert("A Celebration of Brahms I "), new Concert("A Celebration of Brahms II "), new Concert("A Celebration of Brahms III ") };;
                     break;
                 default:
                     break;
             }
         }
 
-        public ConcertName NextConcert()
+        public static string NextConcert()
         {
             //TODO find the next concert
-            return ConcertName.HyphenatedLizst;
+            return "The Hyphenated Liszt ";
+        }
+
+        public Concert findAConcert(string name)
+        {
+            for (int i=0; i < this.concerts.Length; i++)
+            {
+                if (concerts[i].name == name)
+                {
+                    return concerts[i];
+                }
+            }
+            return null;
         }
 
     }
