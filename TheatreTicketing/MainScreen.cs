@@ -19,7 +19,6 @@ namespace TheatreTicketing
         public Button confirmPurchase;
         public int numberSeatSelected = 0;
         public List<System.Windows.Forms.CheckBox> seatSelected = new List<System.Windows.Forms.CheckBox>();
-
         public Concert currentConcert;
     
 
@@ -42,7 +41,7 @@ namespace TheatreTicketing
 
             //We construct the screen of next concert
             clearConcertScreen();
-            constructConcertScreen(nextConcert);
+            constructConcertScreen();
 
             //add a pre purchased seat to the second concert
             Concert secondConcert = findAConcert("The Blackbird Sings: Music for Flute and Piano ");
@@ -173,7 +172,7 @@ namespace TheatreTicketing
                 Concert newConcert = findAConcert(newConcertName);
                 clearConcertScreen();
                 currentConcert = newConcert;
-                constructConcertScreen(newConcert);
+                constructConcertScreen();
 
                 //change the date label to the other concert
                 labelDate.Text = e.Node.Text.ToString().Substring(dashLocation + 2);
@@ -200,17 +199,20 @@ namespace TheatreTicketing
         private void updateNumberSelected_CheckedChanged(object sender, EventArgs e)
         {
             CheckBox checkbox = (CheckBox)sender;
-            if (checkbox.Checked)
+            if (checkbox.FlatStyle != FlatStyle.Flat)
             {
-                this.numberSeatSelected = this.numberSeatSelected + 1;
-                seatSelected.Add(checkbox);
+                if (checkbox.Checked)
+                {
+                    this.numberSeatSelected = this.numberSeatSelected + 1;
+                    seatSelected.Add(checkbox);
+                }
+                else
+                {
+                    this.numberSeatSelected = this.numberSeatSelected - 1;
+                }
+                labelNumberSeat.Text = numberSeatSelected.ToString();
+                updateMaxNumericUpDown_ValueChanged(null, null);
             }
-            else
-            {
-                this.numberSeatSelected = this.numberSeatSelected - 1;
-            }
-            labelNumberSeat.Text = numberSeatSelected.ToString();
-            updateMaxNumericUpDown_ValueChanged(null, null);
         }
 
         //Function to update the number of maximum seat we can take per type
@@ -282,11 +284,14 @@ namespace TheatreTicketing
 
         void confirmPurchase_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("buy clicked");
+            //MessageBox.Show("buy clicked");
+            addPurchasedSeatToTheConcert();
         }
 
-        void constructConcertScreen(Concert concert)
+        void constructConcertScreen()
         {
+            Concert concert = currentConcert;
+
             foreach(Seat seat in concert.seatPurchased)
             {
                 seat.checkBox.Checked = true;
@@ -343,6 +348,7 @@ namespace TheatreTicketing
             numberSeatSelected = 0;
             labelNumberSeat.Text = numberSeatSelected.ToString();
             updateMaxNumericUpDown_ValueChanged(null, null);
+            updateBuyTicketsPanel();
 
             seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
@@ -360,6 +366,39 @@ namespace TheatreTicketing
             }
             return temp;
 
+        }
+
+        public void addPurchasedSeatToTheConcert()
+        {
+            int numberAdultSeats = (int)numericUpDownTypeAdult.Value;
+            int numberStudentSeats = (int)numericUpDownTypeStudent.Value;
+            int numberUofCSeats = (int)numericUpDownTypeUofC.Value;
+            Seat temp;
+
+            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            {
+                if (numberAdultSeats > 0)
+                {
+                    temp = new Seat(SeatType.Adult,checkbox);
+                    numberAdultSeats -= 1;
+                    currentConcert.seatPurchased.Add(temp);
+                }
+                else if (numberStudentSeats > 0)
+                {
+                    temp = new Seat(SeatType.StudentSenior, checkbox);
+                    numberStudentSeats -= 1;
+                    currentConcert.seatPurchased.Add(temp);
+                }
+                else if (numberUofCSeats > 0)
+                {
+                    temp = new Seat(SeatType.UofCStudent, checkbox);
+                    numberUofCSeats -= 1;
+                    currentConcert.seatPurchased.Add(temp);
+                }
+            }
+
+            //clearConcertScreen();
+            constructConcertScreen();
         }
 
     }
