@@ -13,21 +13,32 @@ namespace TheatreTicketing
 
     public partial class MainScreen : Form
     {
-        ConcertDetails[] concerts;
+        Serie[] series;
         Label ticketsToPurchase;
         Button cancelPurchase;
         Button confirmPurchase;
         int seatSelected = 0;
+    
 
         public MainScreen()
             : this(new DockContentFormFactory())
         {
-            concerts = new ConcertDetails[6];
+            series = new Serie[6];
             for(int i = 0; i < 6; i++)
             {
-                concerts[i] = new ConcertDetails();
-                concerts[i].Populate(i);
+                series[i] = new Serie();
+                series[i].Populate(i);
             }
+
+            //Add a pre purchased seat
+            series[0].concerts[0].addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
+            series[0].concerts[0].addAPurchasedSeat(SeatType.Adult, checkBox111);
+            series[0].concerts[0].addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
+            constructSeatChart(series[0].concerts[0]);
+
+
+
+            
         }
 
         public MainScreen(IDockContentFormFactory dockContentFactory)
@@ -41,11 +52,12 @@ namespace TheatreTicketing
 
             TreeView treeView = new TreeView();
             treeView.Scale(new System.Drawing.SizeF((float)4.5, 3));
-            //now showing
+            #region now showing
             TreeNode nowShowingConcert = new TreeNode("The Hyphenated Liszt - October 22, 2011");
             TreeNode[] nowShowingConcertList = new TreeNode[] { nowShowingConcert };
             TreeNode nowShowingMasterNode = new TreeNode("Now Showing", nowShowingConcertList);
             treeView.Nodes.Add(nowShowingMasterNode);
+            #endregion
             #region Celebration Series
             TreeNode celebrationConcert1 = new TreeNode("The Blackbird Sings: Music for Flute and Piano - September 17, 2011");
             TreeNode celebrationConcert2 = new TreeNode("The Hyphenated Liszt - October 22, 2011");
@@ -253,6 +265,33 @@ namespace TheatreTicketing
         void confirmPurchase_Click(object sender, EventArgs e)
         {
             MessageBox.Show("buy clicked");
+        }
+
+        void constructSeatChart(Concert concert)
+        {
+            foreach(Seat seat in concert.seatPurchased)
+            {
+                seat.checkBox.Checked = true;
+                seat.checkBox.AutoCheck = false;
+                seat.checkBox.CheckState = CheckState.Checked;
+                seat.checkBox.FlatStyle = FlatStyle.Flat;
+                if (seat.seatType == SeatType.Adult)
+                {
+                    seat.checkBox.BackColor = Color.LightCoral;
+                    seat.checkBox.ForeColor = Color.Red;
+                }
+                else if (seat.seatType == SeatType.StudentSenior)
+                {
+                    seat.checkBox.BackColor = Color.LightGreen;
+                    seat.checkBox.ForeColor = Color.Green;
+                }
+                else
+                {
+                    seat.checkBox.BackColor = Color.LightSkyBlue;
+                    seat.checkBox.ForeColor = Color.Blue;
+                }
+
+            }
         }
     }
 }
