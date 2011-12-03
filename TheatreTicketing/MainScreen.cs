@@ -20,11 +20,15 @@ namespace TheatreTicketing
         public int numberSeatSelected = 0;
         public List<System.Windows.Forms.CheckBox> seatSelected = new List<System.Windows.Forms.CheckBox>();
         public Concert currentConcert;
+        public decimal totalTicketValue;
+        public decimal currentPageTotal;
     
 
         public MainScreen()
             : this(new DockContentFormFactory())
         {
+            currentPageTotal = 0;
+
             series = new Serie[6];
             for(int i = 0; i < 6; i++)
             {
@@ -258,7 +262,8 @@ namespace TheatreTicketing
                 ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
                 ticketsToPurchase.Text += Environment.NewLine;
             }
-            ticketsToPurchase.Text += "TOTAL               = $" + (adultValue + studentValue) + ".00";
+            currentPageTotal = adultValue + studentValue;
+            ticketsToPurchase.Text += "TOTAL               = $" + currentPageTotal + ".00";
             ticketsToPurchase.Text += Environment.NewLine;
 
             cancelPurchase.Show();
@@ -279,13 +284,37 @@ namespace TheatreTicketing
 
         void cancelPurchase_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("cancel button clicked");
+            totalTicketValue += currentPageTotal;
+            DialogResult result = MessageBox.Show("Are you sure you would like to cancel your purchase of $" + totalTicketValue + ".00", "Cancel Purchase", MessageBoxButtons.YesNo);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                //clear all currently selected tickets
+                clearAllSelectedTickets();
+
+                //reset all counters
+                totalTicketValue = 0;
+                currentPageTotal = 0;
+            }
+            else
+            {
+                totalTicketValue = totalTicketValue - currentPageTotal;
+            }
         }
 
         void confirmPurchase_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("buy clicked");
-            addPurchasedSeatToTheConcert();
+            totalTicketValue += currentPageTotal;
+            DialogResult result = MessageBox.Show("Are you sure you would like to purchase your tickets at a total of $" + totalTicketValue + ".00", "Buy Tickets", MessageBoxButtons.YesNo);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                addPurchasedSeatToTheConcert();
+                totalTicketValue = 0;
+                currentPageTotal = 0;
+            }
+            else
+            {
+                totalTicketValue = totalTicketValue - currentPageTotal;
+            }
         }
 
         void constructConcertScreen()
@@ -398,6 +427,21 @@ namespace TheatreTicketing
                     currentConcert.seatPurchased.Add(temp);
                     currentConcert.numberUofCSeat += 1;
                 }
+            }
+
+            constructConcertScreen();
+            seatSelected = new List<System.Windows.Forms.CheckBox>();
+        }
+
+        public void clearAllSelectedTickets()
+        {
+            numericUpDownTypeAdult.Value = 0;
+            numericUpDownTypeStudent.Value = 0;
+            numericUpDownTypeUofC.Value = 0;
+
+            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            {
+                checkbox.Checked = false;
             }
 
             constructConcertScreen();
