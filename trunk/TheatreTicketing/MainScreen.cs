@@ -303,6 +303,11 @@ namespace TheatreTicketing
 
         void confirmPurchase_Click(object sender, EventArgs e)
         {
+            if (numberSeatSelected != (numericUpDownTypeAdult.Value + numericUpDownTypeStudent.Value + numericUpDownTypeUofC.Value))
+            {
+                MessageBox.Show("Please, before buying, select a seat type for each seats selected");
+                return;
+            }
             totalTicketValue += currentPageTotal;
             DialogResult result = MessageBox.Show("Are you sure you would like to purchase your tickets at a total of $" + totalTicketValue + ".00", "Buy Tickets", MessageBoxButtons.YesNo);
             if (result == System.Windows.Forms.DialogResult.Yes)
@@ -345,6 +350,7 @@ namespace TheatreTicketing
             }
 
             //Number of seat purchased
+            labelTicketSold.Text = "Tickets Sold : " + (concert.numberAdultSeat + concert.numberStudentSeat + concert.numberUofCSeat);
             labelAdultSeat.Text = "     Adult ( " + concert.numberAdultSeat + " )";
             labelStudentSeat.Text = "     Student/Senior ( " + concert.numberStudentSeat + " )";
             labelUofCSeat.Text = "     UofC Student ( " + concert.numberUofCSeat + " )";
