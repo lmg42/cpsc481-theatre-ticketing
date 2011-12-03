@@ -9,6 +9,10 @@ namespace TheatreTicketing
     public class Concert
     {
         public string name;
+        public string date;
+        public string time;
+        public string otherInfos;
+
         public List<Seat> seatPurchased;
         public int numberSeatPurchased = 0;
         public int numberAdultSeat = 0;
