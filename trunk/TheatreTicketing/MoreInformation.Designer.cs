@@ -84,7 +84,7 @@
             // 
             this.labelTime.AutoSize = true;
             this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTime.Location = new System.Drawing.Point(122, 73);
+            this.labelTime.Location = new System.Drawing.Point(122, 71);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(93, 20);
             this.labelTime.TabIndex = 12;
@@ -156,10 +156,8 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 200);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(463, 13);
+            this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Schubert and Chopin Transcriptions, A Night at the Opera and the extraordinary Da" +
-                "nse Macabre.";
             // 
             // MoreInformation
             // 

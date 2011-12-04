@@ -19,6 +19,7 @@ namespace TheatreTicketing
         public Button confirmPurchase;
         public int numberSeatSelected = 0;
         public List<System.Windows.Forms.CheckBox> seatSelected = new List<System.Windows.Forms.CheckBox>();
+        public string currentSerie;
         public Concert currentConcert;
         public decimal totalTicketValue;
         public decimal currentPageTotal;
@@ -37,18 +38,26 @@ namespace TheatreTicketing
             }
 
             //Add a pre purchased seat to the next concert
-            Concert nextConcert = findAConcert(Serie.NextConcert());
+            Concert nextConcert = findAConcert("The Blackbird Sings "); ;
             nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
             nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox111);
             nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
             currentConcert = nextConcert;
+            currentSerie = SeriesName.Celebration.ToString();
+
+            labelSeries.Text = currentSerie;
+            labelConcert.Text = currentConcert.name;
+            labelDate.Text = currentConcert.date;
+            labelTime.Text = currentConcert.time;
+
+
 
             //We construct the screen of next concert
             clearConcertScreen();
             constructConcertScreen();
 
             //add a pre purchased seat to the second concert
-            Concert secondConcert = findAConcert("The Blackbird Sings: Music for Flute and Piano ");
+            Concert secondConcert = findAConcert("The Hyphenated Liszt ");
             secondConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox193);
         }
 
@@ -63,15 +72,17 @@ namespace TheatreTicketing
 
             TreeView treeView = new TreeView();
             treeView.Scale(new System.Drawing.SizeF((float)4.5, 3));
+            treeView.BorderStyle = BorderStyle.None;
+            treeView.BackColor = Color.DarkSeaGreen;
             #region now showing
-            TreeNode nowShowingConcert = new TreeNode("The Hyphenated Liszt - October 22, 2011");
+            TreeNode nowShowingConcert = new TreeNode("The Blackbird Sings - October 22, 2011");
             TreeNode[] nowShowingConcertList = new TreeNode[] { nowShowingConcert };
             TreeNode nowShowingMasterNode = new TreeNode("Now Showing", nowShowingConcertList);
             treeView.Nodes.Add(nowShowingMasterNode);
             #endregion
             #region Celebration Series
-            TreeNode celebrationConcert1 = new TreeNode("The Blackbird Sings: Music for Flute and Piano - September 17, 2011");
-            TreeNode celebrationConcert2 = new TreeNode("The Hyphenated Liszt - October 22, 2011");
+            TreeNode celebrationConcert1 = new TreeNode("The Blackbird Sings - Pctober 22, 2011");
+            TreeNode celebrationConcert2 = new TreeNode("The Hyphenated Liszt - October 28, 2011");
             TreeNode celebrationConcert3 = new TreeNode("Schubert's Winterreise - November 19, 2011");
             TreeNode celebrationConcert4 = new TreeNode("The Literary Liszt - January 14, 2012");
             TreeNode celebrationConcert5 = new TreeNode("Old vs New - March 24, 2012");
@@ -88,7 +99,7 @@ namespace TheatreTicketing
             treeView.Nodes.Add(discoveryMasterNode);
             #endregion
             #region Monday Night Jazz Series
-            TreeNode jazzConcert1 = new TreeNode("Tommy Banks Quartet - Monday, October 3, 2011");
+            TreeNode jazzConcert1 = new TreeNode("Tommy Banks Quartet - Monday, October 30, 2011");
             TreeNode jazzConcert2 = new TreeNode("Bill Evans Tribute - Monday, November 7, 2011");
             TreeNode jazzConcert3 = new TreeNode("Maria Schneider - Monday, January 23, 2012");
             TreeNode jazzConcert4 = new TreeNode("Chris Andrew Quintet - Monday, February 27, 2012");
@@ -99,7 +110,7 @@ namespace TheatreTicketing
             treeView.Nodes.Add(jazzMasterNode);
             #endregion
             #region Organ Series
-            TreeNode organConcert1 = new TreeNode("Romance: Germany Seduced by the South - October 18, 2011");
+            TreeNode organConcert1 = new TreeNode("Romance: Germany Seduced by the South - October 31, 2011");
             TreeNode organConcert2 = new TreeNode("French Symphonic Music of the 20th and 21st Centuries - November 29, 2011");
             TreeNode organConcert3 = new TreeNode("Livre d'orgue de Montreal - February 7, 2012");
             TreeNode[] organConcertList = new TreeNode[] { organConcert1, organConcert2, organConcert3 };
@@ -124,7 +135,7 @@ namespace TheatreTicketing
             dockedPurchaseTickets.AutoScroll = true;
 
             ticketsToPurchase = new Label();
-            ticketsToPurchase.BackColor = Color.Azure;
+            ticketsToPurchase.BackColor = Color.PaleGoldenrod;
             ticketsToPurchase.Size = new System.Drawing.Size(300, 120);
             dockedPurchaseTickets.Controls.Add(ticketsToPurchase);
             cancelPurchase = new Button();
@@ -159,12 +170,14 @@ namespace TheatreTicketing
                 //change the series
                 if (!e.Node.FullPath.Substring(0, backslashLocation).ToString().Equals("Now Showing"))
                 {
-                    labelSeries.Text = e.Node.FullPath.Substring(0, backslashLocation).ToString();
+                    currentSerie = e.Node.FullPath.Substring(0, backslashLocation).ToString();
                 }
                 else
                 {
-                    labelSeries.Text = "Celebration";
+                    currentSerie = "Celebration";
                 }
+
+                labelSeries.Text = currentSerie;
                 //find index of the '-' character
                 int dashLocation = e.Node.Text.ToString().IndexOf('-');
 
@@ -179,7 +192,10 @@ namespace TheatreTicketing
                 constructConcertScreen();
 
                 //change the date label to the other concert
-                labelDate.Text = e.Node.Text.ToString().Substring(dashLocation + 2);
+                labelDate.Text = newConcert.date;
+                labelTime.Text = newConcert.time;
+
+
             }
         }
 
@@ -196,6 +212,7 @@ namespace TheatreTicketing
         private void buttonMore_Click(object sender, EventArgs e)
         {
             MoreInformation moreInfo = new MoreInformation();
+            moreInfo.updateMoreInfo(currentSerie, currentConcert);
             moreInfo.ShowDialog();
         }
 
@@ -452,6 +469,11 @@ namespace TheatreTicketing
 
             constructConcertScreen();
             seatSelected = new List<System.Windows.Forms.CheckBox>();
+        }
+
+        private void pictureBoxConcert_Click(object sender, EventArgs e)
+        {
+
         }
 
     }
