@@ -717,7 +717,7 @@ namespace TheatreTicketing
             // 
             this.labelTime.AutoSize = true;
             this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTime.Location = new System.Drawing.Point(122, 73);
+            this.labelTime.Location = new System.Drawing.Point(122, 71);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(93, 20);
             this.labelTime.TabIndex = 12;
@@ -729,9 +729,9 @@ namespace TheatreTicketing
             this.labelDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDate.Location = new System.Drawing.Point(122, 51);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(218, 20);
+            this.labelDate.Size = new System.Drawing.Size(132, 20);
             this.labelDate.TabIndex = 11;
-            this.labelDate.Text = "Saturday, 22nd October 2011";
+            this.labelDate.Text = "October 22, 2011";
             // 
             // labelConcert
             // 
@@ -740,9 +740,9 @@ namespace TheatreTicketing
             this.labelConcert.ForeColor = System.Drawing.Color.DarkOrange;
             this.labelConcert.Location = new System.Drawing.Point(122, 31);
             this.labelConcert.Name = "labelConcert";
-            this.labelConcert.Size = new System.Drawing.Size(184, 20);
+            this.labelConcert.Size = new System.Drawing.Size(178, 20);
             this.labelConcert.TabIndex = 10;
-            this.labelConcert.Text = "The Hyphenated Liszt";
+            this.labelConcert.Text = "The Blackbird Sings  ";
             // 
             // labelSeries
             // 
@@ -6359,6 +6359,7 @@ namespace TheatreTicketing
             this.pictureBoxConcert.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxConcert.TabIndex = 11;
             this.pictureBoxConcert.TabStop = false;
+            this.pictureBoxConcert.Click += new System.EventHandler(this.pictureBoxConcert_Click);
             // 
             // labelSeatSelected
             // 

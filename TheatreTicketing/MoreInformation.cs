@@ -15,5 +15,16 @@ namespace TheatreTicketing
         {
             InitializeComponent();
         }
+
+        public void updateMoreInfo(string serie, Concert concert)
+        {
+            labelSeries.Text = serie;
+            labelConcert.Text = concert.name;
+            labelDate.Text = concert.date;
+            labelTime.Text = concert.time;
+            label1.Text = concert.otherInfos;
+        }
     }
+
+
 }

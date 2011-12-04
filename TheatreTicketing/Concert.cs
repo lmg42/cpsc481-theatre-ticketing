@@ -21,9 +21,12 @@ namespace TheatreTicketing
 
 
         //Constructor
-        public Concert(string name)
+        public Concert(string name, string date, string time, string otherInfos)
         {
             this.name = name;
+            this.date = date;
+            this.time = time;
+            this.otherInfos = otherInfos;
             seatPurchased = new List<Seat>();
         }
 
