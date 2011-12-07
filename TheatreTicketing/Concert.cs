@@ -14,15 +14,16 @@ namespace TheatreTicketing
         public string otherInfos;
 
         public List<Seat> seatPurchased;
-        public List<Seat> seatReserved;
         public int numberSeatPurchased = 0;
         public int numberAdultSeat = 0;
         public int numberStudentSeat = 0;
         public int numberUofCSeat = 0;
 
+        public int numberSeatReserved = 0;
         public int numberAdultSeatReserved = 0;
         public int numberStudentSeatReserved = 0;
         public int numberUofCSeatReserved = 0;
+        public List<Seat> seatReserved;
 
 
         //Constructor

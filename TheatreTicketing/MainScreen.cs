@@ -17,10 +17,13 @@ namespace TheatreTicketing
         public Label ticketsToPurchase;
         public Button cancelPurchase;
         public Button confirmPurchase;
+
         public int numberSeatSelected = 0;
         public List<System.Windows.Forms.CheckBox> seatSelected = new List<System.Windows.Forms.CheckBox>();
+
         public string currentSerie;
         public Concert currentConcert;
+
         public decimal totalTicketValue;
         public decimal currentPageTotal;
     
@@ -173,6 +176,7 @@ namespace TheatreTicketing
                 {
                     currentSerie = "Celebration";
                 }
+
                 addReservedSeatToTheConcert();
 
                 labelSeries.Text = currentSerie;
@@ -185,14 +189,15 @@ namespace TheatreTicketing
                 //We construct the sreen of the new selected concert
                 labelConcert.Text = newConcertName;
                 Concert newConcert = findAConcert(newConcertName);
+
                 clearConcertScreen();
                 currentConcert = newConcert;
+                seatSelected = new List<CheckBox>();
                 constructConcertScreen();
 
                 //change the date label to the other concert
                 labelDate.Text = newConcert.date;
                 labelTime.Text = newConcert.time;
-
 
             }
         }
@@ -204,8 +209,8 @@ namespace TheatreTicketing
 
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Test test = new Test();
-            test.ShowDialog();
+            //Test test = new Test();
+            //test.ShowDialog();
         }
 
         private void buttonMore_Click(object sender, EventArgs e)
@@ -249,16 +254,10 @@ namespace TheatreTicketing
 
         private void updateBuyTicketsPanel()
         {
-            //todo lisa
-            //first, save all of the reserved seats from the current concert
-            currentConcert.updateReservedSeats((int)numericUpDownTypeAdult.Value, (int)numericUpDownTypeStudent.Value, (int)numericUpDownTypeUofC.Value);
-            //addReservedSeatToTheConcert();
-
             ticketsToPurchase.Text = "";
             decimal adultValue = 0;
             decimal studentValue = 0;
 
-            //TEST
             for (int i = 1; i < series.Length; i++)
             {
                 foreach (Concert c in series[i].concerts)
@@ -296,36 +295,7 @@ namespace TheatreTicketing
                     }
                 }
             }
-            //END TEST
-            //ticketsToPurchase.Text = "";
-            //ticketsToPurchase.Text += labelSeries.Text;
-            //ticketsToPurchase.Text += Environment.NewLine;
-            //ticketsToPurchase.Text += labelConcert.Text;
-            //ticketsToPurchase.Text += Environment.NewLine;
-            //ticketsToPurchase.Text += labelDate.Text;
-            //ticketsToPurchase.Text += Environment.NewLine;
-            //ticketsToPurchase.Text += labelTime.Text;
-            //ticketsToPurchase.Text += Environment.NewLine;
-            //ticketsToPurchase.Text += Environment.NewLine;
-            //decimal adultValue = 0;
-            //decimal studentValue = 0;
-            //if (numericUpDownTypeAdult.Value > 0)
-            //{
-            //    adultValue = 35 * numericUpDownTypeAdult.Value;
-            //    ticketsToPurchase.Text += numericUpDownTypeAdult.Value.ToString() + " Adult               = $" + adultValue.ToString() + ".00";
-            //    ticketsToPurchase.Text += Environment.NewLine;
-            //}
-            //if (numericUpDownTypeStudent.Value > 0)
-            //{
-            //    studentValue = 25 * numericUpDownTypeStudent.Value;
-            //    ticketsToPurchase.Text += numericUpDownTypeStudent.Value.ToString() + " Student/Senior = $" + studentValue.ToString() + ".00";
-            //    ticketsToPurchase.Text += Environment.NewLine;
-            //}
-            //if (numericUpDownTypeUofC.Value > 0)
-            //{
-            //    ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
-            //    ticketsToPurchase.Text += Environment.NewLine;
-            //}
+
             currentPageTotal = adultValue + studentValue;
             ticketsToPurchase.Text += "TOTAL               = $" + currentPageTotal + ".00";
             ticketsToPurchase.Text += Environment.NewLine;
@@ -374,6 +344,7 @@ namespace TheatreTicketing
                 addPurchasedSeatToTheConcert();
                 totalTicketValue = 0;
                 currentPageTotal = 0;
+                constructConcertScreen();
             }
             else
             {
@@ -408,34 +379,10 @@ namespace TheatreTicketing
                 }
             }
 
-            //todo lisa
-            //reset numericUpDowns and numberSeatsSelected
-            //numberSeatSelected = 0;
-            //numericUpDownTypeAdult.Value = 0;
-            //numericUpDownTypeStudent.Value = 0;
-            //numericUpDownTypeUofC.Value = 0;
-
             foreach (Seat seat in concert.seatReserved)
             {
                 seat.checkBox.Checked = true;
-                numberSeatSelected++;
-                updateMaxNumericUpDown_ValueChanged(null, null);
-                if (seat.seatType == SeatType.Adult)
-                {
-                    numericUpDownTypeAdult.Value += 1;
-                }
-                else if (seat.seatType == SeatType.StudentSenior)
-                {
-                    numericUpDownTypeStudent.Value += 1;
-                }
-                else if (seat.seatType == SeatType.UofCStudent)
-                {
-                    numericUpDownTypeUofC.Value += 1;
-                }
-                else
-                {
-                    //do nothing
-                }
+                seatSelected.Add(seat.checkBox);
             }
 
             //Number of seat purchased
@@ -445,9 +392,18 @@ namespace TheatreTicketing
             labelUofCSeat.Text = "     UofC Student ( " + concert.numberUofCSeat + " )";
 
             //Number of seat selected
-            numberSeatSelected = 0;
-            labelNumberSeat.Text = numberSeatSelected.ToString();
+            numberSeatSelected = currentConcert.numberSeatReserved;
+
             updateMaxNumericUpDown_ValueChanged(null, null);
+
+            numericUpDownTypeAdult.Value = currentConcert.numberAdultSeatReserved;
+            numericUpDownTypeStudent.Value = currentConcert.numberStudentSeatReserved;
+            numericUpDownTypeUofC.Value = currentConcert.numberUofCSeatReserved;
+            updateMaxNumericUpDown_ValueChanged(null, null);
+
+            labelNumberSeat.Text = numberSeatSelected.ToString();
+
+            updateBuyTicketsPanel();
         }
 
         public void clearConcertScreen()
@@ -462,13 +418,15 @@ namespace TheatreTicketing
                 seat.checkBox.ForeColor = Color.White;
             }
 
-            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            foreach (Seat seat in currentConcert.seatReserved)
             {
-                checkbox.Checked = false;
+                seat.checkBox.Checked = false;
             }
             
             //Number of seat selected
             numberSeatSelected = 0;
+            seatSelected = new List<System.Windows.Forms.CheckBox>();
+
             labelNumberSeat.Text = numberSeatSelected.ToString();
             updateMaxNumericUpDown_ValueChanged(null, null);
             updateBuyTicketsPanel();
@@ -521,32 +479,33 @@ namespace TheatreTicketing
                 }
             }
 
-            constructConcertScreen();
+            currentConcert.seatReserved = new List<Seat>();
+            currentConcert.numberAdultSeatReserved = 0;
+            currentConcert.numberStudentSeatReserved = 0;
+            currentConcert.numberUofCSeatReserved = 0;
+            currentConcert.numberSeatReserved = 0;
+
+            numberSeatSelected = 0;
             seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
 
-        //todo lisa
         public void addReservedSeatToTheConcert()
         {
             int numberAdultSeats = (int)numericUpDownTypeAdult.Value;
             int numberStudentSeats = (int)numericUpDownTypeStudent.Value;
             int numberUofCSeats = (int)numericUpDownTypeUofC.Value;
-
             Seat temp;
 
+            currentConcert.numberSeatReserved = numberSeatSelected;
             currentConcert.numberAdultSeatReserved = numberAdultSeats;
-            currentConcert.numberStudentSeatReserved = 0;
-            currentConcert.numberUofCSeatReserved = 0;
+            currentConcert.numberStudentSeatReserved = numberStudentSeats;
+            currentConcert.numberUofCSeatReserved = numberUofCSeats;
+
             foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
             {
                     temp = new Seat(SeatType.Adult, checkbox);
                     currentConcert.seatReserved.Add(temp);
-             
             }
-
-            //TODO LISA THIS IS THE PROBLEM LINE!!!!!!!!!!
-            clearConcertScreen();
-            seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
 
         public void clearAllSelectedTickets()
@@ -560,8 +519,15 @@ namespace TheatreTicketing
                 checkbox.Checked = false;
             }
 
-            constructConcertScreen();
+            currentConcert.seatReserved = new List<Seat>();
+            currentConcert.numberAdultSeatReserved = 0;
+            currentConcert.numberStudentSeatReserved = 0;
+            currentConcert.numberUofCSeatReserved = 0;
+            currentConcert.numberSeatReserved = 0;
+
+            numberSeatSelected = 0;
             seatSelected = new List<System.Windows.Forms.CheckBox>();
+            constructConcertScreen();
         }
 
     }
