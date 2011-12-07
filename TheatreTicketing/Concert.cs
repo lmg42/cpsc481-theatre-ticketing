@@ -12,6 +12,7 @@ namespace TheatreTicketing
         public string date;
         public string time;
         public string otherInfos;
+        public System.Drawing.Bitmap image;
 
         public List<Seat> seatPurchased;
         public int numberSeatPurchased = 0;
@@ -27,12 +28,14 @@ namespace TheatreTicketing
 
 
         //Constructor
-        public Concert(string name, string date, string time, string otherInfos)
+        public Concert(string name, string date, string time, string otherInfos, System.Drawing.Bitmap image)
         {
             this.name = name;
             this.date = date;
             this.time = time;
             this.otherInfos = otherInfos;
+            this.image = image;
+
             seatPurchased = new List<Seat>();
             seatReserved = new List<Seat>();
         }

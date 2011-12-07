@@ -37,7 +37,6 @@
             this.labelConcert = new System.Windows.Forms.Label();
             this.labelSeries = new System.Windows.Forms.Label();
             this.labelTitleConcert = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConcert)).BeginInit();
@@ -46,7 +45,7 @@
             // 
             // pictureBoxConcert
             // 
-            this.pictureBoxConcert.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBoxConcert.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBoxConcert.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxConcert.Image")));
             this.pictureBoxConcert.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxConcert.Name = "pictureBoxConcert";
@@ -132,15 +131,6 @@
             this.labelTitleConcert.TabIndex = 7;
             this.labelTitleConcert.Text = "Series:\r\nConcert:\r\nDate:\r\nTime:\r\nTicket Price: ";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 159);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Charles Foreman, Piano";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -153,7 +143,8 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(12, 189);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(12, 176);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -168,7 +159,6 @@
             this.ClientSize = new System.Drawing.Size(748, 290);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panelConcertInfo);
             this.Controls.Add(this.pictureBoxConcert);
             this.Name = "MoreInformation";
@@ -191,7 +181,6 @@
         private System.Windows.Forms.Label labelConcert;
         private System.Windows.Forms.Label labelSeries;
         private System.Windows.Forms.Label labelTitleConcert;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
     }

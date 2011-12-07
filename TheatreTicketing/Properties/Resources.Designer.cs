@@ -22,7 +22,7 @@ namespace TheatreTicketing.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace TheatreTicketing.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TheatreTicketing.Properties.Resources", typeof(Resources).Assembly);
@@ -51,12 +51,145 @@ namespace TheatreTicketing.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        public static System.Drawing.Bitmap Alex_Goodman_Brent_Mah_Quartet {
+            get {
+                object obj = ResourceManager.GetObject("Alex_Goodman_Brent_Mah_Quartet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Bill_Evans_Tribute {
+            get {
+                object obj = ResourceManager.GetObject("Bill_Evans_Tribute", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Celebration_Brahms_I {
+            get {
+                object obj = ResourceManager.GetObject("Celebration_Brahms_I", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Celebration_Brahms_II {
+            get {
+                object obj = ResourceManager.GetObject("Celebration_Brahms_II", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Chris_Andrew_Quintet {
+            get {
+                object obj = ResourceManager.GetObject("Chris_Andrew_Quintet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Concert1 {
+            get {
+                object obj = ResourceManager.GetObject("Concert1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Contemporary_Canada {
+            get {
+                object obj = ResourceManager.GetObject("Contemporary_Canada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap French_Symphonic {
+            get {
+                object obj = ResourceManager.GetObject("French_Symphonic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Histoire_du_Tango {
+            get {
+                object obj = ResourceManager.GetObject("Histoire_du_Tango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Livre_orgue {
+            get {
+                object obj = ResourceManager.GetObject("Livre_orgue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Maria_Schneider {
+            get {
+                object obj = ResourceManager.GetObject("Maria_Schneider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Old_vs_New {
+            get {
+                object obj = ResourceManager.GetObject("Old_vs_New", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Persian_Zeal {
+            get {
+                object obj = ResourceManager.GetObject("Persian_Zeal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Romance {
+            get {
+                object obj = ResourceManager.GetObject("Romance", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Schubert_Winterreise {
+            get {
+                object obj = ResourceManager.GetObject("Schubert_Winterreise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap The_Blackbird_Sings {
+            get {
+                object obj = ResourceManager.GetObject("The_Blackbird_Sings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap The_Hyphenated_Liszt {
+            get {
+                object obj = ResourceManager.GetObject("The_Hyphenated_Liszt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Tommy_Banks_Quartet {
+            get {
+                object obj = ResourceManager.GetObject("Tommy_Banks_Quartet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Verismo_with_Chris_Tarry {
+            get {
+                object obj = ResourceManager.GetObject("Verismo_with_Chris_Tarry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

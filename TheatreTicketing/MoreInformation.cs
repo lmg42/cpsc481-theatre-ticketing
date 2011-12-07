@@ -23,6 +23,7 @@ namespace TheatreTicketing
             labelDate.Text = concert.date;
             labelTime.Text = concert.time;
             textBox1.Text = concert.otherInfos;
+            pictureBoxConcert.Image = concert.image;
         }
     }
 
