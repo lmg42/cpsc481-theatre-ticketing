@@ -52,6 +52,8 @@ namespace TheatreTicketing
             labelConcert.Text = currentConcert.name;
             labelDate.Text = currentConcert.date;
             labelTime.Text = currentConcert.time;
+            pictureBoxConcert.Image = currentConcert.image;
+            
 
             //We construct the screen of next concert
             clearConcertScreen();
@@ -198,6 +200,7 @@ namespace TheatreTicketing
                 //change the date label to the other concert
                 labelDate.Text = newConcert.date;
                 labelTime.Text = newConcert.time;
+                pictureBoxConcert.Image = newConcert.image;
 
             }
         }
