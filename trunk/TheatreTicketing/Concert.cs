@@ -14,10 +14,15 @@ namespace TheatreTicketing
         public string otherInfos;
 
         public List<Seat> seatPurchased;
+        public List<Seat> seatReserved;
         public int numberSeatPurchased = 0;
         public int numberAdultSeat = 0;
         public int numberStudentSeat = 0;
         public int numberUofCSeat = 0;
+
+        public int numberAdultSeatReserved = 0;
+        public int numberStudentSeatReserved = 0;
+        public int numberUofCSeatReserved = 0;
 
 
         //Constructor
@@ -28,6 +33,7 @@ namespace TheatreTicketing
             this.time = time;
             this.otherInfos = otherInfos;
             seatPurchased = new List<Seat>();
+            seatReserved = new List<Seat>();
         }
 
         public void addAPurchasedSeat(SeatType seatType, System.Windows.Forms.CheckBox checkBox)
@@ -46,6 +52,20 @@ namespace TheatreTicketing
             {
                 numberUofCSeat += 1;
             }         
+        }
+
+        public void updateReservedSeats(int adult, int student, int uOfC)
+        {
+            //seatReserved = null;
+
+            numberAdultSeatReserved = adult;
+            numberStudentSeatReserved = student;
+            numberUofCSeatReserved = uOfC;
+        }
+
+        public bool reservedSeatsExist()
+        {
+            return ((numberAdultSeatReserved+numberStudentSeatReserved+numberUofCSeatReserved == 0) ? false : true);
         }
  
     }
