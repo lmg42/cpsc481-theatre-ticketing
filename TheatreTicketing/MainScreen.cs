@@ -81,6 +81,8 @@ namespace TheatreTicketing
             TreeNode nowShowingConcert = new TreeNode("The Blackbird Sings - September 17, 2011");
             TreeNode[] nowShowingConcertList = new TreeNode[] { nowShowingConcert };
             TreeNode nowShowingMasterNode = new TreeNode("Now Showing", nowShowingConcertList);
+            nowShowingMasterNode.Expand();
+
             treeView.Nodes.Add(nowShowingMasterNode);
             #endregion
             #region Celebration Series
