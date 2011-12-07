@@ -38,7 +38,7 @@ namespace TheatreTicketing
             }
 
             //Add a pre purchased seat to the next concert
-            Concert nextConcert = findAConcert("The Blackbird Sings "); ;
+            Concert nextConcert = findAConcert("The Blackbird Sings ");
             nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
             nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox111);
             nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
@@ -49,8 +49,6 @@ namespace TheatreTicketing
             labelConcert.Text = currentConcert.name;
             labelDate.Text = currentConcert.date;
             labelTime.Text = currentConcert.time;
-
-
 
             //We construct the screen of next concert
             clearConcertScreen();
@@ -65,23 +63,23 @@ namespace TheatreTicketing
         {
             InitializeComponent();
 
-            DockContent dockedConcertList = dockContentFactory.Create("Concerts", DockState.Float, Color.DarkSeaGreen);
+            DockContent dockedConcertList = dockContentFactory.Create("Concerts", DockState.Float, Color.PaleGoldenrod);
             dockedConcertList.Show(dockPanel1);
             dockedConcertList.DockHandler.FloatPane.DockTo(dockPanel1.DockWindows[DockState.DockRight]);
-            dockedConcertList.AutoScroll = false;
+            dockedConcertList.AutoScroll = true;
 
             TreeView treeView = new TreeView();
-            treeView.Scale(new System.Drawing.SizeF((float)4.5, 3));
+            treeView.Scale(new System.Drawing.SizeF((float)4.5, (float)4.6));
             treeView.BorderStyle = BorderStyle.None;
-            treeView.BackColor = Color.DarkSeaGreen;
+            treeView.BackColor = Color.PaleGoldenrod;
             #region now showing
-            TreeNode nowShowingConcert = new TreeNode("The Blackbird Sings - October 22, 2011");
+            TreeNode nowShowingConcert = new TreeNode("The Blackbird Sings - September 17, 2011");
             TreeNode[] nowShowingConcertList = new TreeNode[] { nowShowingConcert };
             TreeNode nowShowingMasterNode = new TreeNode("Now Showing", nowShowingConcertList);
             treeView.Nodes.Add(nowShowingMasterNode);
             #endregion
             #region Celebration Series
-            TreeNode celebrationConcert1 = new TreeNode("The Blackbird Sings - Pctober 22, 2011");
+            TreeNode celebrationConcert1 = new TreeNode("The Blackbird Sings - September 17, 2011");
             TreeNode celebrationConcert2 = new TreeNode("The Hyphenated Liszt - October 28, 2011");
             TreeNode celebrationConcert3 = new TreeNode("Schubert's Winterreise - November 19, 2011");
             TreeNode celebrationConcert4 = new TreeNode("The Literary Liszt - January 14, 2012");
@@ -127,7 +125,6 @@ namespace TheatreTicketing
             #endregion
             treeView.NodeMouseClick += new TreeNodeMouseClickEventHandler(treeView_NodeMouseClick);
             dockedConcertList.Controls.Add(treeView);
-
 
             DockContent dockedPurchaseTickets = dockContentFactory.Create("Buy", DockState.Float, Color.PaleGoldenrod);
             dockedPurchaseTickets.Show(dockPanel1);
@@ -176,6 +173,7 @@ namespace TheatreTicketing
                 {
                     currentSerie = "Celebration";
                 }
+                addReservedSeatToTheConcert();
 
                 labelSeries.Text = currentSerie;
                 //find index of the '-' character
@@ -201,12 +199,13 @@ namespace TheatreTicketing
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Help");
+            MessageBox.Show("This page is under construction.", "Help");
         }
 
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test");
+            Test test = new Test();
+            test.ShowDialog();
         }
 
         private void buttonMore_Click(object sender, EventArgs e)
@@ -250,35 +249,83 @@ namespace TheatreTicketing
 
         private void updateBuyTicketsPanel()
         {
+            //todo lisa
+            //first, save all of the reserved seats from the current concert
+            currentConcert.updateReservedSeats((int)numericUpDownTypeAdult.Value, (int)numericUpDownTypeStudent.Value, (int)numericUpDownTypeUofC.Value);
+            //addReservedSeatToTheConcert();
+
             ticketsToPurchase.Text = "";
-            ticketsToPurchase.Text += labelSeries.Text;
-            ticketsToPurchase.Text += Environment.NewLine;
-            ticketsToPurchase.Text += labelConcert.Text;
-            ticketsToPurchase.Text += Environment.NewLine;
-            ticketsToPurchase.Text += labelDate.Text;
-            ticketsToPurchase.Text += Environment.NewLine;
-            ticketsToPurchase.Text += labelTime.Text;
-            ticketsToPurchase.Text += Environment.NewLine;
-            ticketsToPurchase.Text += Environment.NewLine;
             decimal adultValue = 0;
             decimal studentValue = 0;
-            if (numericUpDownTypeAdult.Value > 0)
+
+            //TEST
+            for (int i = 1; i < series.Length; i++)
             {
-                adultValue = 35 * numericUpDownTypeAdult.Value;
-                ticketsToPurchase.Text += numericUpDownTypeAdult.Value.ToString() + " Adult               = $" + adultValue.ToString() + ".00";
-                ticketsToPurchase.Text += Environment.NewLine;
+                foreach (Concert c in series[i].concerts)
+                {
+                    if (c.reservedSeatsExist())
+                    {
+                        //output data
+                        ticketsToPurchase.Text += series[i].seriesName;
+                        ticketsToPurchase.Text += Environment.NewLine;
+                        ticketsToPurchase.Text += c.name;
+                        ticketsToPurchase.Text += Environment.NewLine;
+                        ticketsToPurchase.Text += c.date;
+                        ticketsToPurchase.Text += Environment.NewLine;
+                        ticketsToPurchase.Text += c.time;
+                        ticketsToPurchase.Text += Environment.NewLine;
+                        ticketsToPurchase.Text += Environment.NewLine;
+
+                        if (numericUpDownTypeAdult.Value > 0)
+                        {
+                            adultValue += 35 * numericUpDownTypeAdult.Value;
+                            ticketsToPurchase.Text += numericUpDownTypeAdult.Value.ToString() + " Adult               = $" + adultValue.ToString() + ".00";
+                            ticketsToPurchase.Text += Environment.NewLine;
+                        }
+                        if (numericUpDownTypeStudent.Value > 0)
+                        {
+                            studentValue += 25 * numericUpDownTypeStudent.Value;
+                            ticketsToPurchase.Text += numericUpDownTypeStudent.Value.ToString() + " Student/Senior = $" + studentValue.ToString() + ".00";
+                            ticketsToPurchase.Text += Environment.NewLine;
+                        }
+                        if (numericUpDownTypeUofC.Value > 0)
+                        {
+                            ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
+                            ticketsToPurchase.Text += Environment.NewLine;
+                        }
+                    }
+                }
             }
-            if (numericUpDownTypeStudent.Value > 0)
-            {
-                studentValue = 25 * numericUpDownTypeStudent.Value;
-                ticketsToPurchase.Text += numericUpDownTypeStudent.Value.ToString() + " Student/Senior = $" + studentValue.ToString() + ".00";
-                ticketsToPurchase.Text += Environment.NewLine;
-            }
-            if (numericUpDownTypeUofC.Value > 0)
-            {
-                ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
-                ticketsToPurchase.Text += Environment.NewLine;
-            }
+            //END TEST
+            //ticketsToPurchase.Text = "";
+            //ticketsToPurchase.Text += labelSeries.Text;
+            //ticketsToPurchase.Text += Environment.NewLine;
+            //ticketsToPurchase.Text += labelConcert.Text;
+            //ticketsToPurchase.Text += Environment.NewLine;
+            //ticketsToPurchase.Text += labelDate.Text;
+            //ticketsToPurchase.Text += Environment.NewLine;
+            //ticketsToPurchase.Text += labelTime.Text;
+            //ticketsToPurchase.Text += Environment.NewLine;
+            //ticketsToPurchase.Text += Environment.NewLine;
+            //decimal adultValue = 0;
+            //decimal studentValue = 0;
+            //if (numericUpDownTypeAdult.Value > 0)
+            //{
+            //    adultValue = 35 * numericUpDownTypeAdult.Value;
+            //    ticketsToPurchase.Text += numericUpDownTypeAdult.Value.ToString() + " Adult               = $" + adultValue.ToString() + ".00";
+            //    ticketsToPurchase.Text += Environment.NewLine;
+            //}
+            //if (numericUpDownTypeStudent.Value > 0)
+            //{
+            //    studentValue = 25 * numericUpDownTypeStudent.Value;
+            //    ticketsToPurchase.Text += numericUpDownTypeStudent.Value.ToString() + " Student/Senior = $" + studentValue.ToString() + ".00";
+            //    ticketsToPurchase.Text += Environment.NewLine;
+            //}
+            //if (numericUpDownTypeUofC.Value > 0)
+            //{
+            //    ticketsToPurchase.Text += numericUpDownTypeUofC.Value.ToString() + " UofC Student    = $0.00";
+            //    ticketsToPurchase.Text += Environment.NewLine;
+            //}
             currentPageTotal = adultValue + studentValue;
             ticketsToPurchase.Text += "TOTAL               = $" + currentPageTotal + ".00";
             ticketsToPurchase.Text += Environment.NewLine;
@@ -292,11 +339,6 @@ namespace TheatreTicketing
                 cancelPurchase.Hide();
                 confirmPurchase.Hide();
             }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         void cancelPurchase_Click(object sender, EventArgs e)
@@ -366,6 +408,36 @@ namespace TheatreTicketing
                 }
             }
 
+            //todo lisa
+            //reset numericUpDowns and numberSeatsSelected
+            //numberSeatSelected = 0;
+            //numericUpDownTypeAdult.Value = 0;
+            //numericUpDownTypeStudent.Value = 0;
+            //numericUpDownTypeUofC.Value = 0;
+
+            foreach (Seat seat in concert.seatReserved)
+            {
+                seat.checkBox.Checked = true;
+                numberSeatSelected++;
+                updateMaxNumericUpDown_ValueChanged(null, null);
+                if (seat.seatType == SeatType.Adult)
+                {
+                    numericUpDownTypeAdult.Value += 1;
+                }
+                else if (seat.seatType == SeatType.StudentSenior)
+                {
+                    numericUpDownTypeStudent.Value += 1;
+                }
+                else if (seat.seatType == SeatType.UofCStudent)
+                {
+                    numericUpDownTypeUofC.Value += 1;
+                }
+                else
+                {
+                    //do nothing
+                }
+            }
+
             //Number of seat purchased
             labelTicketSold.Text = "Tickets Sold : " + (concert.numberAdultSeat + concert.numberStudentSeat + concert.numberUofCSeat);
             labelAdultSeat.Text = "     Adult ( " + concert.numberAdultSeat + " )";
@@ -376,7 +448,6 @@ namespace TheatreTicketing
             numberSeatSelected = 0;
             labelNumberSeat.Text = numberSeatSelected.ToString();
             updateMaxNumericUpDown_ValueChanged(null, null);
-
         }
 
         public void clearConcertScreen()
@@ -401,8 +472,6 @@ namespace TheatreTicketing
             labelNumberSeat.Text = numberSeatSelected.ToString();
             updateMaxNumericUpDown_ValueChanged(null, null);
             updateBuyTicketsPanel();
-
-            seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
 
         public Concert findAConcert(string name)
@@ -456,6 +525,30 @@ namespace TheatreTicketing
             seatSelected = new List<System.Windows.Forms.CheckBox>();
         }
 
+        //todo lisa
+        public void addReservedSeatToTheConcert()
+        {
+            int numberAdultSeats = (int)numericUpDownTypeAdult.Value;
+            int numberStudentSeats = (int)numericUpDownTypeStudent.Value;
+            int numberUofCSeats = (int)numericUpDownTypeUofC.Value;
+
+            Seat temp;
+
+            currentConcert.numberAdultSeatReserved = numberAdultSeats;
+            currentConcert.numberStudentSeatReserved = 0;
+            currentConcert.numberUofCSeatReserved = 0;
+            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            {
+                    temp = new Seat(SeatType.Adult, checkbox);
+                    currentConcert.seatReserved.Add(temp);
+             
+            }
+
+            //TODO LISA THIS IS THE PROBLEM LINE!!!!!!!!!!
+            clearConcertScreen();
+            seatSelected = new List<System.Windows.Forms.CheckBox>();
+        }
+
         public void clearAllSelectedTickets()
         {
             numericUpDownTypeAdult.Value = 0;
@@ -469,11 +562,6 @@ namespace TheatreTicketing
 
             constructConcertScreen();
             seatSelected = new List<System.Windows.Forms.CheckBox>();
-        }
-
-        private void pictureBoxConcert_Click(object sender, EventArgs e)
-        {
-
         }
 
     }

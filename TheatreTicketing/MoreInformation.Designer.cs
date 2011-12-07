@@ -37,9 +37,9 @@
             this.labelConcert = new System.Windows.Forms.Label();
             this.labelSeries = new System.Windows.Forms.Label();
             this.labelTitleConcert = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxConcert)).BeginInit();
             this.panelConcertInfo.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +67,7 @@
             this.panelConcertInfo.Controls.Add(this.labelTitleConcert);
             this.panelConcertInfo.Location = new System.Drawing.Point(141, 12);
             this.panelConcertInfo.Name = "panelConcertInfo";
-            this.panelConcertInfo.Size = new System.Drawing.Size(460, 126);
+            this.panelConcertInfo.Size = new System.Drawing.Size(595, 126);
             this.panelConcertInfo.TabIndex = 13;
             // 
             // labelPrice
@@ -132,16 +132,6 @@
             this.labelTitleConcert.TabIndex = 7;
             this.labelTitleConcert.Text = "Series:\r\nConcert:\r\nDate:\r\nTime:\r\nTicket Price: ";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 183);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(550, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "The Hyphenated Liszt is the third in a programme of six featuring the celebrated " +
-                "works of Franz Liszt and will include";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -159,14 +149,26 @@
             this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 16;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(12, 189);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(724, 89);
+            this.textBox1.TabIndex = 17;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
             // MoreInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 221);
+            this.ClientSize = new System.Drawing.Size(748, 290);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panelConcertInfo);
             this.Controls.Add(this.pictureBoxConcert);
             this.Name = "MoreInformation";
@@ -189,8 +191,8 @@
         private System.Windows.Forms.Label labelConcert;
         private System.Windows.Forms.Label labelSeries;
         private System.Windows.Forms.Label labelTitleConcert;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

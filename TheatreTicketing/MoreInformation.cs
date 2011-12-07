@@ -22,7 +22,7 @@ namespace TheatreTicketing
             labelConcert.Text = concert.name;
             labelDate.Text = concert.date;
             labelTime.Text = concert.time;
-            label1.Text = concert.otherInfos;
+            textBox1.Text = concert.otherInfos;
         }
     }
 
