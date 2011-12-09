@@ -58,18 +58,9 @@ namespace TheatreTicketing
             }         
         }
 
-        public void updateReservedSeats(int adult, int student, int uOfC)
-        {
-            //seatReserved = null;
-
-            numberAdultSeatReserved = adult;
-            numberStudentSeatReserved = student;
-            numberUofCSeatReserved = uOfC;
-        }
-
         public bool reservedSeatsExist()
         {
-            return ((numberAdultSeatReserved+numberStudentSeatReserved+numberUofCSeatReserved == 0) ? false : true);
+            return ((numberSeatReserved == 0) ? false : true);
         }
  
     }
