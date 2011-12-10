@@ -51,6 +51,54 @@ namespace TheatreTicketing
             nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox100);
             nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox111);
             nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox122);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox133);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox144);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox155);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox166);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox177);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox102);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox112);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox123);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox134);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox145);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox156);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox178);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox1);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox2);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox3);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox4);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox5);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox6);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox7);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox8);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox9);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox10);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox11);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox12);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox13);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox14);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox15);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox16);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox17);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox18);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox19);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox20);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox21);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox22);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox2);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox26);
+            nextConcert.addAPurchasedSeat(SeatType.UofCStudent, checkBox27);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox28);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox29);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox30);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox31);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox36);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox37);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox38);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox39);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox40);
+            nextConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox41);
+            nextConcert.addAPurchasedSeat(SeatType.Adult, checkBox42);
             currentConcert = nextConcert;
             currentSerie = SeriesName.Celebration.ToString();
 
@@ -67,7 +115,9 @@ namespace TheatreTicketing
 
             //add a pre purchased seat to the second concert
             Concert secondConcert = findAConcert("The Hyphenated Liszt ");
-            secondConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox193);
+            secondConcert.addAPurchasedSeat(SeatType.Adult, checkBox193);
+            secondConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox192);
+            secondConcert.addAPurchasedSeat(SeatType.StudentSenior, checkBox191);
         }
 
         public MainScreen(IDockContentFormFactory dockContentFactory)
