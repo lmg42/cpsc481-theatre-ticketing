@@ -53,6 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Concert.cs" />
+    <Compile Include="MainScreen1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainScreen.resx</DependentUpon>
+    </Compile>
     <Compile Include="Seat.cs" />
     <Compile Include="DockContentFormFactory.cs" />
     <Compile Include="IDockContentFormFactory.cs" />
