@@ -153,12 +153,14 @@ namespace TheatreTicketing
             dockedPurchaseTickets.Controls.Add(ticketsToPurchase);
             cancelPurchase = new Button();
             cancelPurchase.Text = "Cancel";
+            cancelPurchase.BackColor = Color.Silver;
             cancelPurchase.Location = new Point(75, 290);
             cancelPurchase.Click += new EventHandler(cancelPurchase_Click);
             cancelPurchase.Hide();
             dockedPurchaseTickets.Controls.Add(cancelPurchase);
             confirmPurchase = new Button();
             confirmPurchase.Text = "Buy";
+            confirmPurchase.BackColor = Color.Silver;
             confirmPurchase.Location = new Point(0, 290);
             confirmPurchase.Click += new EventHandler(confirmPurchase_Click);
             confirmPurchase.Hide();
@@ -537,41 +539,95 @@ namespace TheatreTicketing
 
         public void addPurchasedSeatToTheConcert()
         {
-            int numberAdultSeats = (int)numericUpDownTypeAdult.Value;
-            int numberStudentSeats = (int)numericUpDownTypeStudent.Value;
-            int numberUofCSeats = (int)numericUpDownTypeUofC.Value;
+            int numberAdultSeats;
+            int numberStudentSeats;
+            int numberUofCSeats;
             Seat temp;
 
-            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            for (int i = 1; i < series.Length; i++)
             {
-                if (numberAdultSeats > 0)
+                foreach (Concert c in series[i].concerts)
                 {
-                    temp = new Seat(SeatType.Adult,checkbox);
-                    numberAdultSeats -= 1;
-                    currentConcert.seatPurchased.Add(temp);
-                    currentConcert.numberAdultSeat += 1;
-                }
-                else if (numberStudentSeats > 0)
-                {
-                    temp = new Seat(SeatType.StudentSenior, checkbox);
-                    numberStudentSeats -= 1;
-                    currentConcert.seatPurchased.Add(temp);
-                    currentConcert.numberStudentSeat += 1;
-                }
-                else if (numberUofCSeats > 0)
-                {
-                    temp = new Seat(SeatType.UofCStudent, checkbox);
-                    numberUofCSeats -= 1;
-                    currentConcert.seatPurchased.Add(temp);
-                    currentConcert.numberUofCSeat += 1;
+                    if (c.name.Equals(currentConcert.name))
+                    {
+                        if ((numericUpDownTypeAdult.Value + numericUpDownTypeStudent.Value + numericUpDownTypeUofC.Value) > 0)
+                        {
+                            numberAdultSeats = (int)numericUpDownTypeAdult.Value;
+                            numberStudentSeats = (int)numericUpDownTypeStudent.Value;
+                            numberUofCSeats = (int)numericUpDownTypeUofC.Value;
+
+                            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+                            {
+                                if (numberAdultSeats > 0)
+                                {
+                                    temp = new Seat(SeatType.Adult, checkbox);
+                                    numberAdultSeats -= 1;
+                                    currentConcert.seatPurchased.Add(temp);
+                                    currentConcert.numberAdultSeat += 1;
+                                }
+                                else if (numberStudentSeats > 0)
+                                {
+                                    temp = new Seat(SeatType.StudentSenior, checkbox);
+                                    numberStudentSeats -= 1;
+                                    currentConcert.seatPurchased.Add(temp);
+                                    currentConcert.numberStudentSeat += 1;
+                                }
+                                else if (numberUofCSeats > 0)
+                                {
+                                    temp = new Seat(SeatType.UofCStudent, checkbox);
+                                    numberUofCSeats -= 1;
+                                    currentConcert.seatPurchased.Add(temp);
+                                    currentConcert.numberUofCSeat += 1;
+                                }
+
+                                currentConcert.seatReserved = new List<Seat>();
+                                currentConcert.numberAdultSeatReserved = 0;
+                                currentConcert.numberStudentSeatReserved = 0;
+                                currentConcert.numberUofCSeatReserved = 0;
+                                currentConcert.numberSeatReserved = 0;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Concert newConcert = findAConcert(c.name);
+                        if (newConcert.reservedSeatsExist())
+                        {
+                            numberAdultSeats = newConcert.numberAdultSeatReserved;
+                            numberStudentSeats = newConcert.numberStudentSeatReserved;
+                            numberUofCSeats = newConcert.numberUofCSeatReserved;
+
+                            foreach (Seat s in newConcert.seatReserved)
+                            {
+                                if (numberAdultSeats > 0)
+                                {
+                                    numberAdultSeats -= 1;
+                                    newConcert.seatPurchased.Add(s);
+                                    newConcert.numberAdultSeat += 1;
+                                }
+                                else if (numberStudentSeats > 0)
+                                {
+                                    numberStudentSeats -= 1;
+                                    newConcert.seatPurchased.Add(s);
+                                    newConcert.numberStudentSeat += 1;
+                                }
+                                else if (numberUofCSeats > 0)
+                                {
+                                    numberUofCSeats -= 1;
+                                    newConcert.seatPurchased.Add(s);
+                                    newConcert.numberUofCSeat += 1;
+                                }
+
+                                newConcert.seatReserved = new List<Seat>();
+                                newConcert.numberAdultSeatReserved = 0;
+                                newConcert.numberStudentSeatReserved = 0;
+                                newConcert.numberUofCSeatReserved = 0;
+                                newConcert.numberSeatReserved = 0;
+                            }
+                        }
+                    }
                 }
             }
-
-            currentConcert.seatReserved = new List<Seat>();
-            currentConcert.numberAdultSeatReserved = 0;
-            currentConcert.numberStudentSeatReserved = 0;
-            currentConcert.numberUofCSeatReserved = 0;
-            currentConcert.numberSeatReserved = 0;
 
             numberSeatSelected = 0;
             seatSelected = new List<System.Windows.Forms.CheckBox>();
@@ -598,23 +654,46 @@ namespace TheatreTicketing
 
         public void clearAllSelectedTickets()
         {
-            numericUpDownTypeAdult.Value = 0;
-            numericUpDownTypeStudent.Value = 0;
-            numericUpDownTypeUofC.Value = 0;
-
-            foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+            for (int i = 1; i < series.Length; i++)
             {
-                checkbox.Checked = false;
+                foreach (Concert c in series[i].concerts)
+                {
+                    if (c.name.Equals(currentConcert.name))
+                    {
+                        numericUpDownTypeAdult.Value = 0;
+                        numericUpDownTypeStudent.Value = 0;
+                        numericUpDownTypeUofC.Value = 0;
+
+                        foreach (System.Windows.Forms.CheckBox checkbox in seatSelected)
+                        {
+                            checkbox.Checked = false;
+                        }
+
+                        currentConcert.seatReserved = new List<Seat>();
+                        currentConcert.numberAdultSeatReserved = 0;
+                        currentConcert.numberStudentSeatReserved = 0;
+                        currentConcert.numberUofCSeatReserved = 0;
+                        currentConcert.numberSeatReserved = 0;
+
+                        numberSeatSelected = 0;
+                        seatSelected = new List<System.Windows.Forms.CheckBox>();
+                    }
+                    else
+                    {
+                        Concert newConcert = findAConcert(c.name);
+                        if (newConcert.reservedSeatsExist())
+                        {
+                            newConcert.seatReserved.Clear();
+
+                            newConcert.numberAdultSeatReserved = 0;
+                            newConcert.numberStudentSeatReserved = 0;
+                            newConcert.numberUofCSeatReserved = 0;
+                            newConcert.numberSeatReserved = 0;
+                        }
+                    }
+                }
             }
-
-            currentConcert.seatReserved = new List<Seat>();
-            currentConcert.numberAdultSeatReserved = 0;
-            currentConcert.numberStudentSeatReserved = 0;
-            currentConcert.numberUofCSeatReserved = 0;
-            currentConcert.numberSeatReserved = 0;
-
-            numberSeatSelected = 0;
-            seatSelected = new List<System.Windows.Forms.CheckBox>();
+            
             constructConcertScreen();
         }
 
