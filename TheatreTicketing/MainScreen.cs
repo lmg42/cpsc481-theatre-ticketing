@@ -288,6 +288,8 @@ namespace TheatreTicketing
             decimal studentValue = 0;
             int totalTicketsToPurchase = 0;
 
+            int height = 0;
+
             for (int i = 1; i < series.Length; i++)
             {
                 foreach (Concert c in series[i].concerts)
@@ -300,12 +302,22 @@ namespace TheatreTicketing
                             ticketsToPurchase.Text += series[i].seriesName;
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += c.name;
+
+                            Button delete = new Button();
+                            delete.Text = "Delete";
+                            delete.BackColor = Color.Silver;
+                            delete.Location = new Point(160, 20+height);
+                            height += 100;
+                            delete.Click += new EventHandler(confirmPurchase_Click);
+
+                            ticketsToPurchase.Controls.Add(delete);
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += c.date;
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += c.time;
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += Environment.NewLine;
+
 
                             if (numericUpDownTypeAdult.Value > 0)
                             {
@@ -342,6 +354,14 @@ namespace TheatreTicketing
                             ticketsToPurchase.Text += series[i].seriesName;
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += newConcert.name;
+
+                            Button delete = new Button();
+                            delete.Text = "Delete";
+                            delete.BackColor = Color.Silver;
+                            delete.Location = new Point(160, 20 + height);
+                            height += 100;
+                            delete.Click += new EventHandler(confirmPurchase_Click);
+
                             ticketsToPurchase.Text += Environment.NewLine;
                             ticketsToPurchase.Text += newConcert.date;
                             ticketsToPurchase.Text += Environment.NewLine;
