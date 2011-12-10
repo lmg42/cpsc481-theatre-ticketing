@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace TheatreTicketing
 {
-    public partial class Test : Form
+    public partial class TestPass : Form
     {
-        public Test()
+        public TestPass()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
