@@ -28,6 +28,7 @@ namespace TheatreTicketing
         public decimal currentPageTotal;
 
         public bool firstTimeThrough;
+        public bool testFail;
 
         DockContent dockedPurchaseTickets;
     
@@ -36,6 +37,7 @@ namespace TheatreTicketing
             : this(new DockContentFormFactory())
         {
             currentPageTotal = 0;
+            testFail = true;
 
             series = new Serie[6];
             for(int i = 0; i < 6; i++)
@@ -229,8 +231,17 @@ namespace TheatreTicketing
 
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Test test = new Test();
-            test.ShowDialog();
+            if (testFail)
+            {
+                TestFail test = new TestFail();
+                test.ShowDialog();
+            }
+            else
+            {
+                TestPass test = new TestPass();
+                test.ShowDialog();
+            }
+            testFail = !testFail;
         }
 
         private void buttonMore_Click(object sender, EventArgs e)

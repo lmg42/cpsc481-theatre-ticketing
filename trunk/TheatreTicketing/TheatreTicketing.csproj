@@ -76,11 +76,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serie.cs" />
-    <Compile Include="Test.cs">
+    <Compile Include="TestFail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
+    <Compile Include="TestFail.Designer.cs">
+      <DependentUpon>TestFail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestPass.Designer.cs">
+      <DependentUpon>TestPass.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
@@ -100,8 +106,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Test.resx">
-      <DependentUpon>Test.cs</DependentUpon>
+    <EmbeddedResource Include="TestFail.resx">
+      <DependentUpon>TestFail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestPass.resx">
+      <DependentUpon>TestPass.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
