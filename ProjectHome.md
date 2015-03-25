@@ -1,0 +1,1 @@
+This project is a prototype for a theatre ticketing system to complete course requirements for CPSC481.
